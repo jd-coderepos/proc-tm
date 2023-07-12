@@ -1,0 +1,15 @@
+To determine which procedure has more steps without including any substeps or subtasks for each main step, we need to compare the number of main steps mentioned in Context1 and Context2.
+
+In Context1 ("Formatting the Card"), the document mentions two main steps:
+
+1. Select [Format].
+2. Format the card.
+
+In Context2 ("Fully Automatic Shooting"), the document mentions four main steps:
+
+1. Set the Mode Dial to <icon>.
+2. Aim any AF point over the subject.
+3. Focus the subject.
+4. Take the picture.
+
+Comparing the number of main steps, we can conclude that Context2 which refers to the "Fully Automatic Shooting" procedure has more steps, not including any substeps or subtasks for each main step.
