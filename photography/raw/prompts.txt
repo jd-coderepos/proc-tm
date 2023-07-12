@@ -1,0 +1,13 @@
+----------------------------------------
+Example 1: Formatting the Card procedure
+----------------------------------------
+
+//upload the "formatting the card" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+EXAMPLE 1 PROMPT
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Formatting the Card" procedure, including any substeps or subtasks for each main step?
+Answer:

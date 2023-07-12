@@ -1,0 +1,8 @@
+1. Select [Format].
+   - Under the <icon> tab, select [Format], then press <icon>.
+
+2. Format the card.
+   - Select [OK], then press <icon>.
+      > The card will be formatted.
+      > When the formatting is completed, the menu will reappear.
+   - For low-level formatting, press the <icon> button, checkmark [Low level format] with <icon>, then select [OK].

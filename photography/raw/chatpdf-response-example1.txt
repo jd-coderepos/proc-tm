@@ -1,0 +1,21 @@
+Yes, the detailed list of steps for formatting the card procedure in the given context is as follows:
+
+1. Select the [Format] option.
+   - Go to the [5] tab.
+   - Select [Format].
+   - Press <0>.
+
+2. Format the card.
+   - Select [OK].
+   - Press <0>.
+
+3. Wait for the card to be formatted.
+   - The card will be formatted.
+   - When the formatting is completed, the menu will reappear.
+
+4. (Optional) Perform a low-level format.
+   - Press the <L> button.
+   - Checkmark [Low level format] with <X>.
+   - Select [OK].
+
+It is important to note that formatting the card will erase all data, including protected images. Therefore, it is recommended to transfer any important data to a personal computer before formatting the card.
