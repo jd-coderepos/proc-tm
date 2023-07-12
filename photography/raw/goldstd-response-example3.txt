@@ -1,0 +1,24 @@
+1. Select [Picture Style].
+   - Under the <icon> tab, select [Picture Style], then press <icon>.
+   - The Picture Style selection screen will appear.
+   
+2. Select [User Def.].
+   - Select [User Def. *], then press the <icon> button.
+   - The Detail set. screen will appear.
+   
+3. Press <icon>.
+   - With [Picture Style] selected, press <icon>.
+   
+4. Select the base Picture Style.
+   - Press the <icon> key to select the base Picture Style, then press <icon>.
+   - If you already have a Picture Style set with the provided software, select it here.
+   
+5. Select a parameter.
+   - Select a parameter such as [Sharpness], then press <icon>.
+   
+6. Set the parameter.
+   - Press the <icon> key to adjust the parameter as desired, then press <icon>.
+     For details, see "Customizing the Picture Style" on pages 82-84.
+   - Press the <MENU> button to register the new Picture Style. The Picture Style selection screen will then reappear.
+      > The base Picture Style will be indicated on the right of [User Def. *].
+      > The name of the Picture Style having any modified settings (different from the default) registered under [User Def. *] will be displayed in blue.
