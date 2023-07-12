@@ -1,0 +1,20 @@
+Certainly! Here is a detailed list of the steps in the "Fully Automatic Shooting" procedure mentioned in the given context:
+
+1. Set the Mode Dial to <1>.
+   - This is the first step in preparing the camera for fully automatic shooting.
+
+2. Aim any AF point over the subject.
+   - All the AF points will operate, and focus will generally be achieved at the AF point covering the closest object.
+   - Aiming the center AF point over the subject will make focusing easier.
+
+3. Focus the subject.
+   - Press the shutter button halfway, and the lens will move to focus.
+   - The dot inside the AF point achieving focus flashes briefly in red.
+   - At the same time, the beeper will sound and the focus confirmation light <o> in the viewfinder will light.
+
+4. Take the picture.
+   - Press the shutter button completely to take the picture.
+   - The captured image will be displayed for about 2 sec. on the LCD monitor.
+   - If the built-in flash has popped up, you can push it back down with your fingers.
+
+These are the main steps involved in the "Fully Automatic Shooting" procedure.
