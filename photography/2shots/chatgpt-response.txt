@@ -1,0 +1,29 @@
+Certainly! Here is a detailed list of the steps in the given context for registering the Picture Style:
+
+1. Select [Picture Style].
+   - Under the [2] tab, select [Picture Style], then press <0>.
+   - The Picture Style selection screen will appear.
+
+2. Select [User Def.].
+   - Select [User Def. *], then press the <B> button.
+   - The Detail set. screen will appear.
+   
+3. Press <0>.
+   - With [Picture Style] selected, press <0>.
+
+4. Select the base Picture Style.
+   - Press the <V> key to select the base Picture Style, then press <0>.
+   - If you already have a Picture Style set with the provided software, select it here.
+   
+5. Select a parameter.
+   - Select a parameter such as [Sharpness], then press <0>.
+   
+6. Set the parameter.
+   - Press the <U> key to adjust the parameter as desired, then press <0>.
+   - For more details, refer to "Customizing the Picture Style" on pages 82-84.
+   - Press the <M> button to register the new Picture Style.
+   - The Picture Style selection screen will reappear.
+
+Note: It is important to mention that changing the base Picture Style in step 4 will nullify the parameter settings of the registered Picture Style.
+
+This list outlines the main steps and substeps for the "Registering the Picture Style" procedure as described in the document.

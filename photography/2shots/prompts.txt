@@ -74,6 +74,8 @@ Answer:
       > The card will be formatted.
       > When the formatting is completed, the menu will reappear.
    - For low-level formatting, press the <icon> button, checkmark [Low level format] with <icon>, then select [OK].
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
    
 
 //upload the "fully automatic shooting" pdf through uploader in chatgpt
@@ -101,6 +103,8 @@ Answer:
    - Press the shutter button completely to take the picture.
       > The captured image will be displayed for about 2 sec. on the LCD monitor.
    - If the built-in flash has popped up, you can push it back down with your fingers.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
    
 
 //upload the "registering the picture style" pdf through uploader in chatgpt
