@@ -1,0 +1,3 @@
+In the given Context, Step 1 of the "Formatting the Card" procedure has the following substeps:
+
+   - Under the <icon> tab, select [Format], then press <icon>.

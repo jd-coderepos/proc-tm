@@ -1,0 +1,7 @@
+In the given Context, Step 6 of the "Registering the Picture Style" procedure has the following substeps:
+
+   - Press the <icon> key to adjust the parameter as desired, then press <icon>.
+     For details, see "Customizing the Picture Style" on pages 82-84.
+   - Press the <MENU> button to register the new Picture Style. The Picture Style selection screen will then reappear.
+      > The base Picture Style will be indicated on the right of [User Def. *].
+      > The name of the Picture Style having any modified settings (different from the default) registered under [User Def. *] will be displayed in blue.

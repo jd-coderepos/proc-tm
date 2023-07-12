@@ -1,0 +1,5 @@
+In the given Context, Step 3 of the "Fully Automatic Shooting" procedure has the following substeps:
+
+   - Press the shutter button halfway, and the lens will move to focus.
+      > The dot inside the AF point achieving focus flashes briefly in red. At the same time, the beeper will sound and the focus confirmation light <icon> in the viewfinder will light.
+      > If necessary, the built-in flash will pop-up automatically.

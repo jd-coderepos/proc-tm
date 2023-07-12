@@ -1,0 +1,10 @@
+In the given context, the detailed list of substeps for Step 6, which refers to the "Registering the Picture Style" procedure, is as follows:
+
+1. Select a parameter such as [Sharpness].
+2. Press the <0> button to proceed.
+3. Use the <U> key to adjust the parameter according to your desired settings.
+4. Press the <0> button to confirm the parameter adjustment.
+5. Press the <M> button to register the new Picture Style.
+6. The Picture Style selection screen will reappear, indicating that the registration process is complete.
+
+Therefore, the detailed list of substeps for Step 6 in the given context is as provided above.
