@@ -1,1 +1,5 @@
-### proc-tm: An Annotated Dataset of Prompts for Structured Procedural Extraction from Domain-specific Product Manual as non-machine-actionable PDFs written in Natural Language 
+### proc-tm: Prompts for Structured Procedural Extraction from Product Manual Specifications
+
+This repository hosts an annotated dataset of prompts for structured procedural extraction 
+using large language models (LLMs)
+from domain-specific product manuals as non-machine-actionable PDFs written in natural language text. 
