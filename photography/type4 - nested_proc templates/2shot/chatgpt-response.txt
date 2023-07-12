@@ -1,0 +1,5 @@
+In the given Context, Step 4 of the "Registering the Picture Style" procedure has the following substep:
+
+   - Press the <V> key to select the base Picture Style, then press <0>.
+   
+That concludes the substep for Step 4 in the given context.

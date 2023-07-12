@@ -1,0 +1,4 @@
+In the given Context, Step 4 of the "Registering the Picture Style" procedure has the following substeps:
+
+   - Press the <icon> key to select the base Picture Style, then press <icon>.
+   - If you already have a Picture Style set with the provided software, select it here.
