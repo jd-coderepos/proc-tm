@@ -26,13 +26,13 @@ from domain-specific product manuals as non-machine-actionable PDFs written in n
             └── 2shot				  <- prompt ChatGPT in a 2-shot setting
 	           ├── prompts.txt
 	           └── chatgpt-response.txt
-            └── ontology			  <- prompt ChatGPT in a 2-shot setting
+            └── ontology			  <- prompt ChatGPT out-of-the-box with an ontology
 	           ├── prompts.txt
 	           ├── chatgpt-response-example[x].txt
 	           ├── ...
 	           ├── goldstd-response-example[x].txt
 	           └── ...		
-            └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting
+            └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
 	           ├── prompts.txt
 	           ├── chatgpt-response-example[x].txt
 	           ├── ...
@@ -41,20 +41,20 @@ from domain-specific product manuals as non-machine-actionable PDFs written in n
         └── type2 - count prompts          <- second prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
 	        ├── ...            
-	        └── ontology+2shot		  <- prompt ChatGPT 
+	        └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
         └── type3 - comparison prompts     <- third prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
 	        ├── ...            
-	        └── ontology+2shot		  <- prompt ChatGPT 	
+	        └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
         └── type4 - nested_proc prompts    <- fourth prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
 	        ├── ...            
-	        └── ontology+2shot		  <- prompt ChatGPT 	
+	        └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
         └── type5 - sequence prompts       <- fifth prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
 	        ├── ...            
-	        └── ontology+2shot		  <- prompt ChatGPT
+	        └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
 	├── agriculture                              <- data domain 2
 	├── medicine                                 <- data domain 3
 	├── manufacturing                            <- data domain 4
-    └── README.md                       <- README file for documenting the service.
+    └── README.md                       <- README file for documenting the dataset
