@@ -16,37 +16,37 @@ from domain-specific product manuals as non-machine-actionable PDFs written in n
         ├── manual-chunks                 <- split PDF procedure-wise page chunks
 	        ├── procedure[x].pdf
 	        └── ...
-        ├── type1 - list prompts           <- first prompt instruction type for procedural tm using LLMs
-            ├── raw				  <- prompt ChatGPT out-of-the-box
-	        │  ├── prompts.txt
-	        │  ├── chatgpt-response-example[x].txt
-	        │  ├── ...
-	        │  ├── goldstd-response-example[x].txt
-	        │  └── ...	
-            ├── 2shot				  <- prompt ChatGPT in a 2-shot setting
-	        │  ├── prompts.txt
-	        │  └── chatgpt-response.txt
-            ├── ontology			  <- prompt ChatGPT in a 2-shot setting
-	        │  ├── prompts.txt
-	        │  ├── chatgpt-response-example[x].txt
-	        │  ├── ...
-	        │  ├── goldstd-response-example[x].txt
-	        │  └── ...		
+        └── type1 - list prompts           <- first prompt instruction type for procedural tm using LLMs
+            └── raw				  <- prompt ChatGPT out-of-the-box
+	           ├── prompts.txt
+	           ├── chatgpt-response-example[x].txt
+	           ├── ...
+	           ├── goldstd-response-example[x].txt
+	           └── ...	
+            └── 2shot				  <- prompt ChatGPT in a 2-shot setting
+	           ├── prompts.txt
+	           └── chatgpt-response.txt
+            └── ontology			  <- prompt ChatGPT in a 2-shot setting
+	           ├── prompts.txt
+	           ├── chatgpt-response-example[x].txt
+	           ├── ...
+	           ├── goldstd-response-example[x].txt
+	           └── ...		
             └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting
-	        │  ├── prompts.txt
-	        │  ├── chatgpt-response-example[x].txt
-	        │  ├── ...
-	        │  ├── goldstd-response-example[x].txt
-	        │  └── ...		
-        ├── type2 - count prompts          <- second prompt instruction type for procedural tm using LLMs
+	           ├── prompts.txt
+	           ├── chatgpt-response-example[x].txt
+	           ├── ...
+	           ├── goldstd-response-example[x].txt
+	           └── ...		
+        └── type2 - count prompts          <- second prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
 	        ├── ...            
 	        └── ontology+2shot		  <- prompt ChatGPT 
-        ├── type3 - comparison prompts     <- third prompt instruction type for procedural tm using LLMs
+        └── type3 - comparison prompts     <- third prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
 	        ├── ...            
 	        └── ontology+2shot		  <- prompt ChatGPT 	
-        ├── type4 - nested_proc prompts    <- fourth prompt instruction type for procedural tm using LLMs
+        └── type4 - nested_proc prompts    <- fourth prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
 	        ├── ...            
 	        └── ontology+2shot		  <- prompt ChatGPT 	
