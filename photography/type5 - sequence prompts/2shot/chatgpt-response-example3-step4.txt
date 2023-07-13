@@ -1,0 +1,6 @@
+In the given Context, the next step after Step 4 of the "Registering the Picture Style" procedure is Step 5 as follows:
+
+1. Select a parameter.
+   - Select a parameter, such as [Sharpness], and press <0>.
+   
+This is the next step in customizing the Picture Style after selecting the base Picture Style.
