@@ -1,0 +1,6 @@
+In the given Context, the next step after Step 3 of the "Fully Automatic Shooting" procedure is Step 4 as follows:
+
+4. Take the picture.
+   - Press the shutter button completely to take the picture.
+      > The captured image will be displayed for about 2 sec. on the LCD monitor.
+   - If the built-in flash has popped up, you can push it back down with your fingers.
