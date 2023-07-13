@@ -44,16 +44,16 @@ from domain-specific product manuals as non-machine-actionable PDFs written in n
             └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
         └── type3 - comparison prompts     <- third prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
-	        ├── ...            
-	        └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
+            ├── ...            
+            └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
         └── type4 - nested_proc prompts    <- fourth prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
-	        ├── ...            
-	        └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
+            ├── ...            
+            └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
         └── type5 - sequence prompts       <- fifth prompt instruction type for procedural tm using LLMs
             ├── raw				  <- prompt ChatGPT out-of-the-box	
-	        ├── ...            
-	        └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
+            ├── ...            
+            └── ontology+2shot		  <- prompt ChatGPT in a 2-shot setting with an ontology
 	├── agriculture                              <- data domain 2
 	├── medicine                                 <- data domain 3
 	├── manufacturing                            <- data domain 4
