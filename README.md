@@ -13,7 +13,7 @@ from domain-specific product manuals as non-machine-actionable PDFs written in n
 .
 └── proc-tm                                      <- root directory of the repository
     ├── photography                              <- data domain 1
-        ├── manual-chunks                 <- split PDF procedure-wise page chunks
+        ├── manual-chunks                  <- split PDF procedure-wise page chunks
 	        ├── procedure[x].pdf
 	        └── ...
         └── type1 - list prompts           <- first prompt instruction type for procedural tm using LLMs
