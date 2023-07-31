@@ -1,0 +1,26 @@
+Based on the provided context and the RDF ontology definitions, we can infer the steps for the "Formatting the Card" procedure. Let's extract the steps and any substeps or subtasks associated with each main step:
+
+Procedure: Formatting the Card
+
+Step 1: Check Card Status
+Description: Check if the card is new or was previously formatted by another camera or computer.
+
+Step 2: Backup Data (Optional)
+Description: If necessary, transfer the images to a personal computer before formatting the card to ensure nothing important is lost.
+
+Step 3: Access Format Option
+Description: Select the [Format] option in the camera menu.
+
+Step 4: Confirm Format
+Description: Select [OK] to confirm the format action.
+
+Step 5: Perform Formatting
+Description: The card will be formatted, erasing all data on it, including protected images.
+
+Step 6: Completion and Reappearance
+Description: When formatting is completed, the camera menu will reappear.
+
+Substep 6.1: Low-level Formatting (Optional)
+Description: If low-level formatting is desired, press the < L > button, checkmark [Low level format] with < X >, then select [OK].
+
+Please note that these steps are inferred from the provided context and the ontology definitions. If there is any additional information available or specific details about the procedure that are not mentioned in the context, the steps may be further refined or adjusted accordingly.

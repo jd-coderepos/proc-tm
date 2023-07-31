@@ -1,0 +1,174 @@
+GENERIC PROMPT
+
+//upload the "[name]" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+
+Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
+ 
+@prefix kh-a: <https://knowledge.c-innovationhub.com/k-hub/annotation#> .
+@prefix kh-m: <https://knowledge.c-innovationhub.com/k-hub/manufacturing#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+kh-p: a owl:Ontology ;
+	<http://purl.org/dc/elements/1.1/creator> "Gloria Re Calegari (Cefriel)" ,
+                                              "Antonia Azzini (Cefriel)" ,
+                                              "Irene Celino (Cefriel)" ;
+    <http://purl.org/dc/elements/1.1/contributor> "Marposs" ;
+    owl:versionIRI <https://knowledge.c-innovationhub.com/k-hub/procedure/1.0.0> ;
+	<http://purl.org/dc/elements/1.1/publisher> "Cefriel" ;
+	<http://purl.org/dc/elements/1.1/title> "The Knowledge Hub Ontology - Procedure" ;
+	<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+	<http://purl.org/vocab/vann/preferredNamespacePrefix> "kh-p" ;
+	<http://purl.org/vocab/vann/preferredNamespaceUri> "https://knowledge.c-innovationhub.com/k-hub/procedure#" ;
+    owl:versionInfo "1.0.0" .
+	
+	
+p-plan:isStepOfPlan a owl:ObjectProperty ;
+    rdfs:label "is step of plan" ;
+    rdfs:domain p-plan:Step ;
+    rdfs:range p-plan:Plan .
+
+
+kh-a:hasTopic a owl:ObjectProperty ;
+    rdfs:label "has topic" ;
+    rdfs:domain kh-a:TopicAnnotation ;
+    rdfs:range kh-a:Topic .
+
+kh-p:appliedToComponent a owl:ObjectProperty ;
+    rdfs:label "applied to component" ;
+    rdfs:domain p-plan:Plan ;
+    rdfs:range kh-m:Component ;
+	rdfs:comment "Associates a Plan with the Component involved in the Plan".
+
+kh-p:endsWith a owl:ObjectProperty ;
+    rdfs:label "ends with" ;
+    rdfs:domain p-plan:Plan ;
+    rdfs:range p-plan:Step ;
+	rdfs:comment "Associates a Plan with the last Step of the Plan".
+
+kh-p:implementsAction a owl:ObjectProperty ;
+    rdfs:label "implements action" ;
+    rdfs:domain p-plan:Plan ;
+    rdfs:range kh-m:Action ;
+	rdfs:comment "Associates a Plan with the main Action performed in the Plan".
+
+kh-p:isDecomposedAsPlan a owl:ObjectProperty ;
+    rdfs:label "is decomposed as plan" ;
+    rdfs:domain p-plan:Step ;
+    rdfs:range p-plan:Plan ;
+	rdfs:comment "Associates a Step of Plan A with Plan B that must be entirely executed as a step of Plan A".
+
+kh-p:nextStep a owl:ObjectProperty ;
+    rdfs:label "next step" ;
+    rdfs:domain p-plan:Step ;
+    rdfs:range p-plan:Step ;
+	rdfs:comment "Associates a Step with another Step that must be performed after".
+
+kh-p:requiresTools a owl:ObjectProperty ;
+    rdfs:label "requires tools" ;
+    rdfs:domain p-plan:Plan ;
+    rdfs:range kh-m:Tool ;
+	rdfs:comment "Associates a Plan with the Tool required to perform the Plan".
+
+kh-p:startsWith a owl:ObjectProperty ;
+    rdfs:label "starts with" ;
+    rdfs:domain p-plan:Plan ;
+    rdfs:range p-plan:Step ;
+	rdfs:comment "Associates a Plan with the first Step of the Plan".
+
+kh-m:Action a owl:Class ;
+    rdfs:label "Action" ;
+    rdfs:subClassOf kh-a:Topic .
+
+kh-m:Component a owl:Class ;
+    rdfs:label "Component" ;
+    rdfs:subClassOf kh-a:Topic .
+
+kh-m:Tool a owl:Class ;
+    rdfs:label "Tool" ;
+    rdfs:subClassOf kh-a:Topic .
+
+kh-a:TopicAnnotation a owl:Class ;
+    rdfs:label "Topic Annotation" .
+
+p-plan:Step a owl:Class ;
+    rdfs:label "Step" ;
+    rdfs:subClassOf kh-a:Topic .
+
+kh-a:Topic a owl:Class ;
+    rdfs:label "Topic" .
+
+p-plan:Plan a owl:Class ;
+    rdfs:label "Plan" ;
+    rdfs:subClassOf kh-a:Topic .
+
+
+
+?Using this provided ontology exclusively, please create specific instances and data about individuals from the following text by considering the procedure and steps and the relationships such as isDecomposedAsPlan and isStepOfPlan. Also create the RDF graph. 
+
+
+
+Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "[procedure-name]" procedure, including any substeps or subtasks for each main step?
+
+Answer:
+
+
+
+----------------------------------------
+Example 1: Formatting the Card procedure
+----------------------------------------
+
+//upload the "formatting the card" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+EXAMPLE 1 PROMPT
+
+Here is the complete definition of the procedural RDF ontology in TTL format, 
+
+Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Formatting the Card" procedure, including any substeps or subtasks for each main step?
+Answer:
+
+
+--------------------------------------------
+Example 2: Full Automatic Shooting procedure
+--------------------------------------------
+
+//upload the "fully automatic shooting" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+EXAMPLE 2 PROMPT
+
+Here is the complete definition of the procedural RDF ontology in TTL format, 
+
+
+Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Fully Automatic Shooting" procedure, including any substeps or subtasks for each main step?
+Answer:
+
+
+--------------------------------------------------
+Example 3: Registering the Picture Style procedure
+--------------------------------------------------
+
+//upload the "registering the picture style" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+EXAMPLE 3 PROMPT
+
+Here is the complete definition of the procedural RDF ontology in TTL format, 
+
+
+Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Registering the Picture Style" procedure, including any substeps or subtasks for each main step?
+Answer:

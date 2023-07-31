@@ -1,0 +1,38 @@
+Based on the provided context and the RDF ontology definitions, here is the detailed list of the steps in the given context that refers to the "Registering the Picture Style" procedure, including any substeps or subtasks for each main step:
+
+Procedure: Registering the Picture Style
+
+Step 1: Access Picture Style Selection Screen
+Description: Select the [Picture Style] option under the [2] tab and press < 0 > to access the Picture Style selection screen.
+
+Step 2: Choose User Defined Slot
+Description: Select the desired User Defined slot ([User Def. 1], [User Def. 2], or [User Def. 3]) and press the < B > button to proceed.
+
+Substep 2.1: Access Detail Set Screen
+Description: The Detail set screen will appear to allow parameter adjustments.
+
+Step 3: Confirm Selection
+Description: Press < 0 > with [Picture Style] selected to confirm the selection.
+
+Step 4: Select Base Picture Style
+Description: Use the < V > key to select the base Picture Style (e.g., [Portrait], [Landscape], etc.), then press < 0 >.
+
+Substep 4.1: Select Picture Style from Software (Optional)
+Description: If a Picture Style has already been set with the provided software, select it from the available options.
+
+Step 5: Choose Parameter
+Description: Select a parameter to adjust (e.g., [Sharpness]) and press < 0 >.
+
+Step 6: Set Parameter
+Description: Use the < U > key to adjust the selected parameter as desired, then press < 0 >.
+
+Substep 6.1: Register the New Picture Style
+Description: Press the < M > button to register the newly customized Picture Style. The Picture Style selection screen will reappear.
+
+Substep 6.2: Display Modifications
+Description: The base Picture Style will be indicated on the right of the selected User Defined slot ([User Def. *]). Any modified settings (different from the default) will be displayed in blue.
+
+Substep 6.3: Resetting Parameter Settings
+Description: Changing the base Picture Style in step 4 will nullify the parameter settings of the previously registered Picture Style under the selected User Defined slot.
+
+Please note that this detailed list of steps is extracted from the information provided in the context, and it follows the logical flow of the instructions in the document. If there are any additional details or substeps not explicitly mentioned in the context, the list may be updated accordingly.
