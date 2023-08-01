@@ -1,0 +1,73 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Plan instance
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Card Formatting Procedure" ;
+    kh-p:startsWith kh-p-instance:MainStep1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_2 .
+
+# Main Step 1 - Select [Format]
+kh-p-instance:MainStep1 a p-plan:Step ;
+    rdfs:label "Select [Format]" ;
+    kh-p:nextStep kh-p-instance:SubStep1_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 :
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan1 .
+
+# Sub Plan 1 (Decomposed Plan)
+kh-p-instance:SubPlan1 a p-plan:Plan ;
+    rdfs:label "Sub Plan 1" ;
+    kh-p:startsWith kh-p-instance:SubStep1_1 .
+
+# Sub Step 1.1 - Under the <icon> tab, select [Format], then press <icon>
+kh-p-instance:SubStep1_1 a p-plan:Step ;
+    rdfs:label "Under the <icon> tab, select [Format], then press <icon>" ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+# Main Step 2 - Format the card
+kh-p-instance:MainStep2 a p-plan:Step ;
+    rdfs:label "Format the card" ;
+    kh-p:nextStep kh-p-instance:SubStep2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2 .
+
+# Sub Plan 2 (Decomposed Plan)
+kh-p-instance:SubPlan2 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_2 .
+
+
+# Sub Step 2.1 - Select [OK], then press <icon>
+kh-p-instance:SubStep2_1 a p-plan:Step ;
+    rdfs:label "Select [OK], then press <icon>" ;
+    kh-p:nextStep kh-p-instance:SubStep2_2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 
+    kh-p:isDecomposedAsPlan kh-p-instanceSubPlan2_1 .
+    
+# Sub Plan 2_1 (Decomposed Plan)
+kh-p-instance:SubPlan2_1 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2_1" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_1_2 .
+
+# Sub Step 2.1.1 - The card will be formatted.
+kh-p-instance:SubStep2_1_1 a p-plan:Step ;
+    rdfs:label "The card will be formatted." ;
+    kh-p:nextStep kh-p-instance:SubStep2_1_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2_1 .
+
+# Sub Step 2.1.2 - When the formatting is completed, the menu will reappear.
+kh-p-instance:SubStep2_1_2 a p-plan:Step ;
+    rdfs:label "When the formatting is completed, the menu will reappear." ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2_1 .
+
+# Sub Step 2.2 - For low-level formatting, press the <icon> button, checkmark [Low level format] with <icon>, then select [OK].
+kh-p-instance:SubStep2_2 a p-plan:Step ;
+    rdfs:label "For low-level formatting, press the <icon> button, checkmark [Low level format] with <icon>, then select [OK]." ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+
