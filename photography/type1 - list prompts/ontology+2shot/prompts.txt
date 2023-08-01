@@ -5,11 +5,12 @@ GENERIC PROMPT
 //otherwise upload the document to chatPDF
 
 Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
- 
 
+Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the [-] procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
+ 
 This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
 
-Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+Refer to the RDF graph as Context, please provide an Answer to the Question below. 
 
 Question: Can you provide a detailed list of the steps in the given Context which refers to [-] procedure, including any substeps or subtasks for each main step?
 Answer:
@@ -27,9 +28,11 @@ Do you comprehend the Task? Please only answer “yes” if you do and “no” 
 //upload the "[name]" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 
+Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the [-] procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
+ 
 This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
 
-Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+Refer to the RDF graph as Context, please provide an Answer to the Question below. 
 
 Question: Can you provide a detailed list of the steps in the given Context which refers to [-] procedure, including any substeps or subtasks for each main step?
 Answer:
@@ -47,8 +50,11 @@ Do you comprehend the Task? Please only answer “yes” if you do and “no” 
 //upload the "[name]" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 
+Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the [-] procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
+ 
+
 Now it is your turn. 
-Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+Refer to the RDF graph as Context, please provide an Answer to the Question below. 
 
 Question: Can you provide a detailed list of the steps in the given Context which refers to [-] procedure, including any substeps or subtasks for each main step?
 Answer:
@@ -62,9 +68,13 @@ Example
 //upload the "formatting the card" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 
+Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
+
+Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the "Formatting the Card" procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
+ 
 This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
 
-Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+Refer to the RDF graph as Context, please provide an Answer to the Question below. 
 
 Question: Can you provide a detailed list of the steps in the given Context which refers to "Formatting the Card" procedure, including any substeps or subtasks for each main step?
 Answer:
@@ -84,9 +94,11 @@ Do you comprehend the Task? Please only answer “yes” if you do and “no” 
 //upload the "fully automatic shooting" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 
+Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the "Fully Automatic Shooting" procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
+ 
 This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
 
-Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+Refer to the RDF graph as Context, please provide an Answer to the Question below.  
 
 Question: Can you provide a detailed list of the steps in the given Context which refers to "Fully Automatic Shooting" procedure, including any substeps or subtasks for each main step?
 Answer:
@@ -113,9 +125,11 @@ Do you comprehend the Task? Please only answer “yes” if you do and “no” 
 //upload the "registering the picture style" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 
+Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps "Registering the Picture Style" procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
+
 Now it is your turn. 
 
-Refer to the uploaded document content as Context and given the Definitions in the RDF ontology, please provide an Answer to the Question below. 
+Refer to the RDF graph as Context, please provide an Answer to the Question below. 
 
 Question: Can you provide a detailed list of the steps in the given Context which refers to "Registering the Picture Style" procedure, including any substeps or subtasks for each main step?
 Answer:

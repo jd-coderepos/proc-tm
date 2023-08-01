@@ -1,0 +1,41 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+	
+p-plan:isStepOfPlan a owl:ObjectProperty ;
+    rdfs:label "is step of plan" ;
+    rdfs:domain p-plan:Step ;
+    rdfs:range p-plan:Plan .
+
+kh-p:endsWith a owl:ObjectProperty ;
+    rdfs:label "ends with" ;
+    rdfs:domain p-plan:Plan ;
+    rdfs:range p-plan:Step ;
+	rdfs:comment "Associates a Plan with the last Step of the Plan".
+
+kh-p:isDecomposedAsPlan a owl:ObjectProperty ;
+    rdfs:label "is decomposed as plan" ;
+    rdfs:domain p-plan:Step ;
+    rdfs:range p-plan:Plan ;
+	rdfs:comment "Associates a Step of Plan A with Plan B that must be entirely executed as a step of Plan A".
+
+kh-p:nextStep a owl:ObjectProperty ;
+    rdfs:label "next step" ;
+    rdfs:domain p-plan:Step ;
+    rdfs:range p-plan:Step ;
+	rdfs:comment "Associates a Step with another Step that must be performed after".
+
+kh-p:startsWith a owl:ObjectProperty ;
+    rdfs:label "starts with" ;
+    rdfs:domain p-plan:Plan ;
+    rdfs:range p-plan:Step ;
+	rdfs:comment "Associates a Plan with the first Step of the Plan".
+
+p-plan:Step a owl:Class ;
+    rdfs:label "Step" .
+
+p-plan:Plan a owl:Class ;
+    rdfs:label "Plan" .
+

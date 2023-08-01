@@ -1,17 +1,16 @@
-Certainly! Based on the provided RDF graph and the context referring to the "Formatting the Card" procedure, here is a detailed list of the steps, including any substeps or subtasks for each main step:
+Certainly! Based on the RDF graph as context, here is a detailed list of the steps for the "Formatting the Card" procedure, including any substeps or subtasks for each main step:
 
-Step 1: Transfer Images
+Main Step 1: Access the menu on the camera.
+Substep 1.1: Access the menu on the camera.
+Substep 1.2: Go to the [5] tab.
+Substep 1.3: Choose [Format].
+Substep 1.4: Press the <0> button to confirm.
 
-Step 1.1: Select [Format]
-Step 1.2: Format the Card
-Step 1.3: Card Formatting Completed
-Step 2: Format the Card
+Main Step 2: Format the card.
+Substep 2.1: Select [OK].
+Substep 2.2: Press the <0> button to initiate the formatting process.
 
-Step 2.1: Select [Format]
-Step 2.2: Format the Card
-Step 2.3: Card Formatting Completed
-Step 3: Complete Formatting
-
-The "Formatting the Card" procedure consists of three main steps. The first main step (Step 1) is "Transfer Images," and it further breaks down into three substeps (Step 1.1, Step 1.2, Step 1.3). The second main step (Step 2) is also "Format the Card," and like the first step, it has three substeps (Step 2.1, Step 2.2, Step 2.3). Finally, the third main step (Step 3) is "Complete Formatting" and does not have any substeps.
+Main Step 3: The card will be formatted.
+Substep 3.1: Upon completion, the menu will reappear.
 
 Please note that this list is based on the information provided in the RDF graph and may be subject to change if additional information or updates are made to the ontology or context.
