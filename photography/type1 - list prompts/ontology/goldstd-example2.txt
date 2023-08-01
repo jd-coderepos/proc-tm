@@ -1,0 +1,93 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Set the Mode Dial to <icon>" ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Aim any AF point over the subject." ;
+    kh-p:nextStep kh-p-instance:SubStep2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubPlan2 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1 .
+
+kh-p-instance:SubStep2_1 a p-plan:Step ;
+    rdfs:label "All the AF points will operate, and focus will generally be achieved at the AF point covering the closest object." ;
+    kh-p:nextStep kh-p-instance:SubStep2_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+
+kh-p-instance:SubStep2_2 a p-plan:Step ;
+    rdfs:label "Aiming the center AF point over the subject will make focusing easier." ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Focus the subject." ;
+    kh-p:nextStep kh-p-instance:SubStep3_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan3 .
+
+kh-p-instance:SubPlan3 a p-plan:Plan ;
+    rdfs:label "Sub Plan 3" ;
+    kh-p:startsWith kh-p-instance:SubStep3_1 .
+
+kh-p-instance:SubStep3_1 a p-plan:Step ;
+    rdfs:label "Press the shutter button halfway, and the lens will move to focus." ;
+    kh-p:nextStep kh-p-instance:SubStep3_1_1 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan3_1 .
+    
+kh-p-instance:SubPlan3_1 a p-plan:Plan ;
+    rdfs:label "Sub Plan 3.1" ;
+    kh-p:startsWith kh-p-instance:SubStep3_1_1 ; 
+    kh-p:endsWith kh-p-instance:SubStep3_1_2 . .
+
+kh-p-instance:SubStep3_1_1 a p-plan:Step ;
+    rdfs:label "The dot inside the AF point achieving focus flashes briefly in red. At the same time, the beeper will sound, and the focus confirmation light <icon> in the viewfinder will light." ;
+    kh-p:nextStep kh-p-instance:SubStep3_1_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3_1 .
+    
+kh-p-instance:SubStep3_1_2 a p-plan:Step ;
+    rdfs:label "If necessary, the built-in flash will popup automatically" ;
+    kh-p:nextStep kh-p-instance:Step4;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3_1 .
+
+
+kh-p-instance:Step4 a p-plan:Step ;
+    rdfs:label "Take the picture." ;
+    kh-p:nextStep kh-p-instance:SubStep4_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan4 .
+ 
+
+kh-p-instance:SubPlan4 a p-plan:Plan ;
+    rdfs:label "Sub Plan 4" ;
+    kh-p:startsWith kh-p-instance:SubStep4_1 ;
+    kh-p:endsWith kh-p-instance:SubStep4_2  .
+    
+
+kh-p-instance:SubStep4_1 a p-plan:Step ;
+    rdfs:label "Press the shutter button completely to take the picture." ;
+    kh-p:nextStep kh-p-instance:SubStep4_1_1 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+    
+kh-p-instance:SubStep4_1_1 a p-plan:Step ;
+    rdfs:label "The captured image will be displayed for about 2 sec. on the LCD monitor." ;
+    kh-p:nextStep kh-p-instance:SubStep4_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+
+kh-p-instance:SubStep4_2 a p-plan:Step ;
+    rdfs:label "If the built-in flash has popped up, you can push it back down with your fingers." ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+
