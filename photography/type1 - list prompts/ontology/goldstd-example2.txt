@@ -90,4 +90,3 @@ kh-p-instance:SubStep4_1_1 a p-plan:Step ;
 kh-p-instance:SubStep4_2 a p-plan:Step ;
     rdfs:label "If the built-in flash has popped up, you can push it back down with your fingers." ;
     kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
-
