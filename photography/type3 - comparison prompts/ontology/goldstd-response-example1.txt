@@ -1,0 +1,18 @@
+To determine which procedure has more steps without considering any substeps or subtasks for each main step, we can count the main steps in each context.
+
+Context1 ("Formatting the Card") has the following main steps:
+
+Step1
+Step2
+
+Context2 ("Fully Automatic Shooting") has the following main steps:
+Step1
+Step2
+Step3
+Step4
+
+Comparing the main steps:
+
+Context1: 1 main step
+Context2: 4 main steps
+Therefore, the "Fully Automatic Shooting" procedure (Context2) has more main steps than the "Formatting the Card" procedure (Context1), not including any substeps or subtasks.

@@ -1,0 +1,24 @@
+//copy-paste the "[name]" RDF graph generated previously in template 1 of example1:
+
+//copy-paste the "[name]" RDF graph generated previously in template 1 of example2:
+
+Refer to the RDF graphs as Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that Context1 refers to [-] procedure and Context2 refers to [-] procedure, which procedure has more steps, not including any substeps or subtasks for each main step? 
+Answer:
+
+--------------------------------------------------------------------
+Example 1: Formatting the Card vs. Full Automatic Shooting procedure
+--------------------------------------------------------------------
+//copy-paste the "formatting the card" RDF graph generated previously in template 1 of example1:
+
+//copy-paste the "fully automatic shooting" RDF graph generated previously in template 1 of example2:
+
+
+EXAMPLE 1 PROMPT
+
+Refer to the RDF graphs as Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that Context1 refers to "Formatting the Card" procedure and Context2 refers to "Fully Automatic Shooting" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
+

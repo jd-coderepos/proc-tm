@@ -1,11 +1,6 @@
 GENERIC PROMPT
 
-//upload the "[name]" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
-
-Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
-
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the [-] procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
+//copy-paste the "[name]" RDF graph generated previously in template 1:
 
 Refer to the RDF graph as Context, please provide an Answer to the Question below. 
 
@@ -18,14 +13,9 @@ Answer:
 Example 1: Formatting the Card procedure
 ----------------------------------------
 
-//upload the "formatting the card" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
+//copy-paste the "formatting the card" RDF graph generated previously in template 1:
 
 EXAMPLE 1 PROMPT
-
-Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
-
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the 'Formatting the Card' procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
 
 Refer to the RDF graph as Context, please provide an Answer to the Question below. 
 
@@ -37,33 +27,22 @@ Answer:
 Example 2: Full Automatic Shooting procedure
 --------------------------------------------
 
-//upload the "fully automatic shooting" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
+//copy-paste the "formatting the card" RDF graph generated previously in template 1:
 
 EXAMPLE 2 PROMPT
-
-Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
-
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the 'Fully Automatic Shooting' procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
 
 Refer to the RDF graph as Context, please provide an Answer to the Question below. 
 
 Question: How many steps are in the given Context which refers to "Fully Automatic Shooting" procedure, not including any substeps or subtasks for each main step?
 Answer:
 
-
 --------------------------------------------------
 Example 3: Registering the Picture Style procedure
 --------------------------------------------------
 
-//upload the "registering the picture style" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
+//copy-paste the "formatting the card" RDF graph generated previously in template 1:
 
 EXAMPLE 3 PROMPT
-
-Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
-
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the 'Registering the Picture Style' procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships. 
 
 Refer to the RDF graph as Context, please provide an Answer to the Question below. 
 

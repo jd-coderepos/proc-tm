@@ -1,6 +1,0 @@
-Based on the provided RDF graph and the context referring to the "Formatting the Card" procedure, there are three main steps in the given context. These main steps are:
-
-Step 1: Transfer Images
-Step 2: Format the Card
-Step 3: Complete Formatting
-The count includes only the main steps and does not include any substeps or subtasks for each main step. Therefore, the answer is three steps in total.

@@ -1,0 +1,1 @@
+Based on the RDF graph provided as context, there are two main steps in the given context which refer to the "Formatting the Card" procedure. This count excludes any substeps or subtasks for each main step.
