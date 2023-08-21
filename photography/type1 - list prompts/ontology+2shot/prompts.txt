@@ -1,18 +1,19 @@
 GENERIC PROMPT
 
+Here is the complete definition of the procedural RDF Ontology in TTL format which defines a Procedure as composed of a Plan and a Plan composed of Steps. This Ontology will be referred to throughout this chat.
+
+#insert ontology here
+
 //1st example
 //upload the "[name]" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 
-Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
 
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the [-] procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
- 
 This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
 
-Refer to the RDF graph as Context, please provide an Answer to the Question below. 
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you provide a detailed list of the steps in the given Context which refers to [-] procedure, including any substeps or subtasks for each main step?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the [-] procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
 Answer:
 - 'receive customer data'
 - 'enter customer data object into the CRM system'
@@ -28,13 +29,12 @@ Do you comprehend the Task? Please only answer “yes” if you do and “no” 
 //upload the "[name]" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the [-] procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
- 
+
 This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
 
-Refer to the RDF graph as Context, please provide an Answer to the Question below. 
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you provide a detailed list of the steps in the given Context which refers to [-] procedure, including any substeps or subtasks for each main step?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the [-] procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
 Answer:
 - 'receive customer data'
 - 'enter customer data object into the CRM system'
@@ -50,14 +50,12 @@ Do you comprehend the Task? Please only answer “yes” if you do and “no” 
 //upload the "[name]" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the [-] procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
- 
-
 Now it is your turn. 
-Refer to the RDF graph as Context, please provide an Answer to the Question below. 
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you provide a detailed list of the steps in the given Context which refers to [-] procedure, including any substeps or subtasks for each main step?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the [-] procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
 Answer:
+
 
 
 
@@ -65,71 +63,217 @@ Answer:
 Example
 -------
 
-//upload the "formatting the card" pdf through uploader in chatgpt
+
+Here is the complete definition of the procedural RDF Ontology in TTL format which defines a Procedure as composed of a Plan and a Plan composed of Steps. This Ontology will be referred to throughout this chat.
+
+#insert ontology here
+
+//1st example
+//upload the "[name]" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/photography/manual-chunks/formatting%20the%20card.pdf in the chat
 
-Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
 
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the "Formatting the Card" procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
- 
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
+This is Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1 is as follows.
 
-Refer to the RDF graph as Context, please provide an Answer to the Question below. 
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you provide a detailed list of the steps in the given Context which refers to "Formatting the Card" procedure, including any substeps or subtasks for each main step?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
 Answer:
 
-1. Select [Format].
-   - Under the <icon> tab, select [Format], then press <icon>.
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-2. Format the card.
-   - Select [OK], then press <icon>.
-      > The card will be formatted.
-      > When the formatting is completed, the menu will reappear.
-   - For low-level formatting, press the <icon> button, checkmark [Low level format] with <icon>, then select [OK].
+# Plan instance
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Card Formatting Procedure" ;
+    kh-p:startsWith kh-p-instance:MainStep1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_2 .
 
-Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
-   
+# Main Step 1 - Select [Format]
+kh-p-instance:MainStep1 a p-plan:Step ;
+    rdfs:label "Select [Format]" ;
+    kh-p:nextStep kh-p-instance:SubStep1_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 :
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan1 .
 
-//upload the "fully automatic shooting" pdf through uploader in chatgpt
+# Sub Plan 1 (Decomposed Plan)
+kh-p-instance:SubPlan1 a p-plan:Plan ;
+    rdfs:label "Sub Plan 1" ;
+    kh-p:startsWith kh-p-instance:SubStep1_1 .
+
+# Sub Step 1.1 - Under the <icon> tab, select [Format], then press <icon>
+kh-p-instance:SubStep1_1 a p-plan:Step ;
+    rdfs:label "Under the <icon> tab, select [Format], then press <icon>" ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+# Main Step 2 - Format the card
+kh-p-instance:MainStep2 a p-plan:Step ;
+    rdfs:label "Format the card" ;
+    kh-p:nextStep kh-p-instance:SubStep2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2 .
+
+# Sub Plan 2 (Decomposed Plan)
+kh-p-instance:SubPlan2 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_2 .
+
+
+# Sub Step 2.1 - Select [OK], then press <icon>
+kh-p-instance:SubStep2_1 a p-plan:Step ;
+    rdfs:label "Select [OK], then press <icon>" ;
+    kh-p:nextStep kh-p-instance:SubStep2_2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 
+    kh-p:isDecomposedAsPlan kh-p-instanceSubPlan2_1 .
+    
+# Sub Plan 2_1 (Decomposed Plan)
+kh-p-instance:SubPlan2_1 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2_1" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_1_2 .
+
+# Sub Step 2.1.1 - The card will be formatted.
+kh-p-instance:SubStep2_1_1 a p-plan:Step ;
+    rdfs:label "The card will be formatted." ;
+    kh-p:nextStep kh-p-instance:SubStep2_1_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2_1 .
+
+# Sub Step 2.1.2 - When the formatting is completed, the menu will reappear.
+kh-p-instance:SubStep2_1_2 a p-plan:Step ;
+    rdfs:label "When the formatting is completed, the menu will reappear." ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2_1 .
+
+# Sub Step 2.2 - For low-level formatting, press the <icon> button, checkmark [Low level format] with <icon>, then select [OK].
+kh-p-instance:SubStep2_2 a p-plan:Step ;
+    rdfs:label "For low-level formatting, press the <icon> button, checkmark [Low level format] with <icon>, then select [OK]." ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+
+Do you comprehend the Task? Particularly note the use of numbered Plans, SubPlans, Steps, and SubSteps. Please only answer “yes” if you do and “no” if you don’t.
+
+
+//2nd example
+//upload the "[name]" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/photography/manual-chunks/fully%20automatic%20shooting.pdf in the chat
 
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the "Fully Automatic Shooting" procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
- 
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
+This is Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2 is as follows.
 
-Refer to the RDF graph as Context, please provide an Answer to the Question below.  
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you provide a detailed list of the steps in the given Context which refers to "Fully Automatic Shooting" procedure, including any substeps or subtasks for each main step?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Fully Automatic Shooting' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
 Answer:
 
-1. Set the Mode Dial to <icon>.
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-2. Aim any AF point over the subject.
-   - All the AF points will operate, and focus will generally be achieved at the AF point covering the closest object.
-   - Aiming the center AF point over the subject will make focusing easier.
 
-3. Focus the subject.
-   - Press the shutter button halfway, and the lens will move to focus.
-      > The dot inside the AF point achieving focus flashes briefly in red. At the same time, the beeper will sound and the focus confirmation light <icon> in the viewfinder will light.
-      > If necessary, the built-in flash will pop-up automatically.
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Set the Mode Dial to <icon>" ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
 
-4. Take the picture.
-   - Press the shutter button completely to take the picture.
-      > The captured image will be displayed for about 2 sec. on the LCD monitor.
-   - If the built-in flash has popped up, you can push it back down with your fingers.
 
-Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
-   
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Aim any AF point over the subject." ;
+    kh-p:nextStep kh-p-instance:SubStep2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubPlan2 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1 .
+
+kh-p-instance:SubStep2_1 a p-plan:Step ;
+    rdfs:label "All the AF points will operate, and focus will generally be achieved at the AF point covering the closest object." ;
+    kh-p:nextStep kh-p-instance:SubStep2_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+
+kh-p-instance:SubStep2_2 a p-plan:Step ;
+    rdfs:label "Aiming the center AF point over the subject will make focusing easier." ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Focus the subject." ;
+    kh-p:nextStep kh-p-instance:SubStep3_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan3 .
+
+kh-p-instance:SubPlan3 a p-plan:Plan ;
+    rdfs:label "Sub Plan 3" ;
+    kh-p:startsWith kh-p-instance:SubStep3_1 .
+
+kh-p-instance:SubStep3_1 a p-plan:Step ;
+    rdfs:label "Press the shutter button halfway, and the lens will move to focus." ;
+    kh-p:nextStep kh-p-instance:SubStep3_1_1 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan3_1 .
+    
+kh-p-instance:SubPlan3_1 a p-plan:Plan ;
+    rdfs:label "Sub Plan 3.1" ;
+    kh-p:startsWith kh-p-instance:SubStep3_1_1 ; 
+    kh-p:endsWith kh-p-instance:SubStep3_1_2 . .
+
+kh-p-instance:SubStep3_1_1 a p-plan:Step ;
+    rdfs:label "The dot inside the AF point achieving focus flashes briefly in red. At the same time, the beeper will sound, and the focus confirmation light <icon> in the viewfinder will light." ;
+    kh-p:nextStep kh-p-instance:SubStep3_1_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3_1 .
+    
+kh-p-instance:SubStep3_1_2 a p-plan:Step ;
+    rdfs:label "If necessary, the built-in flash will popup automatically" ;
+    kh-p:nextStep kh-p-instance:Step4;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3_1 .
+
+
+kh-p-instance:Step4 a p-plan:Step ;
+    rdfs:label "Take the picture." ;
+    kh-p:nextStep kh-p-instance:SubStep4_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan4 .
+ 
+
+kh-p-instance:SubPlan4 a p-plan:Plan ;
+    rdfs:label "Sub Plan 4" ;
+    kh-p:startsWith kh-p-instance:SubStep4_1 ;
+    kh-p:endsWith kh-p-instance:SubStep4_2  .
+    
+
+kh-p-instance:SubStep4_1 a p-plan:Step ;
+    rdfs:label "Press the shutter button completely to take the picture." ;
+    kh-p:nextStep kh-p-instance:SubStep4_1_1 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+    
+kh-p-instance:SubStep4_1_1 a p-plan:Step ;
+    rdfs:label "The captured image will be displayed for about 2 sec. on the LCD monitor." ;
+    kh-p:nextStep kh-p-instance:SubStep4_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+
+kh-p-instance:SubStep4_2 a p-plan:Step ;
+    rdfs:label "If the built-in flash has popped up, you can push it back down with your fingers." ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+
+Do you comprehend the Task? Particularly note the use of numbered Plans, SubPlans, Steps, and SubSteps. Please only answer “yes” if you do and “no” if you don’t.
+
+
 
 //upload the "registering the picture style" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
-
-Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps "Registering the Picture Style" procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
+// copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/photography/manual-chunks/registering%20picture%20style.pdf in the chat
 
 Now it is your turn. 
 
-Refer to the RDF graph as Context, please provide an Answer to the Question below. 
+Refer to the uploaded document content as Context and based on the Answers from Task Example1 and Task Example2, please provide an Answer to the Question below. You must use SubPlans and SubSteps as needed.
 
-Question: Can you provide a detailed list of the steps in the given Context which refers to "Registering the Picture Style" procedure, including any substeps or subtasks for each main step?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Registering the Picture Style' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
 Answer:
+
