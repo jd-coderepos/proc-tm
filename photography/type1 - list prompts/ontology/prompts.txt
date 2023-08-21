@@ -31,7 +31,7 @@ Here is the complete definition of the procedural RDF Ontology in TTL format whi
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure as a detailed list of steps and substeps including the relevant namespaces, classes, properties, and relationships of the Ontology?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure as detailed steps and substeps with the help of the relevant namespaces, classes, properties, and relationships of the Ontology?
 Answer:
 
 
@@ -72,8 +72,9 @@ Here is the complete definition of the procedural RDF Ontology in TTL format whi
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Fully Automatic Shooting' procedure as a detailed list of steps and substeps including the relevant namespaces, classes, properties, and relationships of the Ontology?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Fully Automatic Shooting' procedure as detailed steps and substeps with the help of the relevant namespaces, classes, properties, and relationships of the Ontology?
 Answer:
+
 
 #variants to the Question above
 #variant 1
@@ -101,11 +102,20 @@ Here is the complete definition of the procedural RDF Ontology in TTL format whi
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Registering the Picture Style' procedure as detailed plans, subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
+Answer:
+
+
+
+#variants to the Question above
+#variant 0
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
 Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Registering the Picture Style' procedure as a detailed list of steps and substeps including the relevant namespaces, classes, properties, and relationships of the Ontology?
 Answer: 
 
 
-#variants to the Question above
 #variant 1
 
 Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the 'Registering the Picture Style' procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.

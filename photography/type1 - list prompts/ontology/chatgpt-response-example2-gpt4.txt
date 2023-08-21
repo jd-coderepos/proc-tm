@@ -1,0 +1,36 @@
+Certainly! Based on the provided ontology and the content from the "Fully Automatic Shooting" procedure, here's an instantiated RDF graph:
+
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix ex: <http://example.org/procedure#> .
+
+# Define the Fully Automatic Shooting Plan
+ex:FullyAutomaticShooting a p-plan:Plan ;
+    rdfs:label "Fully Automatic Shooting" .
+
+# Define the steps of the Fully Automatic Shooting Plan
+ex:Step1 a p-plan:Step ;
+    rdfs:label "Set the Mode Dial to <1>" ;
+    p-plan:isStepOfPlan ex:FullyAutomaticShooting .
+
+ex:Step2 a p-plan:Step ;
+    rdfs:label "Aim any AF point over the subject" ;
+    p-plan:isStepOfPlan ex:FullyAutomaticShooting ;
+    kh-p:nextStep ex:Step3 .
+
+ex:Step3 a p-plan:Step ;
+    rdfs:label "Focus the subject" ;
+    p-plan:isStepOfPlan ex:FullyAutomaticShooting ;
+    kh-p:nextStep ex:Step4 .
+
+ex:Step4 a p-plan:Step ;
+    rdfs:label "Take the picture" ;
+    p-plan:isStepOfPlan ex:FullyAutomaticShooting .
+
+# Define the order of steps in the Fully Automatic Shooting Plan
+ex:FullyAutomaticShooting kh-p:startsWith ex:Step1 ;
+    kh-p:endsWith ex:Step4 .
+
+This RDF graph represents the "Fully Automatic Shooting" procedure as a plan (ex:FullyAutomaticShooting) composed of four main steps (ex:Step1 to ex:Step4). The steps are ordered using the kh-p:nextStep property, and the plan is associated with its starting and ending steps using the kh-p:startsWith and kh-p:endsWith properties, respectively.
+
+Note: The ex: prefix is used as a placeholder for an example namespace. In a real-world scenario, you would replace it with an appropriate namespace for your application.

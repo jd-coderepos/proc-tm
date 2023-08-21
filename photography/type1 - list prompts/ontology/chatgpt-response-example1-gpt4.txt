@@ -1,54 +1,34 @@
-Certainly! Based on the provided ontology and the context from the document, here's an instantiated RDF graph for the 'Formatting the Card' procedure:
+Certainly! Based on the provided ontology and the extracted content from the "Formatting the Card" procedure, we can generate an instantiated RDF graph as follows:
 
 @prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
 @prefix p-plan: <http://purl.org/net/p-plan#> .
-@prefix ex: <https://example.com/> .
+@prefix ex: <http://example.org/procedure/> .
 
-# Defining the main procedure 'Formatting the Card'
-ex:formattingTheCard a p-plan:Plan ;
-    rdfs:label "Formatting the Card" ;
-    kh-p:startsWith ex:selectFormat ;
-    kh-p:endsWith ex:lowLevelFormatting .
+# Define the main procedure: Formatting the Card
+ex:formattingCardProcedure a p-plan:Plan ;
+    rdfs:label "Formatting the Card Procedure" .
 
-# Step 1: Select [Format]
-ex:selectFormat a p-plan:Step ;
+# Define the steps of the procedure
+ex:step1 a p-plan:Step ;
     rdfs:label "Select [Format]" ;
-    p-plan:isStepOfPlan ex:formattingTheCard ;
-    kh-p:nextStep ex:formatTheCard .
+    p-plan:isStepOfPlan ex:formattingCardProcedure ;
+    kh-p:nextStep ex:step2 ;
+    rdfs:comment "Under the [5] tab, select [Format], then press <0>." .
 
-# Step 2: Format the card
-ex:formatTheCard a p-plan:Step ;
+ex:step2 a p-plan:Step ;
     rdfs:label "Format the card" ;
-    p-plan:isStepOfPlan ex:formattingTheCard ;
-    kh-p:nextStep ex:lowLevelFormatting ;
-    kh-p:isDecomposedAsPlan ex:formattingOptions .
+    p-plan:isStepOfPlan ex:formattingCardProcedure ;
+    kh-p:nextStep ex:substep2_1 ;
+    rdfs:comment "Select [OK], then press <0>. The card will be formatted. When the formatting is completed, the menu will reappear." .
 
-# Subplan: Formatting Options
-ex:formattingOptions a p-plan:Plan ;
-    rdfs:label "Formatting Options" ;
-    kh-p:startsWith ex:selectOK ;
-    kh-p:endsWith ex:lowLevelFormatOption .
+ex:substep2_1 a p-plan:Step ;
+    rdfs:label "Low-level formatting" ;
+    p-plan:isStepOfPlan ex:formattingCardProcedure ;
+    kh-p:isDecomposedAsPlan ex:step2 ;
+    rdfs:comment "For low-level formatting, press the <L> button, checkmark [Low level format] with <X>, then select [OK]." .
 
-# Substep: Select [OK]
-ex:selectOK a p-plan:Step ;
-    rdfs:label "Select [OK]" ;
-    p-plan:isStepOfPlan ex:formattingOptions ;
-    kh-p:nextStep ex:cardWillBeFormatted .
+# Define the start and end of the procedure
+ex:formattingCardProcedure kh-p:startsWith ex:step1 ;
+    kh-p:endsWith ex:substep2_1 .
 
-# Substep: Card will be formatted
-ex:cardWillBeFormatted a p-plan:Step ;
-    rdfs:label "The card will be formatted" ;
-    p-plan:isStepOfPlan ex:formattingOptions ;
-    kh-p:nextStep ex:lowLevelFormatOption .
-
-# Substep: Low-level formatting option
-ex:lowLevelFormatOption a p-plan:Step ;
-    rdfs:label "For low-level formatting, press the <L> button, checkmark [Low level format] with <X>, then select [OK]" ;
-    p-plan:isStepOfPlan ex:formattingOptions .
-
-# Step 3: Formatting the Card (End of the procedure)
-ex:lowLevelFormatting a p-plan:Step ;
-    rdfs:label "Formatting the Card" ;
-    p-plan:isStepOfPlan ex:formattingTheCard .
-
-This RDF graph represents the 'Formatting the Card' procedure as a series of steps and substeps, using the classes and properties from the provided ontology. The steps are linked in sequence using the kh-p:nextStep property, and the substeps are part of a subplan that is decomposed from the main step using the kh-p:isDecomposedAsPlan property. The namespaces, classes, properties, and relationships from the ontology are all included in the graph.
+This RDF graph represents the "Formatting the Card" procedure using the provided ontology. The procedure consists of two main steps (ex:step1 and ex:step2) and a sub-step (ex:substep2_1) for the second step. The relationships between the steps and the procedure are defined using the p-plan:isStepOfPlan, kh-p:nextStep, and kh-p:isDecomposedAsPlan properties. The kh-p:startsWith and kh-p:endsWith properties indicate the beginning and end of the procedure, respectively.
