@@ -78,7 +78,7 @@ This is Task Example1. You are not required to perform the Task. You are only re
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure with the help of implicit classes subplans and substeps of the Ontology?
 Answer:
 
 @prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
@@ -166,7 +166,7 @@ This is Task Example2. You are not required to perform the Task. You are only re
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Fully Automatic Shooting' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Fully Automatic Shooting' procedure with the help of implicit classes subplans and substeps of the Ontology?
 Answer:
 
 @prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
@@ -274,6 +274,9 @@ Now it is your turn.
 
 Refer to the uploaded document content as Context and based on the Answers from Task Example1 and Task Example2, please provide an Answer to the Question below. You must use SubPlans and SubSteps as needed.
 
-Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Registering the Picture Style' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
+Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Registering the Picture Style' procedure with the help of implicit classes subplans and substeps of the Ontology?
 Answer:
 
+
+//prodded again as follows
+Why haven't you used more substep and subplan implicit classes. Try again.

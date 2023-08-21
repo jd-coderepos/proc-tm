@@ -1,33 +1,54 @@
-Certainly! Based on the provided ontology and the details from the "Fully Automatic Shooting" procedure in the context, here's an instantiated RDF graph:
+Here's the instantiated RDF graph considering the subplan and substep:
 
 @prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
 @prefix p-plan: <http://purl.org/net/p-plan#> .
 
-# Defining the Plan for Fully Automatic Shooting
-<https://example.com/procedure#FullyAutomaticShooting> a p-plan:Plan ;
+# Define the 'Fully Automatic Shooting' procedure as a Plan
+<https://example.com/procedure/fully-automatic-shooting> a p-plan:Plan ;
     rdfs:label "Fully Automatic Shooting" .
 
-# Defining the Steps for the Plan
-<https://example.com/procedure#Step1> a p-plan:Step ;
+# Define the steps of the 'Fully Automatic Shooting' procedure
+<https://example.com/step/set-mode-dial> a p-plan:Step ;
     rdfs:label "Set the Mode Dial to <1>" ;
-    p-plan:isStepOfPlan <https://example.com/procedure#FullyAutomaticShooting> .
+    p-plan:isStepOfPlan <https://example.com/procedure/fully-automatic-shooting> .
 
-<https://example.com/procedure#Step2> a p-plan:Step ;
+<https://example.com/step/aim-af-point> a p-plan:Step ;
     rdfs:label "Aim any AF point over the subject" ;
-    p-plan:isStepOfPlan <https://example.com/procedure#FullyAutomaticShooting> ;
-    kh-p:nextStep <https://example.com/procedure#Step3> .
+    p-plan:isStepOfPlan <https://example.com/procedure/fully-automatic-shooting> ;
+    kh-p:nextStep <https://example.com/step/focus-subject> .
 
-<https://example.com/procedure#Step3> a p-plan:Step ;
+<https://example.com/step/focus-subject> a p-plan:Step ;
     rdfs:label "Focus the subject" ;
-    p-plan:isStepOfPlan <https://example.com/procedure#FullyAutomaticShooting> ;
-    kh-p:nextStep <https://example.com/procedure#Step4> .
+    p-plan:isStepOfPlan <https://example.com/procedure/fully-automatic-shooting> ;
+    kh-p:isDecomposedAsPlan <https://example.com/subplan/focus-subject-details> ;
+    kh-p:nextStep <https://example.com/step/take-picture> .
 
-<https://example.com/procedure#Step4> a p-plan:Step ;
+<https://example.com/step/take-picture> a p-plan:Step ;
     rdfs:label "Take the picture" ;
-    p-plan:isStepOfPlan <https://example.com/procedure#FullyAutomaticShooting> .
+    p-plan:isStepOfPlan <https://example.com/procedure/fully-automatic-shooting> .
 
-# Associating the Plan with the first and last Steps
-<https://example.com/procedure#FullyAutomaticShooting> kh-p:startsWith <https://example.com/procedure#Step1> ;
-    kh-p:endsWith <https://example.com/procedure#Step4> .
+# Define the subplan for focusing the subject
+<https://example.com/subplan/focus-subject-details> a p-plan:Plan ;
+    rdfs:label "Details of Focusing the Subject" ;
+    kh-p:startsWith <https://example.com/substep/press-shutter-halfway> ;
+    kh-p:endsWith <https://example.com/substep/focus-confirmation-light> .
 
-This RDF graph represents the "Fully Automatic Shooting" procedure as a plan composed of four main steps. The steps are ordered using the kh-p:nextStep property, and the plan is associated with its first and last steps using the kh-p:startsWith and kh-p:endsWith properties, respectively. The steps are also associated with the main plan using the p-plan:isStepOfPlan property.
+# Define the substeps for focusing the subject
+<https://example.com/substep/press-shutter-halfway> a p-plan:Step ;
+    rdfs:label "Press the shutter button halfway" ;
+    p-plan:isStepOfPlan <https://example.com/subplan/focus-subject-details> ;
+    kh-p:nextStep <https://example.com/substep/lens-move-focus> .
+
+<https://example.com/substep/lens-move-focus> a p-plan:Step ;
+    rdfs:label "The lens will move to focus" ;
+    p-plan:isStepOfPlan <https://example.com/subplan/focus-subject-details> ;
+    kh-p:nextStep <https://example.com/substep/focus-confirmation-light> .
+
+<https://example.com/substep/focus-confirmation-light> a p-plan:Step ;
+    rdfs:label "The focus confirmation light in the viewfinder will light" ;
+    p-plan:isStepOfPlan <https://example.com/subplan/focus-subject-details> .
+
+# Define the start and end steps of the 'Fully Automatic Shooting' procedure
+<https://example.com/procedure/fully-automatic-shooting> kh-p:startsWith <https://example.com/step/set-mode-dial> ;
+    kh-p:endsWith <https://example.com/step/take-picture> .
+	

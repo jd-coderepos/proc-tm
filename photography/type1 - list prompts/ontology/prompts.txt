@@ -22,6 +22,7 @@ Example 1: Formatting the Card procedure
 
 //upload the "formatting the card" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/photography/manual-chunks/formatting%20the%20card.pdf in the chat
 
 EXAMPLE 1 PROMPT
 
@@ -31,11 +32,26 @@ Here is the complete definition of the procedural RDF Ontology in TTL format whi
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+note: if ChatGPT generates only a graph of steps, it should be prodded further before arrving at the final answer "Why haven't you used the substep and subplan implicit classes. Try again."
+
+#variants to the Question above
+variant x
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure with the help of the plans, subplans, steps, and substeps classes of the Ontology?
+Answer:
+
+variant y
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure with the help of the relevant namespace prefixes, plans, subplans, steps, and substeps as classes, properties, and relationships of the Ontology?
+Answer:
+
+variant z
 Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
 Answer:
 
-
-#variants to the Question above
 variant 1
 Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Formatting the Card' procedure including the relevant classes, properties, and relationships of the Ontology?
 Answer:
@@ -63,6 +79,7 @@ Example 2: Full Automatic Shooting procedure
 
 //upload the "fully automatic shooting" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/photography/manual-chunks/fully%20automatic%20shooting.pdf in the chat
 
 EXAMPLE 2 PROMPT
 
@@ -72,11 +89,17 @@ Here is the complete definition of the procedural RDF Ontology in TTL format whi
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Fully Automatic Shooting' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Fully Automatic Shooting' procedure with the help of implicit classes subplans and substeps of the Ontology?
 Answer:
 
 
 #variants to the Question above
+
+#variant 1
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Fully Automatic Shooting' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
+Answer:
+
 #variant 0
 
 Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Fully Automatic Shooting' procedure as detailed steps and substeps with the help of the relevant namespaces, classes, properties, and relationships of the Ontology?
@@ -98,6 +121,8 @@ Example 3: Registering the Picture Style procedure
 
 //upload the "registering the picture style" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
+// copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/photography/manual-chunks/registering%20picture%20style.pdf in the chat
+
 
 EXAMPLE 3 PROMPT
 
@@ -107,12 +132,16 @@ Here is the complete definition of the procedural RDF Ontology in TTL format whi
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Registering the Picture Style' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+
+#variants to the Question above
+#variant x
 Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Registering the Picture Style' procedure as detailed plans and subplans, steps and substeps with the help of the relevant namespace prefixes, classes, properties, and relationships of the Ontology?
 Answer:
 
 
-
-#variants to the Question above
 #variant 0
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 

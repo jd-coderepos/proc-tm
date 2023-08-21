@@ -1,5 +1,3 @@
-Certainly. Based on the context provided and the structure from the previous examples, here's an instantiated RDF graph for the 'Registering the Picture Style' procedure:
-
 @prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
 @prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
 @prefix p-plan: <http://purl.org/net/p-plan#> .
@@ -7,49 +5,68 @@ Certainly. Based on the context provided and the structure from the previous exa
 
 # Main Plan
 kh-p-instance:Plan_RegisterStyle a p-plan:Plan ;
-    rdfs:label "Registering the Picture Style Procedure" ;
+    rdfs:label "Registering Picture Style Procedure" ;
     kh-p:startsWith kh-p-instance:Step_SelectStyle ;
     kh-p:endsWith kh-p-instance:Step_RegisterStyle .
 
-# Step 1 - Select Picture Style
+# Step 1 - Select the Picture Style
 kh-p-instance:Step_SelectStyle a p-plan:Step ;
     rdfs:label "Select the Picture Style" ;
     kh-p:nextStep kh-p-instance:Step_ChooseUserOption ;
     kh-p:isStepOfPlan kh-p-instance:Plan_RegisterStyle .
 
-# Step 2 - Choose User-defined Option
+# Step 2 - Choose a user-defined option
 kh-p-instance:Step_ChooseUserOption a p-plan:Step ;
     rdfs:label "Choose a user-defined option" ;
     kh-p:nextStep kh-p-instance:Step_SelectBaseStyle ;
-    kh-p:isStepOfPlan kh-p-instance:Plan_RegisterStyle .
-
-# Step 3 - Select Base Picture Style
-kh-p-instance:Step_SelectBaseStyle a p-plan:Step ;
-    rdfs:label "Select the base Picture Style" ;
-    kh-p:nextStep kh-p-instance:Step_SelectParameter ;
     kh-p:isStepOfPlan kh-p-instance:Plan_RegisterStyle ;
-    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan_BaseStyle .
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan_UserOption .
 
-# SubPlan for Base Style
-kh-p-instance:SubPlan_BaseStyle a p-plan:Plan ;
-    rdfs:label "Sub Plan for Base Style" ;
-    kh-p:startsWith kh-p-instance:SubStep_SelectParameter .
+# SubPlan for User Option
+kh-p-instance:SubPlan_UserOption a p-plan:Plan ;
+    rdfs:label "Sub Plan for User Option" ;
+    kh-p:startsWith kh-p-instance:SubStep_SelectParameter ;
+    kh-p:endsWith kh-p-instance:SubStep_SetParameter .
 
-# SubStep 1 - Select Parameter
+# SubStep 1 - Select a parameter
 kh-p-instance:SubStep_SelectParameter a p-plan:Step ;
     rdfs:label "Select a parameter" ;
     kh-p:nextStep kh-p-instance:SubStep_SetParameter ;
-    kh-p:isStepOfPlan kh-p-instance:SubPlan_BaseStyle .
+    kh-p:isStepOfPlan kh-p-instance:SubPlan_UserOption .
 
-# SubStep 2 - Set Parameter
+# SubStep 2 - Set the parameter
 kh-p-instance:SubStep_SetParameter a p-plan:Step ;
     rdfs:label "Set the parameter" ;
+    kh-p:nextStep kh-p-instance:SubStep2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan_UserOption ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2 .
+
+# SubPlan2 for setting parameter
+kh-p-instance:SubPlan2 a p-plan:Plan ;
+    rdfs:label "Sub Plan for Setting Parameter" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_2 .
+
+# SubStep 2.1 - Check if Picture Style is already registered
+kh-p-instance:SubStep2_1 a p-plan:Step ;
+    rdfs:label "Check if a Picture Style is already registered" ;
+    kh-p:nextStep kh-p-instance:SubStep2_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+# SubStep 2.2 - Reset parameter settings if base Picture Style is changed
+kh-p-instance:SubStep2_2 a p-plan:Step ;
+    rdfs:label "Reset parameter settings if base Picture Style is changed" ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+# Step 3 - Select the base Picture Style
+kh-p-instance:Step_SelectBaseStyle a p-plan:Step ;
+    rdfs:label "Select the base Picture Style" ;
     kh-p:nextStep kh-p-instance:Step_RegisterStyle ;
-    kh-p:isStepOfPlan kh-p-instance:SubPlan_BaseStyle .
+    kh-p:isStepOfPlan kh-p-instance:Plan_RegisterStyle .
 
 # Step 4 - Register the new Picture Style
 kh-p-instance:Step_RegisterStyle a p-plan:Step ;
     rdfs:label "Register the new Picture Style" ;
     kh-p:isStepOfPlan kh-p-instance:Plan_RegisterStyle .
 
-This RDF graph represents the procedure for 'Registering the Picture Style' using the ontology provided, detailing the main plan, steps, subplans, and substeps.
+In this RDF graph, I've added more granularity by introducing another subplan (SubPlan2) for the process of setting the parameter, which includes checking if a Picture Style is already registered and resetting parameter settings if the base Picture Style is changed.
