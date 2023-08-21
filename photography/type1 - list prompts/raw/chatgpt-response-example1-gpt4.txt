@@ -1,0 +1,20 @@
+Certainly! Based on the provided Context, here's the detailed list of steps for the "Formatting the Card" procedure:
+
+Answer:
+
+1. Preparation:
+	- If the card is new or was previously formatted by another camera or personal computer, format the card with the camera.
+	- Formatting the card will erase everything on the card, including protected images. Ensure there is nothing you need to keep on the card.
+	- If necessary, transfer the images to a personal computer before formatting the card.
+
+2. Select [Format]:
+	- Under the [5] tab, select [Format], then press <0>.
+
+3. Format the Card:
+	- Select [OK], then press <0>.
+	- The card will be formatted.
+	- When the formatting is completed, the menu will reappear.
+	- For low-level formatting:
+		> Press the <L> button.
+		> Checkmark [Low level format] with <X>.
+		> Select [OK].
