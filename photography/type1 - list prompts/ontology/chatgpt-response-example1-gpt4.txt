@@ -1,0 +1,54 @@
+Certainly! Based on the provided ontology and the context from the document, here's an instantiated RDF graph for the 'Formatting the Card' procedure:
+
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix ex: <https://example.com/> .
+
+# Defining the main procedure 'Formatting the Card'
+ex:formattingTheCard a p-plan:Plan ;
+    rdfs:label "Formatting the Card" ;
+    kh-p:startsWith ex:selectFormat ;
+    kh-p:endsWith ex:lowLevelFormatting .
+
+# Step 1: Select [Format]
+ex:selectFormat a p-plan:Step ;
+    rdfs:label "Select [Format]" ;
+    p-plan:isStepOfPlan ex:formattingTheCard ;
+    kh-p:nextStep ex:formatTheCard .
+
+# Step 2: Format the card
+ex:formatTheCard a p-plan:Step ;
+    rdfs:label "Format the card" ;
+    p-plan:isStepOfPlan ex:formattingTheCard ;
+    kh-p:nextStep ex:lowLevelFormatting ;
+    kh-p:isDecomposedAsPlan ex:formattingOptions .
+
+# Subplan: Formatting Options
+ex:formattingOptions a p-plan:Plan ;
+    rdfs:label "Formatting Options" ;
+    kh-p:startsWith ex:selectOK ;
+    kh-p:endsWith ex:lowLevelFormatOption .
+
+# Substep: Select [OK]
+ex:selectOK a p-plan:Step ;
+    rdfs:label "Select [OK]" ;
+    p-plan:isStepOfPlan ex:formattingOptions ;
+    kh-p:nextStep ex:cardWillBeFormatted .
+
+# Substep: Card will be formatted
+ex:cardWillBeFormatted a p-plan:Step ;
+    rdfs:label "The card will be formatted" ;
+    p-plan:isStepOfPlan ex:formattingOptions ;
+    kh-p:nextStep ex:lowLevelFormatOption .
+
+# Substep: Low-level formatting option
+ex:lowLevelFormatOption a p-plan:Step ;
+    rdfs:label "For low-level formatting, press the <L> button, checkmark [Low level format] with <X>, then select [OK]" ;
+    p-plan:isStepOfPlan ex:formattingOptions .
+
+# Step 3: Formatting the Card (End of the procedure)
+ex:lowLevelFormatting a p-plan:Step ;
+    rdfs:label "Formatting the Card" ;
+    p-plan:isStepOfPlan ex:formattingTheCard .
+
+This RDF graph represents the 'Formatting the Card' procedure as a series of steps and substeps, using the classes and properties from the provided ontology. The steps are linked in sequence using the kh-p:nextStep property, and the substeps are part of a subplan that is decomposed from the main step using the kh-p:isDecomposedAsPlan property. The namespaces, classes, properties, and relationships from the ontology are all included in the graph.
