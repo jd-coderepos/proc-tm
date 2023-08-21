@@ -1,7 +1,5 @@
 Certainly! Based on the provided ontology and the content from the document, we can generate an instantiated RDF graph for the 'Registering the Picture Style' procedure. Here's the RDF representation:
 
-turtle
-
 @prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
 @prefix p-plan: <http://purl.org/net/p-plan#> .
 

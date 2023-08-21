@@ -1,34 +1,31 @@
-Certainly! Based on the provided ontology and the extracted content from the "Formatting the Card" procedure, we can generate an instantiated RDF graph as follows:
+Certainly! Based on the provided ontology and the content from the "Formatting the Card" procedure in the context, here's an instantiated RDF graph:
 
 @prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
 @prefix p-plan: <http://purl.org/net/p-plan#> .
-@prefix ex: <http://example.org/procedure/> .
 
-# Define the main procedure: Formatting the Card
-ex:formattingCardProcedure a p-plan:Plan ;
-    rdfs:label "Formatting the Card Procedure" .
+# Defining the main plan
+<https://example.com/procedure/formattingCard> a p-plan:Plan ;
+    rdfs:label "Formatting the Card Procedure" ;
+    kh-p:startsWith <https://example.com/step/selectFormat> ;
+    kh-p:endsWith <https://example.com/step/lowLevelFormatting> .
 
-# Define the steps of the procedure
-ex:step1 a p-plan:Step ;
+# Step 1: Select [Format]
+<https://example.com/step/selectFormat> a p-plan:Step ;
     rdfs:label "Select [Format]" ;
-    p-plan:isStepOfPlan ex:formattingCardProcedure ;
-    kh-p:nextStep ex:step2 ;
-    rdfs:comment "Under the [5] tab, select [Format], then press <0>." .
+    p-plan:isStepOfPlan <https://example.com/procedure/formattingCard> ;
+    kh-p:nextStep <https://example.com/step/formatCard> .
 
-ex:step2 a p-plan:Step ;
+# Step 2: Format the card
+<https://example.com/step/formatCard> a p-plan:Step ;
     rdfs:label "Format the card" ;
-    p-plan:isStepOfPlan ex:formattingCardProcedure ;
-    kh-p:nextStep ex:substep2_1 ;
-    rdfs:comment "Select [OK], then press <0>. The card will be formatted. When the formatting is completed, the menu will reappear." .
+    p-plan:isStepOfPlan <https://example.com/procedure/formattingCard> ;
+    kh-p:nextStep <https://example.com/step/lowLevelFormatting> .
 
-ex:substep2_1 a p-plan:Step ;
+# Step 3: Low-level formatting
+<https://example.com/step/lowLevelFormatting> a p-plan:Step ;
     rdfs:label "Low-level formatting" ;
-    p-plan:isStepOfPlan ex:formattingCardProcedure ;
-    kh-p:isDecomposedAsPlan ex:step2 ;
-    rdfs:comment "For low-level formatting, press the <L> button, checkmark [Low level format] with <X>, then select [OK]." .
+    p-plan:isStepOfPlan <https://example.com/procedure/formattingCard> .
 
-# Define the start and end of the procedure
-ex:formattingCardProcedure kh-p:startsWith ex:step1 ;
-    kh-p:endsWith ex:substep2_1 .
+This RDF graph represents the "Formatting the Card" procedure as a plan composed of three steps. The steps are linked using the kh-p:nextStep property to indicate the order in which they should be executed. The main plan starts with the "Select [Format]" step and ends with the "Low-level formatting" step.
 
-This RDF graph represents the "Formatting the Card" procedure using the provided ontology. The procedure consists of two main steps (ex:step1 and ex:step2) and a sub-step (ex:substep2_1) for the second step. The relationships between the steps and the procedure are defined using the p-plan:isStepOfPlan, kh-p:nextStep, and kh-p:isDecomposedAsPlan properties. The kh-p:startsWith and kh-p:endsWith properties indicate the beginning and end of the procedure, respectively.
+Note: The URIs used in the graph (like https://example.com/step/selectFormat) are placeholders and can be replaced with appropriate URIs that fit your system or application.
