@@ -1,0 +1,73 @@
+//1st example
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/medicine/manual-chunks/dental-Instrument-example1.pdf in the chat
+
+This is Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1 is as follows.
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "2-Cylinder Portable System Assembly" procedure, including any substeps or subtasks for each main step?
+Answer:
+
+1. Mount the flowmeter to the portable manifold: 
+	a. Remove hole cap from the upper hole (use sharp edge knife or screwdriver) at rear of manifold and release set screw (use 5/32" Allen Wrench) enough to remove flowmeter mount. 
+	b. Remove protective cap from threads of mount and remove from manifold. Thread flowmeter mount into hole on the bottom of flowmeter by hand and tighten firmly using 5/32" Allen Wrench placed in hole on side of flowmeter mount. 
+	c. Place flowmeter on manifold with mount in pocket. 
+	d. Tighten set screw firmly from rear while keeping flowmeter oriented toward front of manifold. 
+	e. Place hole cap into hole behind the set screw and push it all way in.
+2. Attach the hoses to the flowmeter: 
+	a. Run the nitrous oxide hose under the manifold and attach it to the nitrous oxide DISS fitting located on the back of the flowmeter. 
+	b. Run the oxygen hose under the manifold and attach it to the oxygen DISS fitting located on the back of the flowmeter.  
+Note: To avoid gas leaks, make certain all hose attachments are securely tightened.
+3. Connect the gas cylinders to the manifold's "E" yokes: 
+	a. Connect the nitrous oxide gas cylinders to the "E" yoke on the N2O side 
+	b. Connect the oxygen gas cylinders to the "E" yoke on the O2 side. 
+	c. It is recommended to use new gasket every time tank is replaced or removed.
+4. (Keep wrench in handy location. It is used to open and close tanks). 
+	a. Open both gas cylinders and turn off flowmeter. 
+	b. Check hose connections for leaks using soap solution. 
+	c. Tighten fittings as needed to stop leaks.
+5. Verify flowmeter operations.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+
+
+
+//2nd example
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/medicine/manual-chunks/dental-Instrument-example2.pdf in the chat
+
+This is Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2 is as follows.
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Changing Gas Cylinders" procedure, including any substeps or subtasks for each main step?
+Answer:
+
+Changing Gas Cylinders   
+1. Open the tank enclosure by sliding the cover to the rear. 
+2. Close the valve on the empty tank (clockwise). 
+3. Release the Velcro restraint on the empty tank. 
+4. Tilt the empty tank out slightly. 
+5. Loosen the round handle on the regulator yoke. 
+6. Remove the regulator from the empty tank (make certain that the regulator is not dropped or damaged while it is off the tank). 
+7. Lay the empty cylinder down on the floor (cylinders should only stand upright when properly restrained as they can easily fall over).
+8. Pick up the full replacement tank and place the bottom of the tank onto the floor of the Newport, leaving it slightly tilted outward for easy replacement of the regulator.
+9. Check to assure that the sealing gasket has remained on the regulator's E yoke.
+10. Reattach the regulator to the new full tank by sliding the yoke (attached to the regulator) over the top of the tank post aligning the index pins with the corresponding holes in the tank post.
+11. Tighten the round handle on the regulator yoke.
+12. Push the tank into an upright position. Attach and tighten the Velcro tank restraint.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+
+
+
+//ask ChatGPT
+// copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/medicine/manual-chunks/dental-Instrument-example3.pdf in the chat
+
+
+Now it is your turn. 
+
+Refer to the uploaded document content as Context and based on the Answers from Task Example1 and Task Example2, please provide an Answer to the Question below.
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Installation of FM Type" procedure, including any substeps or subtasks for each main step?
+Answer:
+

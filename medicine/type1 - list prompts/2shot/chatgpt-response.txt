@@ -1,0 +1,28 @@
+Certainly! Here's the detailed list of steps for the "Installation of FM Type" procedure based on the provided context:
+
+Installation of FM Type
+
+1. Pole Assembly Installation (Figure 17)
+    1-1. Attach four leg bars to the pole base and secure them with hex socket head bolts. (Align the hole on the bottom of the base with the threaded hole on the leg bar.)
+    Caution: Two longer leg bars must be attached to the wider ends of the base.
+    1-2. Attach the caster to each leg end.
+
+2. Control Box Mounting Plate (Figure 18)
+    2-1. Set the control box mounting plate over the access hole of the pole at the short leg side, as 3 wires of power supply come out from the access hole. Secure two screws above and below the access hole.
+    2-2. Slide the supporter of the mounting plate down to the opposite side of the mounting plate, and secure with two screws beside the access hole.
+
+3. Arm Assembly Installation
+    Warning: Do not release the arm holding band until the X-ray head has been installed. The balance arm assembly is spring-loaded and can cause equipment damage and injury if not handled properly.
+    3-1. Insert the shaft of the balance arm with pole bushing attached into the pole as the wires go through the access hole of the control box mounting plate.
+    3-2. Keep the arm at position (a) of Figure 20.
+    3-3. Fix the pole bushing with two mounting screws on the pole.
+
+4. Head Installation
+	Refer to page 16.
+
+5. Control Box Installation
+	Refer to page 17.
+
+6. Adjustment
+    6-1. Tighten the brake screw if the arm drifts.
+    6-2. Perform the post-installation inspection (pages 19-20).

@@ -16,6 +16,6 @@ Note: To avoid gas leaks, make certain all hose attachments are securely tighten
 	a. Open both gas cylinders and turn off flowmeter. 
 	b. Check hose connections for leaks using soap solution. 
 	c. Tighten fittings as needed to stop leaks.
-5. Verify flowmeter operations.  
+5. Verify flowmeter operations.
 Note: See page 23 for attaching rubber goods, including scavenging circuit. 
 
