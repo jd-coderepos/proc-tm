@@ -1,0 +1,30 @@
+The "2-Cylinder Portable System Assembly" procedure involves the following steps:
+
+1. Mount the flowmeter to the portable manifold:
+	a. Remove hole cap from the upper hole using a sharp edge knife or screwdriver at the rear of the manifold and release the set screw (using a 5/32" Allen Wrench) enough to remove the flowmeter mount.
+    b. Remove the protective cap from the threads of the mount and remove it from the manifold. Thread the flowmeter mount into the hole on the bottom of the flowmeter by hand and tighten firmly using a 5/32" Allen Wrench placed in the hole on the side of the flowmeter mount.
+    c. Place the flowmeter on the manifold with the mount in the pocket.
+    d. Tighten the set screw firmly from the rear while keeping the flowmeter oriented toward the front of the manifold.
+    e. Place the hole cap into the hole behind the set screw and push it all the way in.
+2. Attach the hoses to the flowmeter:
+    a. Run the nitrous oxide hose under the manifold and attach it to the nitrous oxide DISS fitting located on the back of the flowmeter.
+    b. Run the oxygen hose under the manifold and attach it to the oxygen DISS fitting located on the back of the flowmeter.
+    Note: To avoid gas leaks, ensure all hose attachments are securely tightened.
+3. Connect the gas cylinders to the manifold’s “E” yokes:
+    a. Connect the nitrous oxide gas cylinders to the “E” yoke on the N2O side.
+    b. Connect the oxygen gas cylinders to the “E” yoke on the O2 side.
+    c. It is recommended to use a new gasket every time a tank is replaced or removed.
+4. Open and close tanks:
+    a. Open both gas cylinders and turn off the flowmeter.
+    b. Check hose connections for leaks using a soap solution.
+    c. Tighten fittings as needed to stop leaks.
+5. Verify flowmeter operations.
+    Note: Refer to page 23 for attaching rubber goods, including the scavenging circuit.
+
+The document also identifies the following components in the 2-cylinder portable system package:
+
+. Flowmeter
+. Portable Manifold (with DISS Hoses and mobile stand attached)
+. E Cylinder Wrench (with chain attached)
+
+This detailed list provides a comprehensive overview of the assembly procedure for the 2-Cylinder Portable System.
