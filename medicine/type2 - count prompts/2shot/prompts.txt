@@ -1,0 +1,32 @@
+//go to the "raw - med 2-shot" list steps scenario conversation context and continue the conversation
+
+This is Task Example1.i of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.i is as follows.
+
+Refer to the detailed list of steps of Task Example1 as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "2-Cylinder Portable System Assembly" procedure, not including any substeps or subtasks for each main step?
+Answer: 5
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//continue the conversation in the "raw - med 2-shot" list steps scenario conversation context
+
+This is Task Example2.i of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.i is as follows.
+
+Refer to the detailed list of steps of Task Example2 as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Changing Gas Cylinders" procedure, not including any substeps or subtasks for each main step?
+Answer: 12
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//continue the conversation in the "raw - med 2-shot" list steps scenario conversation context
+
+Now it is your turn. 
+
+Refer to your generated detailed list of steps above as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Installation of FM Type" procedure, not including any substeps or subtasks for each main step?
+Answer:

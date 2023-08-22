@@ -1,0 +1,47 @@
+--------------------------------------------------------
+Example 1: 2-CYLINDER PORTABLE SYSTEM ASSEMBLY procedure
+--------------------------------------------------------
+
+//upload the "dental-instrument-example1" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 1 PROMPT
+
+Refer to the generated detailed list of steps which refers to "2-Cylinder Portable System Assembly" procedure as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "2-Cylinder Portable System Assembly" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+
+------------------------------------------------
+Example 2 Instructions 2: Changing Gas Cylinders
+------------------------------------------------
+
+//upload the "dental-instrument-example2" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 2 PROMPT
+
+Refer to the generated detailed list of steps which refers to "Changing Gas Cylinders" procedure as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Changing Gas Cylinders" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+
+----------------------------------
+Example 3: INSTALLATION OF FM TYPE
+----------------------------------
+
+//upload the "dental-instrument-example3" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 3 PROMPT
+
+Refer to the generated detailed list of steps which refers to "Installation of FM Type" procedure as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Installation of FM Type" procedure, not including any substeps or subtasks for each main step?
+Answer:
+

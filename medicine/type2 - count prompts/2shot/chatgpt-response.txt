@@ -1,0 +1,3 @@
+The number of main steps in the given Context which refers to the "Installation of FM Type" procedure is 6.
+
+Answer: 6

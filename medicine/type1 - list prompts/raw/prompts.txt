@@ -45,7 +45,7 @@ Answer:
 Example 2 Instructions 2: Changing Gas Cylinders
 ------------------------------------------------
 
-//upload the "fully automatic shooting" pdf through uploader in chatgpt
+//upload the "dental-instrument-example2" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 //copy-paste https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/medicine/manual-chunks/dental-Instrument-example2.pdf 
 // or continue conversation in the chat above
@@ -62,7 +62,7 @@ Answer:
 Example 3: INSTALLATION OF FM TYPE
 ----------------------------------
 
-//upload the "registering the picture style" pdf through uploader in chatgpt
+//upload the "dental-instrument-example3" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 // copy-paste https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/medicine/manual-chunks/dental-Instrument-example3.pdf
 
