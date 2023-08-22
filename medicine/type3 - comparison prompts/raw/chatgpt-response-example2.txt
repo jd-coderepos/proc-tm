@@ -1,0 +1,24 @@
+Let's break down the number of main steps for each context:
+
+Context1 (2-Cylinder Portable System Assembly):
+
+1. Mount the flowmeter to the portable manifold.
+2. Attach the hoses to the flowmeter.
+3. Connect the gas cylinders to the manifold’s “E” yokes.
+4. Open and close tanks.
+5. Verify flowmeter operations.
+
+Total main steps for Context1: 5
+
+Context2 (Installation of FM Type):
+
+1. POLE ASSEMBLY INSTALLATION
+2. CONTROL BOX MOUNTING PLATE
+3. ARM ASSEMBLY INSTALLATION
+4. HEAD INSTALLATION
+5. CONTROL BOX INSTALLATION
+6. ADJUSTMENT
+
+Total main steps for Context2: 6
+
+Answer: The "Installation of FM Type" procedure (Context2) has more main steps than the "2-Cylinder Portable System Assembly" procedure (Context1).

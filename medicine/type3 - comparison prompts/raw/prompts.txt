@@ -1,0 +1,58 @@
+------------------------------------------------------------------------------------
+Example 1: 2-CYLINDER PORTABLE SYSTEM ASSEMBLY vs. Changing Gas Cylinders procedure
+------------------------------------------------------------------------------------
+//the tests can be performed with generated steps as well as with gold-standard steps
+
+EXAMPLE 1 PROMPT
+
+Refer to the following generated detailed list of steps as Context1.
+
+#copy-paste the "2-Cylinder Portable System Assembly" list of steps generated previously in template 1 of example1
+
+Now refer to the following generated detailed list of steps as Context2.
+
+#copy-paste the "Changing Gas Cylinders" list of steps generated previously in template 1 of example2
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 refers to "2-Cylinder Portable System Assembly" procedure and the Context2 refers to the "Changing Gas Cylinders" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
+
+------------------------------------------------------------------------------------
+Example 2: 2-CYLINDER PORTABLE SYSTEM ASSEMBLY vs. INSTALLATION OF FM TYPE procedure
+------------------------------------------------------------------------------------
+
+EXAMPLE 2 PROMPT
+
+Refer to the following generated detailed list of steps as Context1.
+
+#copy-paste the "2-Cylinder Portable System Assembly" list of steps generated previously in template 1 of example1
+
+Now refer to the following generated detailed list of steps as Context2.
+
+#copy-paste the "Installation of FM Type" list of steps generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 refers to "2-Cylinder Portable System Assembly" procedure and the Context2 refers to the "Installation of FM Type" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
+
+
+-----------------------------------------------------------------------
+Example 3: Changing Gas Cylinders vs. INSTALLATION OF FM TYPE procedure
+-----------------------------------------------------------------------
+
+EXAMPLE 3 PROMPT
+
+Refer to the following generated detailed list of steps as Context1.
+
+#copy-paste the "Changing Gas Cylinders" list of steps generated previously in template 1 of example2
+
+Now refer to the following generated detailed list of steps as Context2.
+
+#copy-paste the "Installation of FM Type" list of steps generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 refers to "Changing Gas Cylinders" procedure and the Context2 RDF refers to the "Installation of FM Type" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:

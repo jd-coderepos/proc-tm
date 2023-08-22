@@ -1,0 +1,30 @@
+Let's break down the main steps for each context:
+
+Context1 (2-Cylinder Portable System Assembly):
+
+1. Mount the flowmeter to the portable manifold.
+2. Attach the hoses to the flowmeter.
+3. Connect the gas cylinders to the manifold’s “E” yokes.
+4. Open and close tanks.
+5. Verify flowmeter operations.
+
+Total main steps for Context1: 5
+
+Context2 (Changing Gas Cylinders):
+
+1. Open the tank enclosure by sliding the cover to the rear.
+2. Close the valve on the empty tank (clockwise).
+3. Release the Velcro restraint on the empty tank.
+4. Tilt the empty tank out slightly.
+5. Loosen the round handle on the regulator yoke.
+6. Remove the regulator from the empty tank.
+7. Lay the empty cylinder down on the floor.
+8. Pick up the full replacement tank and place the bottom of the tank onto the floor of the Newport, leaving it slightly tilted outward for easy replacement of the regulator.
+9. Check to assure that the sealing gasket has remained on the regulator’s E yoke.
+10. Reattach the regulator to the new full tank by sliding the yoke (attached to the regulator) over the top of the tank post aligning the index pins with the corresponding holes in the tank post.
+11. Tighten the round handle on the regulator yoke.
+12. Push the tank into an upright position. Attach and tighten the Velcro tank restraint.
+
+Total main steps for Context2: 12
+
+Answer: The "Changing Gas Cylinders" procedure (Context2) has more steps than the "2-Cylinder Portable System Assembly" procedure (Context1).
