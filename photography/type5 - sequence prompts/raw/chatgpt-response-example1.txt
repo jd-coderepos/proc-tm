@@ -1,0 +1,9 @@
+The next step after Step 1 in the given Context which refers to "Formatting the Card" procedure is:
+
+Format the card:
+	- Select [OK], then press <0>.
+	- The card will be formatted.
+	- When the formatting is completed, the menu will reappear.
+	- For low-level formatting:
+		> Press the <L> button.
+		> Checkmark [Low level format] with <X>, then select [OK].

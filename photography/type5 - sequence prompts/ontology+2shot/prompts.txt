@@ -1,0 +1,36 @@
+//upload the "formatting the card" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the ontology+2shot list steps scenario conversation context
+
+This is Task Example1.iii of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.iii is as follows.
+
+Refer to the RDF graph of Task Example1 as Context and please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 1 in the given Context which refers to "Formatting the Card" procedure? If there is no next step, please reply “no next step.”
+Answer: In the "Formatting the Card" procedure based on the provided RDF graph of Task Example1 (Context), the next step after Step 1 "Select [Format]" is Step 2 "Format the card"
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//upload the "fully automatic shooting" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+This is Task Example2.iii of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.iii is as follows.
+
+Refer to the RDF graph of Task Example2 as Context and please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 3 in the given Context which refers to "Fully Automatic Shooting" procedure? If there is no next step, please reply “no next step.”
+Answer: In the "Fully Automatic Shooting" procedure based on the provided RDF graph of Task Example2 (Context), the next step after Step 3 "Focus the Subject" is Step 4 "Take the picture"
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+  
+
+//upload the "registering the picture style" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+Now it is your turn. 
+
+Refer to your generated RDF graph above as Context and please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 4 in the given Context which refers to "Registering the Picture Style" procedure? If there is no next step, please reply “no next step.”
+Answer:

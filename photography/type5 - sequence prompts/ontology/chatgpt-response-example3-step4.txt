@@ -1,0 +1,1 @@
+In the given Context which refers to the "Registering the Picture Style" procedure, Step 4 is labeled as "Set the parameter". The next step after Step 4 is "Register it under [User Def. 1], [User Def. 2], or [User Def. 3]".

@@ -1,0 +1,20 @@
+To determine which procedure has more steps, not including any substeps or subtasks for each main step, we need to compare the number of main steps in Context1 and Context2.
+
+Context1 (Fully Automatic Shooting) has the following main steps:
+
+1. Set the Mode Dial to <1>.
+2. Aim any AF point over the subject.
+3. Focus the subject.
+4. Take the picture.
+
+Context2 (Registering the Picture Style) has the following main steps:
+
+1. Select [Picture Style].
+2. Select [User Def.].
+3. Press <0>.
+4. Select the base Picture Style.
+5. Select a parameter.
+6. Set the parameter.
+7. Press <M> button to register the new Picture Style.
+
+Comparing the two, Context2 (Registering the Picture Style) has more main steps, totaling seven, while Context1 (Fully Automatic Shooting) has only four main steps. Therefore, the procedure for Registering the Picture Style (Context2) has more steps, not including any substeps or subtasks, compared to the Fully Automatic Shooting procedure (Context1).

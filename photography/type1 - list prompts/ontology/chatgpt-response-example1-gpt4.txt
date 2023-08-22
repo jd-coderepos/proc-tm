@@ -1,51 +1,49 @@
-Certainly! Based on the provided ontology and the content from the "Formatting the Card" procedure in the context, here's an instantiated RDF graph:
+Here's an instantiated RDF graph for the 'Formatting the Card' procedure, incorporating the concepts of substeps and subplans:
 
 @prefix ex: <http://example.org/> .
 @prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
 @prefix p-plan: <http://purl.org/net/p-plan#> .
 
-# Define the main procedure
-ex:FormattingTheCardProcedure a p-plan:Plan ;
-    rdfs:label "Formatting the Card Procedure" ;
-    kh-p:startsWith ex:SelectFormatStep ;
-    kh-p:endsWith ex:LowLevelFormattingStep .
+# Define the main procedure "Formatting the Card"
+ex:FormattingTheCard a p-plan:Plan ;
+    rdfs:label "Formatting the Card" ;
+    kh-p:startsWith ex:SelectFormat ;
+    kh-p:endsWith ex:LowLevelFormatting .
 
 # Define the steps of the procedure
-ex:SelectFormatStep a p-plan:Step ;
+ex:SelectFormat a p-plan:Step ;
     rdfs:label "Select [Format]" ;
-    p-plan:isStepOfPlan ex:FormattingTheCardProcedure ;
-    kh-p:nextStep ex:FormatCardStep .
+    p-plan:isStepOfPlan ex:FormattingTheCard ;
+    kh-p:nextStep ex:FormatTheCard ;
+    rdfs:comment "Under the [5] tab, select [Format], then press <0>." .
 
-ex:FormatCardStep a p-plan:Step ;
+ex:FormatTheCard a p-plan:Step ;
     rdfs:label "Format the card" ;
-    p-plan:isStepOfPlan ex:FormattingTheCardProcedure ;
-    kh-p:nextStep ex:LowLevelFormattingStep .
+    p-plan:isStepOfPlan ex:FormattingTheCard ;
+    kh-p:nextStep ex:LowLevelFormatting ;
+    kh-p:isDecomposedAsPlan ex:FormattingSubPlan .
 
-ex:LowLevelFormattingStep a p-plan:Step ;
-    rdfs:label "For low-level formatting" ;
-    p-plan:isStepOfPlan ex:FormattingTheCardProcedure .
+# Define the subplan for "Format the card"
+ex:FormattingSubPlan a p-plan:Plan ;
+    rdfs:label "Subplan for Formatting the Card" ;
+    kh-p:startsWith ex:PressOK ;
+    kh-p:endsWith ex:MenuReappear .
 
-# Subplan for the low-level formatting step
-ex:LowLevelFormattingPlan a p-plan:Plan ;
-    rdfs:label "Low-Level Formatting Plan" ;
-    kh-p:startsWith ex:PressLButtonStep ;
-    kh-p:endsWith ex:SelectOKForLowLevelStep .
+# Define the substeps of the subplan
+ex:PressOK a p-plan:Step ;
+    rdfs:label "Press OK" ;
+    p-plan:isStepOfPlan ex:FormattingSubPlan ;
+    kh-p:nextStep ex:MenuReappear ;
+    rdfs:comment "Select [OK], then press <0>." .
 
-ex:PressLButtonStep a p-plan:Step ;
-    rdfs:label "Press the <L> button" ;
-    p-plan:isStepOfPlan ex:LowLevelFormattingPlan ;
-    kh-p:nextStep ex:CheckmarkLowLevelFormatStep .
+ex:MenuReappear a p-plan:Step ;
+    rdfs:label "Menu Reappears" ;
+    p-plan:isStepOfPlan ex:FormattingSubPlan ;
+    rdfs:comment "The card will be formatted. When the formatting is completed, the menu will reappear." .
 
-ex:CheckmarkLowLevelFormatStep a p-plan:Step ;
-    rdfs:label "Checkmark [Low level format] with <X>" ;
-    p-plan:isStepOfPlan ex:LowLevelFormattingPlan ;
-    kh-p:nextStep ex:SelectOKForLowLevelStep .
+ex:LowLevelFormatting a p-plan:Step ;
+    rdfs:label "Low-level formatting" ;
+    p-plan:isStepOfPlan ex:FormattingTheCard ;
+    rdfs:comment "For low-level formatting, press the <L> button, checkmark [Low level format] with <X>, then select [OK]." .
 
-ex:SelectOKForLowLevelStep a p-plan:Step ;
-    rdfs:label "Select [OK] for low-level formatting" ;
-    p-plan:isStepOfPlan ex:LowLevelFormattingPlan .
-
-# Associate the low-level formatting plan with the low-level formatting step
-kh-p:isDecomposedAsPlan ex:LowLevelFormattingStep, ex:LowLevelFormattingPlan .
-
-This RDF graph represents the "Formatting the Card" procedure, breaking it down into its individual steps and further decomposing the low-level formatting step into a subplan with its own steps. The graph uses the provided ontology's classes and properties to structure the procedure and its steps.
+In this RDF graph, the step "Format the card" is decomposed into a subplan (ex:FormattingSubPlan), which consists of two substeps: PressOK and MenuReappear. This provides a more granular representation of the procedure, capturing the implicit classes of substeps and subplans.

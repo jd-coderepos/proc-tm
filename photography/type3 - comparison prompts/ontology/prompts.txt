@@ -1,24 +1,74 @@
+generic prompt
+
+Refer to the following RDF graph as Context1.
+
 //copy-paste the "[name]" RDF graph generated previously in template 1 of example1:
+
+Now refer to the following RDF graph as Context2.
 
 //copy-paste the "[name]" RDF graph generated previously in template 1 of example2:
 
-Refer to the RDF graphs as Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below. 
 
-Question: Given that Context1 refers to [-] procedure and Context2 refers to [-] procedure, which procedure has more steps, not including any substeps or subtasks for each main step? 
+Question: Given that the Context1 RDF graph refers to "[name]" procedure and the Context2 RDF graph refers to the "[name]" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
 Answer:
+
 
 --------------------------------------------------------------------
 Example 1: Formatting the Card vs. Full Automatic Shooting procedure
 --------------------------------------------------------------------
-//copy-paste the "formatting the card" RDF graph generated previously in template 1 of example1:
-
-//copy-paste the "fully automatic shooting" RDF graph generated previously in template 1 of example2:
-
+//the tests can be performed with generated graphs as well as with gold-standard graph
 
 EXAMPLE 1 PROMPT
 
-Refer to the RDF graphs as Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+Refer to the following RDF graph as Context1.
 
-Question: Given that Context1 refers to "Formatting the Card" procedure and Context2 refers to "Fully Automatic Shooting" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+#copy-paste the "formatting the card" RDF graph generated previously in template 1 of example1
+
+Now refer to the following RDF graph as Context2.
+
+#copy-paste the "fully automatic shooting" RDF graph generated previously in template 1 of example2
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 RDF graph refers to "Formatting the Card" procedure and the Context2 RDF graph refers to the "Fully Automatic Shooting" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
 Answer:
 
+--------------------------------------------------------------------------
+Example 2: Formatting the Card vs. Registering the Picture Style procedure
+--------------------------------------------------------------------------
+
+EXAMPLE 2 PROMPT
+
+Refer to the following RDF graph as Context1.
+
+#copy-paste the "formatting the card" RDF graph generated previously in template 1 of example1
+
+Now refer to the following RDF graph as Context2.
+
+#copy-paste the "registering the picture style" RDF graph generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 RDF graph refers to "Formatting the Card" procedure and the Context2 RDF graph refers to the "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
+
+
+------------------------------------------------------------------------------
+Example 3: Full Automatic Shooting vs. Registering the Picture Style procedure
+------------------------------------------------------------------------------
+
+EXAMPLE 3 PROMPT
+
+Refer to the following RDF graph as Context1.
+
+#copy-paste the "fully automatic shooting" RDF graph generated previously in template 1 of example2
+
+Now refer to the following RDF graph as Context2.
+
+#copy-paste the "registering the picture style" RDF graph generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 RDF graph refers to "Fully Automatic Shooting" procedure and the Context2 RDF graph refers to the "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:

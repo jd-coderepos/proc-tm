@@ -1,152 +1,36 @@
-GENERIC PROMPT
+//upload the "formatting the card" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "raw - 2-shot joint setting" scenario conversation context
 
-//1st example
-//upload the "[name]" pdf through uploader in chatgpt
+This is Task Example1.iii of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.iii is as follows.
 
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
+Refer to the detailed list of steps of Task Example1 as Context and please provide an Answer to the Question below. 
 
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: Can you list the next step after Step X in the given Context which refers to [-] procedure? If there is no next step, please reply “no next step.”
-Answer:
-- 'receive customer data'
-- 'enter customer data object into the CRM system'
-- 'compare customer data with the internal customer data base'
-- 'check for completeness and plausibility'
-- 'correct errors'
-- 'create a new customer object'
+Question: Can you list the next step after Step 1 in the given Context which refers to "Formatting the Card" procedure? If there is no next step, please reply “no next step.”
+Answer: In the "Formatting the Card" procedure based on the provided RDF graph of Task Example1 (Context), the next step after Step 1 "Select [Format]" is Step 2 "Format the card"
 
 Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
 
+//upload the "fully automatic shooting" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
 
-//2nd example
-//upload the "[name]" pdf through uploader in chatgpt
+This is Task Example2.iii of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.iii is as follows.
 
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
+Refer to the detailed list of steps of Task Example2 as Context and please provide an Answer to the Question below. 
 
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: Can you list the next step after Step X in the given Context which refers to [-] procedure? If there is no next step, please reply “no next step.”
-Answer:
-- 'receive customer data'
-- 'enter customer data object into the CRM system'
-- 'compare customer data with the internal customer data base'
-- 'check for completeness and plausibility'
-- 'correct errors'
-- 'create a new customer object'
+Question: Can you list the next step after Step 3 in the given Context which refers to "Fully Automatic Shooting" procedure? If there is no next step, please reply “no next step.”
+Answer: In the "Fully Automatic Shooting" procedure based on the provided RDF graph of Task Example2 (Context), the next step after Step 3 "Focus the Subject" is Step 4 "Take the picture"
 
 Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+  
 
-
-//3rd example
-//upload the "[name]" pdf through uploader in chatgpt
+//upload the "registering the picture style" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 
 Now it is your turn. 
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you list the next step after Step X in the given Context which refers to [-] procedure? If there is no next step, please reply “no next step.”
-Answer:
-
-
-
----------------------
-1. example 3 - step 4
----------------------
-
-//upload the "formatting the card" pdf through uploader in chatgpt
-
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: Can you list the next step after Step 1 in the given Context which refers to "Formatting the Card" procedure? If there is no next step, please reply “no next step.”
-Answer:
-In the given Context, the next step after Step 1 of the "Formatting the Card" procedure is Step 2 as follows:
-
-2. Format the card.
-   - Select [OK], then press <icon>.
-      > The card will be formatted.
-      > When the formatting is completed, the menu will reappear.
-   - For low-level formatting, press the <icon> button, checkmark [Low level format] with <icon>, then select [OK].
-
-
-Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
-
-//upload the "fully automatic shooting" pdf through uploader in chatgpt
-
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: Can you list the next step after Step 3 in the given Context which refers to "Fully Automatic Shooting" procedure? If there is no next step, please reply “no next step.”
-Answer:
-In the given Context, the next step after Step 3 of the "Fully Automatic Shooting" procedure is Step 4 as follows:
-
-4. Take the picture.
-   - Press the shutter button completely to take the picture.
-      > The captured image will be displayed for about 2 sec. on the LCD monitor.
-   - If the built-in flash has popped up, you can push it back down with your fingers.
-
-
-Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
-	  
-//upload the "registering the picture style" pdf through uploader in chatgpt
-
-Now it is your turn. 
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+Refer to your generated detailed list of steps above as Context and please provide an Answer to the Question below. 
 
 Question: Can you list the next step after Step 4 in the given Context which refers to "Registering the Picture Style" procedure? If there is no next step, please reply “no next step.”
 Answer:
-
-
-
----------------------
-1. example 3 - step 6
----------------------
-
-//upload the "formatting the card" pdf through uploader in chatgpt
-
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: Can you list the next step after Step 1 in the given Context which refers to "Formatting the Card" procedure? If there is no next step, please reply “no next step.”
-Answer:
-In the given Context, the next step after Step 1 of the "Formatting the Card" procedure is Step 2 as follows:
-
-2. Format the card.
-   - Select [OK], then press <icon>.
-      > The card will be formatted.
-      > When the formatting is completed, the menu will reappear.
-   - For low-level formatting, press the <icon> button, checkmark [Low level format] with <icon>, then select [OK].
-
-
-Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
-
-//upload the "fully automatic shooting" pdf through uploader in chatgpt
-
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: Can you list the next step after Step 3 in the given Context which refers to "Fully Automatic Shooting" procedure? If there is no next step, please reply “no next step.”
-Answer:
-In the given Context, the next step after Step 3 of the "Fully Automatic Shooting" procedure is Step 4 as follows:
-
-4. Take the picture.
-   - Press the shutter button completely to take the picture.
-      > The captured image will be displayed for about 2 sec. on the LCD monitor.
-   - If the built-in flash has popped up, you can push it back down with your fingers.
-
-
-Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
-	  
-//upload the "registering the picture style" pdf through uploader in chatgpt
-
-Now it is your turn. 
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: Can you list the next step after Step 6 in the given Context which refers to "Registering the Picture Style" procedure? If there is no next step, please reply “no next step.”
-Answer:
-

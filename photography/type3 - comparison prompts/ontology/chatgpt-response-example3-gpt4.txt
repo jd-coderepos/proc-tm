@@ -1,0 +1,21 @@
+To determine which procedure has more steps without considering substeps or subtasks, we need to count the main steps in each procedure:
+
+Context1: "Fully Automatic Shooting" procedure
+
+    Set the Mode Dial to <1>
+    Aim any AF point over the subject
+    Focus the subject
+    Take the picture
+
+Total main steps in Context1: 4
+
+Context2: "Registering the Picture Style" procedure
+
+    Select a base Picture Style
+    Adjust its parameters as desired
+    Register it under [User Def. 1], [User Def. 2], or [User Def. 3]
+    Set the parameter
+
+Total main steps in Context2: 4
+
+Answer: Both the "Fully Automatic Shooting" procedure and the "Registering the Picture Style" procedure have the same number of main steps, which is 4 steps each.

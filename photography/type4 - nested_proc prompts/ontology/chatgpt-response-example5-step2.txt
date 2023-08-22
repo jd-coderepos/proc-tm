@@ -1,0 +1,5 @@
+In the given Context which refers to the "Registering the Picture Style" procedure, Step 2 is labeled as "Adjust its parameters as desired". This step is decomposed into a subplan named "Parameter Adjustment SubPlan". The substeps of Step 2 are:
+
+1. Select a parameter such as [Sharpness]
+2. Press the <U> key to adjust the parameter as desired
+3. Press the <M> button to register the new Picture Style.

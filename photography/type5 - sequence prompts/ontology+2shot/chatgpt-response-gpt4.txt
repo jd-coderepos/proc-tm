@@ -1,0 +1,3 @@
+In the "Registering the Picture Style" procedure based on the provided RDF graph (Context), after Step 4 "Register the new Picture Style", there is no next step mentioned.
+
+Answer: no next step.

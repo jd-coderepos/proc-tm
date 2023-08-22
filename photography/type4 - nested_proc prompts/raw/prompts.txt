@@ -1,23 +1,9 @@
-GENERIC PROMPT
-
-//upload the "[name]" pdf through uploader in chatgpt
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: Can you provide a detailed list of the substeps of Step X in the given Context which refers to [-] procedure? If there are no substeps, please reply with "no substeps".
-Answer:
-
-
 -------------------------------------------------
 Example 1: Formatting the Card procedure - step 1
 -------------------------------------------------
+//continue the conversation in the same chat context as scenario 1
 
-//upload the "formatting the card" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
-
-EXAMPLE 1 PROMPT
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+Refer to the generated detailed list of steps which refers to "Formatting the Card" procedure as Context and please provide an Answer to the Question below. 
 
 Question: Can you provide a detailed list of the substeps of Step 1 in the given Context which refers to "Formatting the Card" procedure? If there are no substeps, please reply with "no substeps".
 Answer:
@@ -26,13 +12,9 @@ Answer:
 ------------------------------------------------------
 Example 2: Fully Automatic Shooting procedure - step 3
 ------------------------------------------------------
+//continue the conversation in the same chat context as scenario 1
 
-//upload the "fully automatic shooting" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
-
-EXAMPLE 2 PROMPT
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+Refer to the generated detailed list of steps which refers to "Fully Automatic Shooting" procedure as Context and please provide an Answer to the Question below. 
 
 Question: Can you provide a detailed list of the substeps of Step 3 in the given Context which refers to "Fully Automatic Shooting" procedure? If there are no substeps, please reply with "no substeps".
 Answer:
@@ -41,13 +23,9 @@ Answer:
 -----------------------------------------------------------
 Example 3: Registering the Picture Style procedure - step 4
 -----------------------------------------------------------
+//continue the conversation in the same chat context as scenario 1
 
-//upload the "registering the picture style" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
-
-EXAMPLE 3 PROMPT
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+Refer to the generated detailed list of steps which refers to "Registering the Picture Style" procedure as Context and please provide an Answer to the Question below. 
 
 Question: Can you provide a detailed list of the substeps of Step 4 in the given Context which refers to "Registering the Picture Style" procedure? If there are no substeps, please reply with "no substeps".
 Answer:
@@ -56,13 +34,9 @@ Answer:
 -----------------------------------------------------------
 Example 4: Registering the Picture Style procedure - step 6
 -----------------------------------------------------------
+//continue the conversation in the same chat context as scenario 1
 
-//upload the "registering the picture style" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
-
-EXAMPLE 4 PROMPT
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+Refer to the generated detailed list of steps which refers to "Registering the Picture Style" procedure as Context and please provide an Answer to the Question below. 
 
 Question: Can you provide a detailed list of the substeps of Step 6 in the given Context which refers to "Registering the Picture Style" procedure? If there are no substeps, please reply with "no substeps".
 Answer:

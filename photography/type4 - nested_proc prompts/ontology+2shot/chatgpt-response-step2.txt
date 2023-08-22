@@ -1,0 +1,10 @@
+For Step 2, "Choose a user-defined option", in the "Registering the Picture Style" procedure based on the provided RDF graph (Context), the detailed list of substeps is:
+
+- Select a parameter
+- Set the parameter
+	> Check if a Picture Style is already registered
+	> Reset parameter settings if base Picture Style is changed
+
+These substeps provide a detailed breakdown of the process of choosing a user-defined option for the Picture Style.
+
+Answer: The detailed list of substeps for Step 2 is as provided above.

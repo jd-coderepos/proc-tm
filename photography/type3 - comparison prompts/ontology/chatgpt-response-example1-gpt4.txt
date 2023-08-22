@@ -1,0 +1,20 @@
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Formatting the Card Procedure):
+
+1. ex:SelectFormatStep
+2. ex:FormatCardStep
+3. ex:LowLevelFormattingStep
+
+Total steps in Context1: 3
+
+From Context2 (Fully Automatic Shooting Procedure):
+
+1. https://example.com/step/set-mode-dial
+2. https://example.com/step/aim-af-point
+3. https://example.com/step/focus-subject
+4. https://example.com/step/take-picture
+
+Total steps in Context2: 4
+
+Answer: The "Fully Automatic Shooting" procedure has more steps than the "Formatting the Card" procedure.

@@ -1,81 +1,74 @@
-GENERIC PROMPT
+//go to the "raw - 2-shot joint setting" list steps scenario conversation context
+//example 1
 
-//1st example
-//upload the "[name]" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
+This is a subtask of both Task Example1 and Task Example2. You are not required to perform the Task. You are only required to understand the Task. The subtask is as follows.
 
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
+Refer to the detailed list of steps of Task Example1 as Context1 and the detailed list of steps of Task Example2 as Context2, respectively, and please provide an Answer to the Question below. 
 
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+Question: Given that the Context1 refers to "Formatting the Card" procedure and the Context2 refers to the "Fully Automatic Shooting" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer: 
 
-Question: How many steps are in the given Context which refers to [-] procedure, not including any substeps or subtasks for each main step?
-Answer: x
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Formatting the Card Procedure):
+
+1. Select [Format]
+2. Format the card
+
+Total main steps in Context1: 2
+
+From Context2 (Fully Automatic Shooting Procedure):
+
+1. Set the Mode Dial to <icon>
+2. Aim any AF point over the subject.
+3. Focus the subject
+4. Take the picture
+
+Total main steps in Context2: 4
+
+Answer: The "Fully Automatic Shooting" procedure from Context2 has more main steps than the "Formatting the Card" procedure from Context1.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+
+//example 2
+
+This is a subtask of both of Task Example1 and your performed Task to generate a detailed list of steps above. You are not required to perform the Task. You are only required to understand the Task. The subtask is as follows.
+
+Refer to the detailed list of steps of Task Example1 as Context1 and your generated detailed list of steps as Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 refers to "Formatting the Card" procedure and the Context2 refers to the "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer: 
+
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Formatting the Card Procedure):
+
+1. Select [Format]
+2. Format the card
+
+Total main steps in Context1: 2
+
+From Context2 (Registering the Picture Style):
+
+1. Select the Picture Style
+2. Choose a user-defined option
+3. Select the base Picture Style
+4. Select a parameter to adjust
+5. Set the desired value for the parameter
+6. Register the new Picture Style
+
+Total main steps in Context2: 6
+
+Answer: The "Registering the Picture Style" procedure from Context2 has more main steps than the "Formatting the Card" procedure from Context1.
 
 Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
 
 
-//2nd example
-//upload the "[name]" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
-
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: How many steps are in the given Context which refers to [-] procedure, not including any substeps or subtasks for each main step?
-Answer: x
-
-Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
-
-
-//3rd example
-//upload the "[name]" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
-
-Now it is your turn. 
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: How many steps are in the given Context which refers to [-] procedure, not including any substeps or subtasks for each main step?
-Answer:
-
-
-
--------
-Example
--------
-
-//upload the "formatting the card" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
-
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: How many steps are in the given Context which refers to "Formatting the Card" procedure, not including any substeps or subtasks for each main step?
-Answer: 2
-
-Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
-   
-
-//upload the "fully automatic shooting" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
-
-This is a Task example. You are not required to perform the task. You are only required to understand the Task. The Task example is as follows.
-
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
-
-Question: How many steps are in the given Context which refers to "Fully Automatic Shooting" procedure, not including any substeps or subtasks for each main step?
-Answer: 4
-
-Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
-   
-
-//upload the "registering the picture style" pdf through uploader in chatgpt
-//otherwise upload the document to chatPDF
+// task itself
 
 Now it is your turn. 
 
-Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+Refer to the detailed list of steps of Task Example2 as Context1 and your generated detailed list of steps as Context2, respectively, and please provide an Answer to the Question below.
 
-Question: How many steps are in the given Context which refers to "Registering the Picture Style" procedure, not including any substeps or subtasks for each main step?
+Question: Given that the Context1 refers to "Fully Automatic Shooting" procedure and the Context2 refers to the "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
 Answer:

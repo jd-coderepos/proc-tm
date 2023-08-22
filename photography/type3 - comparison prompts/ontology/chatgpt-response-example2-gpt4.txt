@@ -1,0 +1,25 @@
+To determine which procedure has more steps without considering substeps or subtasks, we need to count the main steps in each procedure.
+
+From Context1 (Formatting the Card Procedure):
+
+    ex:SelectFormatStep
+    ex:FormatCardStep
+    ex:LowLevelFormattingStep
+
+Total main steps in Context1: 3
+
+From Context2 (Registering the Picture Style Procedure):
+
+    ex:SelectBasePictureStyle
+    ex:AdjustParameters
+    ex:RegisterUnderUserDef
+    ex:SetParameter
+
+Total main steps in Context2: 4
+
+Comparing the two totals:
+
+Context1 has 3 main steps.
+Context2 has 4 main steps.
+
+Answer: The "Registering the Picture Style" procedure (Context2) has more steps than the "Formatting the Card" procedure (Context1).

@@ -1,0 +1,1 @@
+Based on the generated RDF graph for the "Formatting the Card" procedure, the next step after Step 1, which is "Select [Format]", is "Format the card".

@@ -1,0 +1,6 @@
+In the given Context which refers to the "Registering the Picture Style" procedure, there are 4 main steps, not including any substeps or subtasks for each main step. The main steps are:
+
+1. Select a base Picture Style
+2. Adjust its parameters as desired
+3. Register it under [User Def. 1], [User Def. 2], or [User Def. 3]
+4. Set the parameter.

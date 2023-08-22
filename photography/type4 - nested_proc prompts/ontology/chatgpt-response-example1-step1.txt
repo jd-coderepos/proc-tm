@@ -1,0 +1,1 @@
+Based on the generated RDF graph for the "Formatting the Card" procedure, Step 1, which is "Select [Format]", does not have any substeps associated with it. Therefore, the answer is "no substeps".

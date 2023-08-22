@@ -1,0 +1,7 @@
+For Step 6 in the "Registering the Picture Style" procedure, the substeps are:
+
+	- Press the <U> key to adjust the parameter as desired, then press <0>.
+	- For more details, refer to “Customizing the Picture Style” on pages 82-84.
+	- Press the <M> button to register the new Picture Style. The Picture Style selection screen will then reappear.
+	- The base Picture Style will be indicated on the right of [User Def. *].
+	- The name of the Picture Style having any modified settings (different from the default) registered under [User Def. *] will be displayed in blue.

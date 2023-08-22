@@ -1,0 +1,48 @@
+//upload the "formatting the card" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "ont - 2-shot joint setting" list steps scenario conversation context
+
+This is Task Example1.ii of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.ii is as follows.
+
+Refer to the RDF graph of Task Example1 as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 1 in the given Context which refers to "Formatting the Card" procedure? If there are no substeps, please reply with "no substeps".
+Answer: For Step 1, "Select [Format]", in the "Formatting the Card" procedure based on the provided RDF graph of Task Example1 (Context), the detailed list of substeps is:
+
+- Under the <icon> tab, select [Format], then press <icon>
+
+These substeps provide a detailed breakdown of the process of focusing the subject.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//upload the "fully automatic shooting" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "ont - 2-shot joint setting" list steps scenario conversation context
+
+This is Task Example2.ii of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.ii is as follows.
+
+Refer to the RDF graph of Task Example2 as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 3 in the given Context which refers to "Fully Automatic Shooting" procedure? If there are no substeps, please reply with "no substeps".
+Answer: For Step 3, "Focus the subject.", in the "Fully Automatic Shooting" procedure based on the provided RDF graph of Task Example2 (Context), the detailed list of substeps is:
+
+- Press the shutter button halfway, and the lens will move to focus.
+	> The dot inside the AF point achieving focus flashes briefly in red. At the same time, the beeper will sound, and the focus confirmation light <icon> in the viewfinder will light.
+	> If necessary, the built-in flash will popup automatically
+
+These substeps provide a detailed breakdown of the process of focusing the subject.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+  
+
+//upload the "registering the picture style" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "ont - 2-shot joint setting" list steps scenario conversation context
+
+Now it is your turn. 
+
+Refer to your generated RDF graph above as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 2 in the given Context which refers to "Registering the Picture Style" procedure? If there are no substeps, please reply with "no substeps".
+Answer:

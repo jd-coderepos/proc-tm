@@ -1,0 +1,7 @@
+The "Formatting the Card" procedure in the given Context consists of 3 main steps. These steps are:
+
+1. Select [Format]
+2. Format the card
+3. Low-level formatting
+
+Substeps or subtasks for each main step are not included in this count.

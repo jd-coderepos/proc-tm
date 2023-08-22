@@ -13,11 +13,13 @@ Answer:
 Example 1: Formatting the Card procedure
 ----------------------------------------
 
-//copy-paste the "formatting the card" RDF graph generated previously in template 1:
+//copy-paste the "formatting the card" RDF graph generated previously in template 1 or the gold-standard graph
+//or continue the conversation in the same chat context as scenario 1
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/photography/manual-chunks/formatting%20the%20card.pdf in the chat
 
 EXAMPLE 1 PROMPT
 
-Refer to the RDF graph as Context, please provide an Answer to the Question below. 
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
 
 Question: How many steps are in the given Context which refers to "Formatting the Card" procedure, not including any substeps or subtasks for each main step?
 Answer:
@@ -27,11 +29,12 @@ Answer:
 Example 2: Full Automatic Shooting procedure
 --------------------------------------------
 
-//copy-paste the "formatting the card" RDF graph generated previously in template 1:
+//copy-paste the "formatting the card" RDF graph generated previously in template 1 or the gold-standard graph
+//or continue the conversation in the same chat context as scenario 1
 
 EXAMPLE 2 PROMPT
 
-Refer to the RDF graph as Context, please provide an Answer to the Question below. 
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
 
 Question: How many steps are in the given Context which refers to "Fully Automatic Shooting" procedure, not including any substeps or subtasks for each main step?
 Answer:
@@ -40,11 +43,12 @@ Answer:
 Example 3: Registering the Picture Style procedure
 --------------------------------------------------
 
-//copy-paste the "formatting the card" RDF graph generated previously in template 1:
+//copy-paste the "formatting the card" RDF graph generated previously in template 1 or the gold-standard graph
+//or continue the conversation in the same chat context as scenario 1
 
 EXAMPLE 3 PROMPT
 
-Refer to the RDF graph as Context, please provide an Answer to the Question below. 
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
 
 Question: How many steps are in the given Context which refers to "Registering the Picture Style" procedure, not including any substeps or subtasks for each main step?
 Answer:

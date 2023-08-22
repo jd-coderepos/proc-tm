@@ -1,0 +1,5 @@
+Based on the provided RDF graph (Context) for the "Fully Automatic Shooting" procedure, the next step after Step 3, "Focus the subject", is:
+
+"Take the picture"
+
+This is the subsequent step to be performed after focusing the subject.

@@ -1,39 +1,40 @@
-GENERIC PROMPT
-
-//upload the "[name]" pdf and "[name]" pdf through uploader in chatgpt
-
-Refer to the uploaded documents content as Context1 and Context2, respectively, and please provide an Answer to the Question below. 
-
-Question: Given that Context1 refers to [-] procedure and Context2 refers to [-] procedure, which procedure has more steps, not including any substeps or subtasks for each main step? 
-Answer:
-
-
-
 --------------------------------------------------------------------
 Example 1: Formatting the Card vs. Full Automatic Shooting procedure
 --------------------------------------------------------------------
-
-//upload the "formatting the card" pdf and "fully automatic shooting" pdf through uploader in chatgpt
+//the tests can be performed with generated graphs as well as with gold-standard graph
 
 EXAMPLE 1 PROMPT
 
-Refer to the uploaded documents content as Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+Refer to the following generated detailed list of steps as Context1.
 
-Question: Given that Context1 refers to "Formatting the Card" procedure and Context2 refers to "Fully Automatic Shooting" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+#copy-paste the "formatting the card" list of steps generated previously in template 1 of example1
+
+Now refer to the following generated detailed list of steps as Context2.
+
+#copy-paste the "fully automatic shooting" list of steps generated previously in template 1 of example2
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 refers to "Formatting the Card" procedure and the Context2 refers to the "Fully Automatic Shooting" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
 Answer:
-
 
 --------------------------------------------------------------------------
 Example 2: Formatting the Card vs. Registering the Picture Style procedure
 --------------------------------------------------------------------------
 
-//upload the "formatting the card" pdf and "registering the picture style" pdf through uploader in chatgpt
-
 EXAMPLE 2 PROMPT
 
-Refer to the uploaded documents content as Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+Refer to the following generated detailed list of steps as Context1.
 
-Question: Given that Context1 refers to "Formatting the Card" procedure and Context2 refers to "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+#copy-paste the "formatting the card" list of steps generated previously in template 1 of example1
+
+Now refer to the following generated detailed list of steps as Context2.
+
+#copy-paste the "registering the picture style" list of steps generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 refers to "Formatting the Card" procedure and the Context2 refers to the "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
 Answer:
 
 
@@ -41,11 +42,17 @@ Answer:
 Example 3: Full Automatic Shooting vs. Registering the Picture Style procedure
 ------------------------------------------------------------------------------
 
-//upload the "fully automatic shooting" pdf and "registering the picture style" pdf through uploader in chatgpt
-
 EXAMPLE 3 PROMPT
 
-Refer to the uploaded documents content as Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+Refer to the following generated detailed list of steps as Context1.
 
-Question: Given that Context1 refers to "Fully Automatic Shooting" procedure and Context2 refers to "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+#copy-paste the "fully automatic shooting" list of steps generated previously in template 1 of example2
+
+Now refer to the following generated detailed list of steps as Context2.
+
+#copy-paste the "registering the picture style" list of steps generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 refers to "Fully Automatic Shooting" procedure and the Context2 RDF refers to the "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
 Answer:

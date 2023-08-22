@@ -1,0 +1,5 @@
+For Step 1 in the given Context which refers to "Formatting the Card" procedure, the substeps are:
+
+	- Under the [5] tab, select [Format], then press <0>.
+
+If we consider this as a single action or instruction rather than multiple substeps, then the answer would be "no substeps".

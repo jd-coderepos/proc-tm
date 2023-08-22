@@ -1,0 +1,18 @@
+To determine which procedure has more steps, not including any substeps or subtasks for each main step, we need to compare the number of main steps in Context1 (Formatting the Card) and Context2 (Registering the Picture Style).
+
+In Context1 ("Formatting the Card"), the main steps mentioned are as follows:
+
+1. Select [Format].
+2. Format the card.
+3. Formatting the Card.
+
+In Context2 ("Registering the Picture Style"), the main steps mentioned are as follows:
+
+1. Select [Picture Style].
+2. Select [User Def.].
+3. Press < 0 >.
+4. Select the base Picture Style.
+5. Select a parameter.
+6. Set the parameter.
+
+Comparing the two, we can see that Context2 (Registering the Picture Style) has more main steps, not including any substeps or subtasks. Therefore, the procedure for Registering the Picture Style has more steps than the procedure for Formatting the Card.

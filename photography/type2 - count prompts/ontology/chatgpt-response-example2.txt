@@ -1,0 +1,8 @@
+Based on the provided RDF graph (Context) for the "Fully Automatic Shooting" procedure, there are 4 main steps. These steps are:
+
+1. Set the Mode Dial to <1>
+2. Aim any AF point over the subject
+3. Focus the subject
+4. Take the picture
+
+Substeps or subtasks for each main step are not included in this count.

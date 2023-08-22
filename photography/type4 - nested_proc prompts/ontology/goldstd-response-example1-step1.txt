@@ -1,4 +1,0 @@
-Answer: The detailed list of substeps for Step 1 in the given Context, which refers to the "Formatting the Card" procedure, is as follows:
-
-Sub Step 1.1: Under the <icon> tab, select [Format], then press <icon>.
-This is the only substep for Step 1 in the "Formatting the Card" procedure.

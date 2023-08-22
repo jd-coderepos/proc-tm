@@ -1,1 +1,23 @@
-Based on the given context, there are six steps in the "Registering the Picture Style" procedure, not including any substeps or subtasks for each main step.
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Fully Automatic Shooting Procedure):
+
+    Set the Mode Dial to <icon>
+    Aim any AF point over the subject
+    Focus the subject
+    Take the picture
+
+Total main steps in Context1: 4
+
+From Context2 (Registering the Picture Style):
+
+    Select the Picture Style
+    Choose a user-defined option
+    Select the base Picture Style
+    Select a parameter to adjust
+    Set the desired value for the parameter
+    Register the new Picture Style
+
+Total main steps in Context2: 6
+
+Answer: The "Registering the Picture Style" procedure from Context2 has more main steps than the "Fully Automatic Shooting" procedure from Context1.

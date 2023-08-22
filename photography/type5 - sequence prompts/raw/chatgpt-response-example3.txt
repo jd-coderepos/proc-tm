@@ -1,0 +1,3 @@
+The next step after Step 4 in the "Registering the Picture Style" procedure is:
+
+Step 5: Select a parameter such as [Sharpness], then press <0>.

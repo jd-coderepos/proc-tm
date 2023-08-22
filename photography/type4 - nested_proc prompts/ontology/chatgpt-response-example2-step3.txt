@@ -1,0 +1,7 @@
+For Step 3, "Focus the subject", in the "Fully Automatic Shooting" procedure based on the provided RDF graph (Context), the detailed list of substeps is:
+
+1. Press the shutter button halfway
+2. The lens will move to focus
+3. The focus confirmation light in the viewfinder will light
+
+These substeps provide a detailed breakdown of the process of focusing the subject.

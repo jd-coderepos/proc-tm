@@ -1,0 +1,8 @@
+Based on the generated RDF graph for the "Registering the Picture Style" procedure, there are 4 main steps:
+
+1. kh-p-instance:Step_SelectStyle - Select the Picture Style
+2. kh-p-instance:Step_ChooseUserOption - Choose a user-defined option
+3. kh-p-instance:Step_SelectBaseStyle - Select the base Picture Style
+4. kh-p-instance:Step_RegisterStyle - Register the new Picture Style
+
+Answer: 4
