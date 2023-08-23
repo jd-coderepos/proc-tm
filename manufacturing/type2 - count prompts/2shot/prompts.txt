@@ -1,0 +1,32 @@
+//go to the "raw - 2-shot joint setting" list steps scenario conversation context and continue the conversation
+
+This is Task Example1.i of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.i is as follows.
+
+Refer to the detailed list of steps of Task Example1 as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Inspect the pump" procedure, not including any substeps or subtasks for each main step?
+Answer: 4
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//continue the conversation in the "raw - 2-shot joint setting" list steps scenario conversation context
+
+This is Task Example2.i of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.i is as follows.
+
+Refer to the detailed list of steps of Task Example2 as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Support plate installation" procedure, not including any substeps or subtasks for each main step?
+Answer: 8 main steps under "Install the support plate with a pit cover" and 5 main steps under "Install the support plate without a pit cover"
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//continue the conversation in the "raw - 2-shot joint setting" list steps scenario conversation context
+
+Now it is your turn. 
+
+Refer to your generated detailed list of steps above as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure, not including any substeps or subtasks for each main step?
+Answer:

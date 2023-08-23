@@ -1,0 +1,1 @@
+The "Removal and installation of Mechanical seal" procedure (Context2) has more steps than the "Inspect the pump" procedure (Context1). The "Inspect the pump" procedure has 4 steps, while the "Removal and installation of Mechanical seal" procedure has 10 steps.

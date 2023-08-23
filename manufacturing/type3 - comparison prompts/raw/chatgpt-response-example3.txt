@@ -1,0 +1,40 @@
+Let's break down the main steps for each context:
+
+Context1 (Support plate installation):
+For "Support plate installation with a pit cover":
+
+1. Lower the pit cover onto the foundation bolts.
+2. Level the pit cover.
+3. Hand tighten the anchor bolts.
+4. Tighten all anchor bolts in a star pattern.
+5. Lower the pump and support plate onto the pit cover.
+6. Install all bolts and hand tighten.
+7. Check the level on the support plate.
+8. Tighten all bolts in a star pattern.
+
+For "Support plate installation without a pit cover":
+
+1. Lower the pump and support plate onto the foundation bolts.
+2. Level the support plate.
+3. Use the vapor-proof option.
+4. Hand tighten the anchor bolts.
+5. Tighten all anchor bolts in a star pattern.
+
+Total main steps for Context1: 13 steps
+
+Context2 (Removal and installation of Mechanical seal):
+
+1. Lock out the driver power.
+2. Remove the coupling guard.
+3. Drain oil from the Bearing Frame.
+4. Remove the Coupling spacer and pump half hub.
+5. Remove Socket head screws, Lockwasher, and EZ adjust shaft nut.
+6. Loosen and remove the End cover Hex Cap screws and Bearing frame End cover.
+7. Pull out the Bearing carrier assembly.
+8. Remove the Bearing frame and mounting hardware from the motor support.
+9. Remove and service the Mechanical seal.
+10. Reassemble in reverse order.
+
+Total main steps for Context2: 10 steps
+
+Answer: The "Support plate installation" procedure (Context1) has more steps than the "Removal and installation of Mechanical seal" sub-procedure (Context2) with 13 steps compared to 10 steps, not including any substeps or subtasks for each main step.

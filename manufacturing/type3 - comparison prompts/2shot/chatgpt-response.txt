@@ -1,0 +1,14 @@
+From Context1 (Support plate installation Procedure):
+
+Install the support plate with a pit cover:
+There are 8 main steps.
+
+Install the support plate without a pit cover:
+There are 5 main steps.
+
+Given that these are two distinct procedures, we should not sum their steps.
+
+From Context2 (Removal and installation of Mechanical seal):
+There are 9 main steps.
+
+Answer: The "Removal and installation of Mechanical seal" procedure from Context2 has fewer steps than both procedures from Context1. However, when comparing individually, the "Removal and installation of Mechanical seal" procedure has more steps than "Install the support plate without a pit cover" but fewer steps than "Install the support plate with a pit cover".

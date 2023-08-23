@@ -1,0 +1,34 @@
+Let's break down the steps for each context:
+
+Context1 (Inspect the pump procedure):
+
+1. Remove the plastic shipping plugs from the vent holes in the head column and the casing.
+2. Remove all the equipment from the shipping containers.
+3. Completely clean the underside of the support plate and both sides of the optional pit cover, if supplied.
+4. Remove any grease from the machined surfaces.
+
+Total main steps for Context1: 4
+
+Context2 (Support plate installation procedure):
+For "Support plate installation with a pit cover":
+
+1. Carefully lower the pit cover onto the foundation bolts.
+2. Use as long a level as possible in order to level the pit cover in all directions with shims or wedges.
+3. Hand tighten the anchor bolts. Check the level and re-shim if necessary.
+4. Tighten all anchor bolts in a star pattern in order to avoid distorting the pit cover.
+5. If access to the bottom side is possible, carefully lower the pump and support plate onto the pit cover.
+6. Install all bolts and hand tighten.
+7. Check the level on the support plate and re-shim if necessary.
+8. Tighten all bolts in a star pattern in order to avoid distorting the support plate.
+
+For "Support plate installation without a pit cover":
+
+1. Carefully lower the pump and support plate onto the foundation bolts.
+2. Level the support plate in all directions using shims and wedges.
+3. If you use the vapor-proof option, then perform one of these actions in order to make sure that you have an air-tight seal.
+4. Hand tighten the anchor bolts. Check the level and re-shim if necessary.
+5. Tighten all anchor bolts in a star pattern in order to avoid distorting the support plate.
+
+Total main steps for Context2: 8 (with a pit cover) + 5 (without a pit cover) = 13
+
+Answer: The "Support plate installation" procedure (Context2) has more steps than the "Inspect the pump" procedure (Context1).

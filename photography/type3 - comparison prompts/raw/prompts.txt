@@ -54,5 +54,5 @@ Now refer to the following generated detailed list of steps as Context2.
 
 Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
 
-Question: Given that the Context1 refers to "Fully Automatic Shooting" procedure and the Context2 RDF refers to the "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Question: Given that the Context1 refers to "Fully Automatic Shooting" procedure and the Context2 refers to the "Registering the Picture Style" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
 Answer:
