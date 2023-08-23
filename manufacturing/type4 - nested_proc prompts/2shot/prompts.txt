@@ -1,0 +1,40 @@
+//upload the "manufacturing-example1" pdf through uploader in chatgpt
+//go to the "raw - manufacture 2-shot" list steps scenario conversation context
+
+This is Task Example1.ii of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.ii is as follows.
+
+Refer to the detailed list of steps of Task Example1 as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 1 in the given Context which refers to "Inspect the pump" procedure? If there are no substeps, please reply with "no substeps".
+Answer: For Step 1, "Remove plastic shipping plugs from vent holes in head column and casing.", in the "Inspect the pump" procedure based on the provided detailed list of steps of Task Example1 (Context), there are no substeps.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//upload the "manufacturing-example2" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "raw - manufacture 2-shot" list steps scenario conversation context
+
+This is Task Example2.ii of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.ii is as follows.
+
+Refer to the detailed list of steps of Task Example2 as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 3 in the given Context which refers to "Support plate installation without a pit cover" procedure under the theme of the "Support plate installation" procedure? If there are no substeps, please reply with "no substeps".
+Answer: For Step 3 in the given Context which refers to "Support plate installation without a pit cover" procedure under the theme of the "Support plate installation" procedure based on the provided detailed list of steps of Task Example2 (Context), the detailed list of substeps is:
+
+- Standard support plate type: Insert the supplied gasket between the two flanges. Bolt the support plate to a metal sole plate that has a machined surface.
+- Tank flange support plate type: Install the supplied gasket between the two flanges. Make sure that the mating flange on the tank is level. Use gasket material between the flanges in order to make minor adjustments.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+  
+
+//upload the "manufacturing-example3" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "raw - manufacture 2-shot" list steps scenario conversation context
+
+Now it is your turn. 
+
+Refer to your generated detailed list of steps above as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 7 in the given Context which refers to "Removal and installation of Mechanical seal" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
