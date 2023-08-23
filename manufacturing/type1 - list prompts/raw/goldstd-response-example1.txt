@@ -1,15 +1,6 @@
-Pump Installation Steps:
+Inspect the pump
 
-1. Pre-installation Precautions:
-   a. Ensure proper motor certification in explosive environments.
-   b. Ground all equipment to prevent discharge, damage, shock, and injury.
-   c. Verify correct connection of ground lead.
-   d. Electrical connections by certified electricians following regulations.
-   e. Recommend supervision by authorized ITT representative for installation.
-
-2. Inspection of the Pump:
-   a. Remove plastic shipping plugs from vent holes in head column and casing.
-      - Location: "A" as indicated in Figure 6.
-   b. Take out all equipment from shipping containers.
-   c. Thoroughly clean underside of support plate and both sides of optional pit cover.
-   d. Remove grease from machined surfaces.
+1. Remove plastic shipping plugs from vent holes in head column and casing.
+2. Remove all the equipment from the shipping containers.
+3. Completely clean the underside of the support plate and both sides of optional pit cover, if supplied.
+4. Remove any grease from the machined surfaces.

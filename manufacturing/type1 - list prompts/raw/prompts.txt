@@ -1,16 +1,73 @@
-Pump Installation Steps:
+GENERIC PROMPT
 
-1. Pre-installation Precautions:
-   a. Ensure proper motor certification in explosive environments.
-   b. Ground all equipment to prevent discharge, damage, shock, and injury.
-   c. Verify correct connection of ground lead.
-   d. Electrical connections by certified electricians following regulations.
-   e. Recommend supervision by authorized ITT representative for installation.
+//upload the "[name]" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
 
-2. Inspection of the Pump:
-   a. Remove plastic shipping plugs from vent holes in head column and casing.
-      - Location: "A" as indicated in Figure 6.
-   b. Take out all equipment from shipping containers.
-   c. Thoroughly clean underside of support plate and both sides of optional pit cover.
-   d. Remove grease from machined surfaces.
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "[procedure-name]" procedure, including any substeps or subtasks for each main step?
+Answer:
+
+
+
+-------------------------------------
+Example 1: Inspect the pump procedure
+-------------------------------------
+
+//upload the "manufacturing-example1" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/manufacturing/manual-chunks/manufacturing-example1.pdf in the chat
+
+EXAMPLE 1 PROMPT
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Inspect the pump" procedure, including any substeps or subtasks for each main step?
+Answer:
+
+
+-----------------------------------------------
+Example 2: Support plate installation procedure
+-----------------------------------------------
+
+//upload the "manufacturing-example2" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/manufacturing/manual-chunks/manufacturing-example2.pdf in the chat
+
+EXAMPLE 2 PROMPT
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Support plate installation" procedure, including any substeps or subtasks for each main step?
+Answer:
+
+
+-------------------------------------------------------------------
+Example 3: Lubricate the bearings after a shutdown period procedure
+-------------------------------------------------------------------
+
+//upload the "manufacturing-example3" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+// copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/manufacturing/manual-chunks/manufacturing-example3.pdf in the chat
+
+EXAMPLE 3 PROMPT
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Lubricate the bearings after a shutdown period" procedure, including any substeps or subtasks for each main step?
+Answer:
+
+
+-------------------------------------------------------------------
+Example 4: "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure
+-------------------------------------------------------------------
+
+//use the same context as example3
+
+EXAMPLE 4 PROMPT
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure, including any substeps or subtasks for each main step?
+Answer:
 
