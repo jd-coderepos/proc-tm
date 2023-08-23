@@ -1,0 +1,31 @@
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Changing Gas Cylinders):
+
+1. Open the tank enclosure by sliding the cover to the rear.
+2. Close the valve on the empty tank (clockwise).
+3. Release the Velcro restraint on the empty tank.
+4. Tilt the empty tank out slightly.
+5. Loosen the round handle on the regulator yoke.
+6. Remove the regulator from the empty tank.
+7. Lay the empty cylinder down on the floor.
+8. Pick up the full replacement tank and place it in the Newport.
+9. Check the sealing gasket on the regulator's E yoke.
+10. Reattach the regulator to the new full tank.
+11. Tighten the round handle on the regulator yoke.
+12. Push the tank into an upright position.
+
+Total main steps in Context1: 12
+
+From Context2 (Installation of FM Type):
+
+1. Pole Assembly Installation
+2. Control Box Mounting Plate
+3. Arm Assembly Installation
+4. Head Installation
+5. Control Box Installation
+6. Adjustment
+
+Total main steps in Context2: 6
+
+Answer: The "Changing Gas Cylinders" procedure from Context1 has more main steps than the "Installation of FM Type" procedure from Context2.

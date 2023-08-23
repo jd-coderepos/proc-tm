@@ -1,0 +1,88 @@
+//go to the "raw - med 2-shot" list steps scenario conversation context
+//example 1
+
+This is a subtask of both Task Example1 and Task Example2. You are not required to perform the Task. You are only required to understand the Task. The subtask is as follows.
+
+Refer to the detailed list of steps of Task Example1 as Context1 and the detailed list of steps of Task Example2 as Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 refers to "2-Cylinder Portable System Assembly" procedure and the Context2 refers to the "Changing Gas Cylinders" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer: 
+
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (2-Cylinder Portable System Assembly Procedure):
+
+1. Mount the flowmeter to the portable manifold
+2. Attach the hoses to the flowmeter
+3. Connect the gas cylinders to the manifold's "E" yokes
+4. (Keep wrench in handy location. It is used to open and close tanks) 
+5. Verify flowmeter operations
+
+Total main steps in Context1: 5
+
+From Context2 (Changing Gas Cylinders):
+
+1. Open the tank enclosure by sliding the cover to the rear. 
+2. Close the valve on the empty tank (clockwise). 
+3. Release the Velcro restraint on the empty tank. 
+4. Tilt the empty tank out slightly. 
+5. Loosen the round handle on the regulator yoke. 
+6. Remove the regulator from the empty tank (make certain that the regulator is not dropped or damaged while it is off the tank). 
+7. Lay the empty cylinder down on the floor (cylinders should only stand upright when properly restrained as they can easily fall over).
+8. Pick up the full replacement tank and place the bottom of the tank onto the floor of the Newport, leaving it slightly tilted outward for easy replacement of the regulator.
+9. Check to assure that the sealing gasket has remained on the regulator's E yoke.
+10. Reattach the regulator to the new full tank by sliding the yoke (attached to the regulator) over the top of the tank post aligning the index pins with the corresponding holes in the tank post.
+11. Tighten the round handle on the regulator yoke.
+12. Push the tank into an upright position. Attach and tighten the Velcro tank restraint.
+
+Total main steps in Context2: 12
+
+Answer: The "Changing Gas Cylinders" procedure from Context2 has more main steps than the "2-Cylinder Portable System Assembly" procedure from Context1.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+
+//example 2
+
+This is a subtask of both of Task Example1 and your performed Task to generate a detailed list of steps above. You are not required to perform the Task. You are only required to understand the Task. The subtask is as follows.
+
+Refer to the detailed list of steps of Task Example1 as Context1 and your generated detailed list of steps as Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 refers to "2-Cylinder Portable System Assembly" procedure and the Context2 refers to the "Installation of FM Type" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer: 
+
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (2-Cylinder Portable System Assembly):
+
+1. Mount the flowmeter to the portable manifold
+2. Attach the hoses to the flowmeter
+3. Connect the gas cylinders to the manifold's "E" yokes
+4. (Keep wrench in handy location. It is used to open and close tanks) 
+5. Verify flowmeter operations
+
+Total main steps in Context1: 5
+
+From Context2 (Installation of FM Type):
+
+1. Pole Assembly Installation (Figure 17)
+2. Control Box Mounting Plate (Figure 18) 
+3. Arm Assembly Installation
+4. Head Installation 
+5. Control Box Installation 
+6. Adjustment 
+
+Total main steps in Context2: 6
+
+Answer: The "Installation of FM Type" procedure from Context2 has more main steps than the "2-Cylinder Portable System Assembly" procedure from Context1.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+
+
+// task itself
+
+Now it is your turn. 
+
+Refer to the detailed list of steps of Task Example2 as Context1 and your generated detailed list of steps as Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 refers to "Changing Gas Cylinders" procedure and the Context2 refers to the "Installation of FM Type" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
