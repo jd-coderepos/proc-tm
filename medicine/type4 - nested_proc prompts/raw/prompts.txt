@@ -1,0 +1,42 @@
+-----------------------------------------------------------------
+Example 1: 2-Cylinder Portable System Assembly procedure - step 2
+-----------------------------------------------------------------
+//continue the conversation in the same chat context as scenario 1
+
+Refer to the generated detailed list of steps which refers to "2-Cylinder Portable System Assembly" procedure as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 2 in the given Context which refers to "2-Cylinder Portable System Assembly" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+
+
+------------------------------------------
+Example 2: Changing Gas Cylinders - step 6
+------------------------------------------
+//continue the conversation in the same chat context as scenario 1
+
+Refer to the generated detailed list of steps which refers to "Changing Gas Cylinders" procedure as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 6 in the given Context which refers to "Changing Gas Cylinders" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+
+
+-------------------------------------------
+Example 3: Changing Gas Cylinders - step 13
+-------------------------------------------
+//continue the conversation in the same chat context as scenario 1
+
+Refer to the generated detailed list of steps which refers to "Changing Gas Cylinders" procedure as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 13 in the given Context which refers to "Changing Gas Cylinders" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+
+
+-----------------------------------------------------
+Example 4: Installation of FM Type procedure - step 3
+-----------------------------------------------------
+//continue the conversation in the same chat context as scenario 1
+
+Refer to the generated detailed list of steps which refers to "Installation of FM Type" procedure as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 3 in the given Context which refers to "Installation of FM Type" procedure? If there are no substeps, please reply with "no substeps".
+Answer:

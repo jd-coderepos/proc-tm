@@ -1,0 +1,5 @@
+Based on the provided context regarding the "Installation of FM Type" procedure, the substeps for Step 3, which is "ARM ASSEMBLY INSTALLATION", are as follows:
+
+3-1. Insert the shaft of the balance arm with the pole bushing attached into the pole, ensuring the wires go through the access hole of the control box mounting plate.
+3-2. Keep the arm at position (a) as shown in FIGURE 20.
+3-3. Fix the pole bushing using two mounting screws on the pole.
