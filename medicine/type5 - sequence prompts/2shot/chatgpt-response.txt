@@ -1,0 +1,3 @@
+In the "Installation of FM Type" procedure based on the provided detailed list of steps (Context), the next step after Step 4 "Head Installation" is Step 5 "Control Box Installation".
+
+Answer: Step 5 "Control Box Installation"

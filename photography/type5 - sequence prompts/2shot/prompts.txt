@@ -7,7 +7,7 @@ This is Task Example1.iii of Task Example1. You are not required to perform the 
 Refer to the detailed list of steps of Task Example1 as Context and please provide an Answer to the Question below. 
 
 Question: Can you list the next step after Step 1 in the given Context which refers to "Formatting the Card" procedure? If there is no next step, please reply “no next step.”
-Answer: In the "Formatting the Card" procedure based on the provided RDF graph of Task Example1 (Context), the next step after Step 1 "Select [Format]" is Step 2 "Format the card"
+Answer: In the "Formatting the Card" procedure based on the list of steps of Task Example1 (Context), the next step after Step 1 "Select [Format]" is Step 2 "Format the card"
 
 Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
    
@@ -20,7 +20,7 @@ This is Task Example2.iii of Task Example2. You are not required to perform the 
 Refer to the detailed list of steps of Task Example2 as Context and please provide an Answer to the Question below. 
 
 Question: Can you list the next step after Step 3 in the given Context which refers to "Fully Automatic Shooting" procedure? If there is no next step, please reply “no next step.”
-Answer: In the "Fully Automatic Shooting" procedure based on the provided RDF graph of Task Example2 (Context), the next step after Step 3 "Focus the Subject" is Step 4 "Take the picture"
+Answer: In the "Fully Automatic Shooting" procedure based on the list of steps of Task Example2 (Context), the next step after Step 3 "Focus the Subject" is Step 4 "Take the picture"
 
 Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
   

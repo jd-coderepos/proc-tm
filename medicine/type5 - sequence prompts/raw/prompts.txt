@@ -1,0 +1,44 @@
+-------------------------------------------------------
+Example 1: 2-CYLINDER PORTABLE SYSTEM ASSEMBLY - step 1
+-------------------------------------------------------
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated detailed list of steps as Context, please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 1 in the given Context which refers to "2-Cylinder Portable System Assembly" procedure? If there is no next step, please reply “no next step.”
+Answer:
+
+
+------------------------------------------
+Example 2: Changing Gas Cylinders - step 7
+------------------------------------------
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated detailed list of steps as Context, please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 7 in the given Context which refers to "Changing Gas Cylinders" procedure? If there is no next step, please reply “no next step.”
+Answer:
+
+
+--------------------------------------------
+Example 3: INSTALLATION OF FM TYPE - step 4
+--------------------------------------------
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated detailed list of steps as Context, please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 4 in the given Context which refers to "Installation of FM Type" procedure? If there is no next step, please reply “no next step.”
+Answer:
+
+
+-------------------------------------------
+Example 4: INSTALLATION OF FM TYPE - step 6
+-------------------------------------------
+
+//copy-paste the "[name]" list of steps generated previously in template 1:
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated detailed list of steps as Context, please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 6 in the given Context which refers to "Installation of FM Type" procedure? If there is no next step, please reply “no next step.”
+Answer:

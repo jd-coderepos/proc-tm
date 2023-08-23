@@ -13,7 +13,7 @@ Answer:
 Example 2: Fully Automatic Shooting procedure - step 3
 ------------------------------------------------------
 
-//copy-paste the "[name]" RDF graph generated previously in template 1:
+//copy-paste the "[name]" list of steps generated previously in template 1:
 //or continue the conversation in the same chat context as scenario 1
 
 Refer to the generated detailed list of steps as Context, please provide an Answer to the Question below. 
@@ -26,7 +26,7 @@ Answer:
 Example 3: Registering the Picture Style procedure - step 4
 -----------------------------------------------------------
 
-//copy-paste the "[name]" RDF graph generated previously in template 1:
+//copy-paste the "[name]" list of steps generated previously in template 1:
 //or continue the conversation in the same chat context as scenario 1
 
 Refer to the generated detailed list of steps as Context, please provide an Answer to the Question below. 
@@ -39,7 +39,7 @@ Answer:
 Example 4: Registering the Picture Style procedure - step 6
 -----------------------------------------------------------
 
-//copy-paste the "[name]" RDF graph generated previously in template 1:
+//copy-paste the "[name]" list of steps generated previously in template 1:
 //or continue the conversation in the same chat context as scenario 1
 
 Refer to the generated detailed list of steps as Context, please provide an Answer to the Question below. 

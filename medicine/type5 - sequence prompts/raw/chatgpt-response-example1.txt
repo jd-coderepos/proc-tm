@@ -1,0 +1,5 @@
+The next step after Step 1 in the given Context which refers to "2-Cylinder Portable System Assembly" procedure is:
+
+Step 2: Attach the hoses to the flowmeter:
+a. Run the nitrous oxide hose under the manifold and attach it to the nitrous oxide DISS fitting located on the back of the flowmeter.
+b. Run the oxygen hose under the manifold and attach it to the oxygen DISS fitting located on the back of the flowmeter.
