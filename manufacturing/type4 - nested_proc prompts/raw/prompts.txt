@@ -9,9 +9,9 @@ Question: Can you provide a detailed list of the substeps of Step 1 in the given
 Answer:
 
 
------------------------------------------------
-Example 2: Support plate installation procedure
------------------------------------------------
+--------------------------------------------------------
+Example 2: Support plate installation procedure - step 3
+--------------------------------------------------------
 //continue the conversation in the same chat context as scenario 1
 
 Refer to the generated detailed list of steps which refers to two separate procedures under the theme of the "Support plate installation" procedure as Context and please provide an Answer to the Question below. 

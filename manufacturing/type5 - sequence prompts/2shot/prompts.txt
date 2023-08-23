@@ -1,0 +1,45 @@
+//upload the "Inspect the pump" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "raw - manufacture 2-shot" scenario conversation context
+-------------------------------------------------
+Example 1: Inspect the pump procedure - step 1
+-------------------------------------------------
+
+This is Task Example1.iii of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.iii is as follows.
+
+Refer to the detailed list of steps of Task Example1 as Context and please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 1 in the given Context which refers to "Inspect the pump" procedure? If there is no next step, please reply “no next step.”
+Answer: In the "Inspect the pump" procedure based on the list of steps of Task Example1 (Context), the next step after Step 1 "Remove plastic shipping plugs from vent holes in head column and casing." is Step 2 "Remove all the equipment from the shipping containers."
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//upload the "Support plate installation" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+--------------------------------------------------------
+Example 2: Support plate installation procedure - step 3
+--------------------------------------------------------
+
+This is Task Example2.iii of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.iii is as follows.
+
+Refer to the detailed list of steps of Task Example2 as Context and please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 3 in the given Context which refers to "Support plate installation without a pit cover" procedure under the theme of the "Support plate installation" procedure? If there is no next step, please reply “no next step.”
+Answer: In the "Support plate installation without a pit cover" procedure based on the list of steps of Task Example2 (Context), the next step after Step 3 "If you use the vapor-proof option, then perform one of these actions in order to make sure that you have an air-tight seal" is Step 4 "Hand tighten the anchor bolts. Check the level and re-shim if necessary."
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+  
+
+//upload the "registering the picture style" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+-------------------------------------------------------------------------
+Example 3: Removal and installation of Mechanical seal procedure - step 7
+-------------------------------------------------------------------------
+
+Now it is your turn. 
+
+Refer to your generated detailed list of steps above as Context and please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 7 in the given Context which refers to "Removal and installation of Mechanical seal" procedure? If there is no next step, please reply “no next step.”
+Answer:
