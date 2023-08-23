@@ -58,9 +58,9 @@ Question: Can you provide a detailed list of the steps in the given Context whic
 Answer:
 
 
--------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 Example 4: "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure
--------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 
 //use the same context as example3
 
