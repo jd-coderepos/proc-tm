@@ -1,0 +1,7 @@
+Based on the provided context for the "Support plate installation without a pit cover" procedure under the theme of the "Support plate installation" procedure, Step 3 states:
+
+If you use the vapor-proof option, then perform one of these actions in order to make sure that you have an air-tight seal:
+	- Standard Support plate type: Insert the supplied gasket between the two flanges. Bolt the support plate to a metal sole plate that has a machined surface.
+	- Tank flange type: Install the supplied gasket between the two flanges. Make sure that the mating flange on the tank is level. Use gasket material between the flanges in order to make minor adjustments.
+
+These are the substeps for Step 3.

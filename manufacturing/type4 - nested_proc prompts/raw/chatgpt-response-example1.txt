@@ -1,0 +1,3 @@
+In the given Context which refers to the "Inspect the pump" procedure, Step 1 is: "Remove the plastic shipping plugs from the vent holes in the head column and the casing."
+
+There are no substeps mentioned for this step. Therefore, the answer is "no substeps".

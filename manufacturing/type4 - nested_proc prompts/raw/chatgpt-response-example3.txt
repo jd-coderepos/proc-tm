@@ -1,0 +1,11 @@
+In the provided Context for the "Removal and installation of Mechanical seal" procedure, Step 7 states: "Pull out the Bearing carrier assembly (741) and remove the bearing carrier key (178S) from the shaft. (Note: Place the carrier assembly on a clean, flat surface. Wrap the carrier assembly in a clean towel to prevent any dust or dirt from contaminating the Angular Contact Bearings. It is crucial to keep these bearings as clean as possible.)"
+
+Substeps for Step 7 are:
+
+1. Pull out the Bearing carrier assembly (741).
+2. Remove the bearing carrier key (178S) from the shaft.
+3. Place the carrier assembly on a clean, flat surface.
+4. Wrap the carrier assembly in a clean towel to prevent contamination.
+5. Ensure the Angular Contact Bearings remain clean.
+
+If you have any further questions or need more details, please let me know!
