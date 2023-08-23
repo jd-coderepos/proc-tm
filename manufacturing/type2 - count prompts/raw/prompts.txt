@@ -1,0 +1,58 @@
+GENERIC PROMPT
+
+//upload the "[name]" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "[procedure-name]" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+
+
+-------------------------------------
+Example 1: Inspect the pump procedure
+-------------------------------------
+
+//upload the "manufacturing-example1" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 1 PROMPT
+
+Refer to the generated detailed list of steps which refers to "Inspect the pump" procedure as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Inspect the pump" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+
+-----------------------------------------------
+Example 2: Support plate installation procedure
+-----------------------------------------------
+
+//upload the "manufacturing-example2" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 2 PROMPT
+
+Refer to the generated detailed list of steps which refers to "Support plate installation" procedure as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Support plate installation" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+
+-----------------------------------------------------------------------------------------------------------------
+Example 3: "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure
+-----------------------------------------------------------------------------------------------------------------
+
+//upload the "manufacturing-example3" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 3 PROMPT
+
+Refer to the generated detailed list of steps which refers to "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Removal and installation of Mechanical seal" sub-procedure, not including any substeps or subtasks for each main step?
+Answer:
