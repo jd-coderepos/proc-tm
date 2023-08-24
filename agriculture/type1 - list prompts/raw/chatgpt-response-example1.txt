@@ -1,0 +1,33 @@
+Based on the provided Context, the steps for "Operating the Hydrostatic Transmission" procedure are as follows:
+
+1. Start machine engine.
+2. Choose speed range with range shift lever (A) to match work application.
+	- L – Low speed operations such as tilling hard soil, mowing long grass, or heavy hauling. In this mode, machine speed is decreased, but machine power is increased.
+	- N – Neutral position. Lever must be in the N (neutral) position when starting the engine.
+	- H – High speed operations such as light tilling and hauling, mowing short grass, and transport. In this mode, machine speed is increased, but machine power is decreased.
+3. Depress brake pedal.
+4. Unlock park brake.
+5. Release brake pedal.
+6. Move throttle lever (B) forward until the engine operates at the desired speed.
+	- Note: When the travel pedal is released, the transmission will automatically return to neutral.
+7. Travel Direction:
+	- To travel forward: Slowly depress pedal (C) downward.
+	- To travel in reverse: Slowly depress pedal (D) downward.
+		> The farther either travel pedal is depressed, the faster the machine will travel.
+8. Stop machine to change speed range.
+
+Using Cruise Control (specific to model 1026R):
+- Note: The cruise control is only operational when the machine is traveling forward.
+8.1 Engaging Cruise Control:
+	- Depress forward travel pedal until the desired travel speed is reached.
+	- Lift cruise control lever (A) to engage.
+	- Release forward travel pedal.
+8.2 Disengaging Cruise Control: The cruise control can be disengaged in one of two ways:
+	- Depress brake pedal and push cruise control lever down.
+	- Increase travel speed slightly and push cruise control lever down.
+8.3 Adjusting Cruise Control Travel Speed:
+	- To increase travel speed: Press the forward travel pedal until the desired speed is reached.
+	- To decrease travel speed: Disengage cruise control, adjust forward travel speed as desired, and engage the cruise control lever.
+
+* Important Caution: To prevent transmission damage, stop machine motion completely before shifting the range shift lever.
+* Safety Caution: Use cruise control only in large, open areas. Shut off before turning or when in areas with many obstacles.
