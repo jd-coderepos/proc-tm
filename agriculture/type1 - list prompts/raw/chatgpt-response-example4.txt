@@ -1,0 +1,21 @@
+The procedure for "Changing Front Axle Oil" from the provided context is as follows:
+
+1. Operate the machine to warm the front axle oil.
+2. Park the machine safely.
+	- Refer to the "Parking Safely" section in the SAFETY section.
+3. Position a drain pan under the differential drain plug (A).
+	- Note: For draining purposes, the front axle contains approximately 2.8 L (3.0 qt) of oil.
+4. Remove the differential drain plug and allow the oil to drain.
+5. Position a drain pan under each front axle drain plug (B).
+6. Remove both drain plugs and allow the oil to drain.
+7. Install and tighten both drain plugs after all the oil has drained.
+8. Remove the dipstick (C) located on the right side of the front axle and the vent plug (D).
+9. Add the recommended oil (approximately 2.8 L or 3.0 qt) through the dipstick fill opening until the oil level is correct.
+10. Install and tighten the dipstick.
+11. Check the front axle oil level.
+
+Please note the importance of the following:
+
+* Avoid damage! The transaxle is filled with John Deere HY-Gard™ (J20D) transmission oil at the factory. Do not mix oils.
+* Avoid damage! Use only the recommended oil. Do not use engine oil or “Type F” automatic transmission fluid.
+* Avoid damage! Dirt and debris in the oil can cause damage to the transaxle. Ensure the area around the opening is clean before removing the dipstick.
