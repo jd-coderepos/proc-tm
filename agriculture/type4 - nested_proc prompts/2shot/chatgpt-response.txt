@@ -1,0 +1,6 @@
+In the provided Context for the "Changing Front Axle Oil" procedure, Step 3 states:
+"Position a drain pan under the differential drain plug (A)."
+
+- Note: For draining purposes, the front axle contains approximately 2.8 L (3.0 qt) of oil.
+
+Answer: no substeps. While there is a note, it is not a substep.

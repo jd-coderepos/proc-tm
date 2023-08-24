@@ -1,0 +1,5 @@
+For Step 3 in the "Lowering ROPS Crossbar" procedure, the substeps are:
+
+1. Install the drilled pins (B).
+2. Install the spring locking pins (A).
+3. Lower the crossbar (C) onto the drilled pins (B).

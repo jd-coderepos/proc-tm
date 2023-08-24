@@ -1,0 +1,10 @@
+In the provided Context for "Operating the Hydrostatic Transmission" procedure, Step 6 is:
+
+1. Move throttle lever (B) forward until the engine operates at the desired speed.
+Note: When the travel pedal is released, the transmission will automatically return to neutral.
+
+Considering the details under Step 6, the substep is:
+
+- When the travel pedal is released, the transmission will automatically return to neutral.
+
+However, this is more of a note or additional information rather than a substep. Therefore, the appropriate response is: no substeps.
