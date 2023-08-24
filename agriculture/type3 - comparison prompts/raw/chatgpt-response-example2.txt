@@ -1,0 +1,33 @@
+Let's break down the main steps for each context:
+
+Context1 (Operating the Hydrostatic Transmission):
+
+1. Start machine engine.
+2. Choose speed range with range shift lever (A) to match work application.
+3. Depress brake pedal.
+4. Unlock park brake.
+5. Release brake pedal.
+6. Move throttle lever (B) forward until the engine operates at the desired speed.
+7. Travel Direction.
+8. Stop machine to change speed range.
+   (Using Cruise Control is specific to model 1026R and has its own substeps, so we won't count it as a main step.)
+
+Total main steps for Context1: 8
+
+Context2 (Changing Front Axle Oil):
+
+1. Operate the machine to warm the front axle oil.
+2. Park the machine safely.
+3. Position a drain pan under the differential drain plug (A).
+4. Remove the differential drain plug and allow the oil to drain.
+5. Position a drain pan under each front axle drain plug (B).
+6. Remove both drain plugs and allow the oil to drain.
+7. Install and tighten both drain plugs after all the oil has drained.
+8. Remove the dipstick (C) located on the right side of the front axle and the vent plug (D).
+9. Add the recommended oil (approximately 2.8 L or 3.0 qt) through the dipstick fill opening until the oil level is correct.
+10. Install and tighten the dipstick.
+11. Check the front axle oil level.
+
+Total main steps for Context2: 11
+
+Answer: The "Changing Front Axle Oil" procedure (Context2) has more main steps (11 steps) compared to the "Operating the Hydrostatic Transmission" procedure (Context1) which has 8 main steps.

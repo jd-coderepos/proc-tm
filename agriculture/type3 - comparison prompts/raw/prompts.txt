@@ -1,0 +1,58 @@
+--------------------------------------------------------------------------------------
+Example 1: Operating the Hydrostatic Transmission vs. Lowering ROPS Crossbar procedure
+--------------------------------------------------------------------------------------
+//the tests can be performed with generated graphs as well as with gold-standard graph
+
+EXAMPLE 1 PROMPT
+
+Refer to the following generated detailed list of steps as Context1.
+
+#copy-paste the "Operating the Hydrostatic Transmission" list of steps generated previously in template 1 of example1
+
+Now refer to the following generated detailed list of steps as Context2.
+
+#copy-paste the "Lowering ROPS Crossbar" list of steps generated previously in template 1 of example2
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 refers to "Operating the Hydrostatic Transmission" procedure and the Context2 refers to the "Lowering ROPS Crossbar" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
+
+---------------------------------------------------------------------------------------
+Example 2: Operating the Hydrostatic Transmission vs. Changing Front Axle Oil procedure
+---------------------------------------------------------------------------------------
+
+EXAMPLE 2 PROMPT
+
+Refer to the following generated detailed list of steps as Context1.
+
+#copy-paste the "Operating the Hydrostatic Transmission" list of steps generated previously in template 1 of example1
+
+Now refer to the following generated detailed list of steps as Context2.
+
+#copy-paste the "Changing Front Axle Oil" list of steps generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 refers to "Operating the Hydrostatic Transmission" procedure and the Context2 refers to the "Changing Front Axle Oil" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
+
+
+-----------------------------------------------------------------------
+Example 3: Lowering ROPS Crossbar vs. Changing Front Axle Oil procedure
+-----------------------------------------------------------------------
+
+EXAMPLE 3 PROMPT
+
+Refer to the following generated detailed list of steps as Context1.
+
+#copy-paste the "Lowering ROPS Crossbar" list of steps generated previously in template 1 of example2
+
+Now refer to the following generated detailed list of steps as Context2.
+
+#copy-paste the "Changing Front Axle Oil" list of steps generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 refers to "Lowering ROPS Crossbar" procedure and the Context2 refers to the "Changing Front Axle Oil" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:

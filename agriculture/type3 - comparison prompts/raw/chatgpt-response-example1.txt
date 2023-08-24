@@ -1,0 +1,25 @@
+Let's break down the main steps for each context:
+
+Context1 (Operating the Hydrostatic Transmission) main steps:
+
+1. Start machine engine.
+2. Choose speed range with range shift lever (A) to match work application.
+3. Depress brake pedal.
+4. Unlock park brake.
+5. Release brake pedal.
+6. Move throttle lever (B) forward until the engine operates at the desired speed.
+7. Travel Direction.
+8. Stop machine to change speed range.
+(Using Cruise Control is specific to model 1026R and has its own sub-steps, so we won't count it as a main step.)
+
+Total main steps for Context1: 8 steps
+
+Context2 (Lowering ROPS Crossbar) main steps:
+
+1. Remove Pins.
+2. Lower the Crossbar.
+3. Install Pins.
+
+Total main steps for Context2: 3 steps
+
+Answer: The "Operating the Hydrostatic Transmission" procedure (Context1) has more steps than the "Lowering ROPS Crossbar" procedure (Context2).

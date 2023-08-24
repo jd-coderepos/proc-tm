@@ -1,0 +1,58 @@
+GENERIC PROMPT
+
+//upload the "[name]" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "[procedure-name]" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+
+
+-----------------------------------------------------------
+Example 1: Operating the Hydrostatic Transmission procedure
+-----------------------------------------------------------
+
+//upload the "tractors-operating-example1" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 1 PROMPT
+
+Refer to the generated detailed list of steps which refers to "Operating the Hydrostatic Transmission" procedure as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Operating the Hydrostatic Transmission" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+
+-------------------------------------------
+Example 2: Lowering ROPS Crossbar procedure
+-------------------------------------------
+
+//upload the "tractors-operating-example2" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 2 PROMPT
+
+Refer to the generated detailed list of steps which refers to "Lowering ROPS Crossbar" procedure as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Lowering ROPS Crossbar" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+
+--------------------------------------------
+Example 3: Changing Front Axle Oil procedure
+--------------------------------------------
+
+//upload the "registering the picture style" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 3 PROMPT
+
+Refer to the generated detailed list of steps which refers to "Changing Front Axle Oil" procedure as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Changing Front Axle Oil" procedure, not including any substeps or subtasks for each main step?
+Answer:
