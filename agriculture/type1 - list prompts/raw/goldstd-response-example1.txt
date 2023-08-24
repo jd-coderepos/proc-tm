@@ -1,0 +1,15 @@
+Operating the Hydrostatic Transmission
+
+1. Start machine engine.
+2. Choose speed range with range shift lever (A) to match work application.
+	- L – Low speed operations such as tilling hard soil, mowing long grass, or heavy hauling. Machine speed is decreased, but machine power is increased.
+	- N – Neutral position. Lever must be in the N (neutral) position when starting the engine.
+	- H – High speed operations such as light tilling and hauling, mowing short grass and transport. In this mode, machine speed is increased, but machine power is decreased.
+3. Depress brake pedal.
+4. Unlock park brake.
+5. Release brake pedal.
+6. Move throttle lever (B) forward until the engine operates at the desired speed.
+Note: When the travel pedal is released, the transmission will automatically return to neutral.
+7. Slowly depress pedal (C) downward to travel forward. Slowly depress pedal (D) downward to travel in reverse.
+	- The farther either travel pedal is depressed, the faster the machine will travel.
+8. Stop machine to change speed range.
