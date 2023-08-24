@@ -30,7 +30,7 @@ Answer:
 Example 2: Lowering ROPS Crossbar procedure
 -------------------------------------------
 
-//upload the "fully automatic shooting" pdf through uploader in chatgpt
+//upload the "tractors-operating-example2" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
 //copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/agriculture/manual-chunks/tractors-operating-example2.pdf in the chat
 
@@ -43,16 +43,16 @@ Answer:
 
 
 --------------------------------------------------
-Example 3: Registering the Picture Style procedure
+Example 3: Checking Front Axle Oil Level procedure
 --------------------------------------------------
 
-//upload the "registering the picture style" pdf through uploader in chatgpt
+//upload the "tractors-operating-example3" pdf through uploader in chatgpt
 //otherwise upload the document to chatPDF
-// copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/photography/manual-chunks/registering%20picture%20style.pdf in the chat
+// copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/agriculture/manual-chunks/tractors-operating-example3.pdf in the chat
 
 EXAMPLE 3 PROMPT
 
 Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
 
-Question: Can you provide a detailed list of the steps in the given Context which refers to "Registering the Picture Style" procedure, including any substeps or subtasks for each main step?
+Question: Can you provide a detailed list of the steps in the given Context which refers to "Checking Front Axle Oil Level" procedure, including any substeps or subtasks for each main step?
 Answer:

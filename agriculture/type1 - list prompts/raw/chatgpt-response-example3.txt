@@ -1,0 +1,20 @@
+The procedure for "Checking Front Axle Oil Level" from the provided context is as follows:
+
+1. Park the machine safely.
+	- Refer to the "Parking Safely" section in the SAFETY section.
+	- Allow the machine to cool down for at least one hour.
+2. Loosen and remove the dipstick (A) located on the right side of the front axle.
+3. Wipe the dipstick clean with a rag.
+	- Install the dipstick but do not tighten it.
+	- Allow the dipstick to rest on top of the threads.
+4. Remove the dipstick.
+	- The oil level should be between the high (B) and low (C) levels on the dipstick.
+	- If the oil level is low:
+		a. Add the recommended oil through the dipstick fill opening until the oil level is correct.
+		b. Install and tighten the dipstick.
+5. Recheck the front axle oil level after the first several hours of operation.
+
+Please note the importance of the following:
+
+* Avoid damage! Allow oil one hour to settle before checking the level to ensure an accurate dipstick reading. It's recommended to repeat the oil level check after several hours of operation.
+* Avoid damage! Dirt and debris in the oil can cause damage. Ensure the area around the opening is clean before removing the dipstick.
