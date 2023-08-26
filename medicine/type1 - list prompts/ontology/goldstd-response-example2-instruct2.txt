@@ -1,0 +1,72 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Changing Gas Cylinders" ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step5 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Open the tank enclosure by sliding the cover to the rear. " ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1  .
+
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Close the valve on the empty tank (clockwise)." ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Release the Velcro restraint on the empty tank. " ;
+    kh-p:nextStep kh-p-instance:Step4 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step4 a p-plan:Step ;
+    rdfs:label "Tilt the empty tank out slightly.  " ;
+    kh-p:nextStep kh-p-instance:Step5 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
+kh-p-instance:Step5 a p-plan:Step ;
+    rdfs:label "Loosen the round handle on the regulator yoke. " ;
+    kh-p:nextStep kh-p-instance:Step6 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
+kh-p-instance:Step6 a p-plan:Step ;
+    rdfs:label "Remove the regulator from the empty tank (make certain that the regulator is not dropped or damaged while it is off the tank). " ;
+    kh-p:nextStep kh-p-instance:Step7;
+    kh-p:isStepOfPlan kh-p-instance:Plan1  .
+
+kh-p-instance:Step7 a p-plan:Step ;
+    rdfs:label "Lay the empty cylinder down on the floor (cylinders should only stand upright when properly restrained as they can easily fall over)." ;
+    kh-p:nextStep kh-p-instance:Step8 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step8 a p-plan:Step ;
+    rdfs:label "Pick up the full replacement tank and place the bottom of the tank onto the floor of the Newport, leaving it slightly tilted outward for easy replacement of the regulator." ;
+    kh-p:nextStep kh-p-instance:Step9 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step9 a p-plan:Step ;
+    rdfs:label "Check to assure that the sealing gasket has remained on the regulator's E yoke." ;
+    kh-p:nextStep kh-p-instance:Step10 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
+kh-p-instance:Step10 a p-plan:Step ;
+    rdfs:label "Reattach the regulator to the new full tank by sliding the yoke (attached to the regulator) over the top of the tank post aligning the index pins with the corresponding holes in the tank post. " ;
+    kh-p:nextStep kh-p-instance:Step11 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step11 a p-plan:Step ;
+    rdfs:label "Tighten the round handle on the regulator yoke." ;
+    kh-p:nextStep kh-p-instance:Step12 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step12 a p-plan:Step ;
+    rdfs:label "Push the tank into an upright position. Attach and tighten the Velcro tank restraint." ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+    
+
+

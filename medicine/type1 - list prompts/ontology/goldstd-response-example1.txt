@@ -1,0 +1,127 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Plan 1 " ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step5 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Mount the flowmeter to the portable manifold ;
+    kh-p:nextStep kh-p-instance:SubStep1_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan1 .
+    
+kh-p-instance:SubPlan1 a p-plan:Plan ;
+    rdfs:label "Sub Plan 1" ;
+    kh-p:startsWith kh-p-instance:SubStep1_1 ;
+    kh-p:endsWith kh-p-instance:SubStep1_5 .
+
+kh-p-instance:SubStep1_1 a p-plan:Step ;
+    rdfs:label "Step a: Remove hole cap from the upper hole (use sharp edge knife or screwdriver) at rear of manifold and release set screw (use 5/32\" Allen Wrench) enough to remove flowmeter mount." ;
+    kh-p:nextStep kh-p-instance:SubStep1_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubStep1_2 a p-plan:Step ;
+    rdfs:label "Step b: Remove protective cap from threads of mount and remove from manifold. Thread flowmeter mount into hole on the bottom of flowmeter by hand and tighten firmly using 5/32\" Allen Wrench placed in hole on side of flowmeter mount." ;
+    kh-p:nextStep kh-p-instance:SubStep1_3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+    
+kh-p-instance:SubStep1_3 a p-plan:Step ;
+    rdfs:label "Step c: Place flowmeter on manifold with mount in pocket." ;
+    kh-p:nextStep kh-p-instance:SubStep1_4 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+    
+kh-p-instance:SubStep1_4 a p-plan:Step ;
+    rdfs:label "Step d: Tighten set screw firmly from rear while keeping flowmeter oriented toward front of manifold." ;
+    kh-p:nextStep kh-p-instance:SubStep1_5 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubStep1_5 a p-plan:Step ;
+    rdfs:label "Step e: Place hole cap into hole behind the set screw and push it all way in." ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Attach the hoses to the flowmeter ;
+    kh-p:nextStep kh-p-instance:SubStep2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2 .
+    
+kh-p-instance:SubPlan2 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_2 .
+
+kh-p-instance:SubStep2_1 a p-plan:Step ;
+    rdfs:label "Step a: Run the nitrous oxide hose under the manifold and attach it to the nitrous oxide DISS fitting located on the back of the flowmeter." ;
+    kh-p:nextStep kh-p-instance:SubStep2_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubStep2_2 a p-plan:Step ;
+    rdfs:label "Step b: Run the oxygen hose under the manifold and attach it to the oxygen DISS fitting located on the back of the flowmeter." ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Connect the gas cylinders to the manifold's "E" yokes: " ;
+    kh-p:nextStep kh-p-instance:SubStep3_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan3 .
+
+kh-p-instance:SubPlan3 a p-plan:Plan ;
+    rdfs:label "Sub Plan 3" ;
+    kh-p:startsWith kh-p-instance:SubStep3_1 ;
+    kh-p:endsWith kh-p-instance:SubStep3_3 .
+
+kh-p-instance:SubStep3_1 a p-plan:Step ;
+    rdfs:label "Step a: Connect the nitrous oxide gas cylinders to the "E" yoke on the N2O side " ;
+    kh-p:nextStep kh-p-instance:SubStep3_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3 .
+
+kh-p-instance:SubStep3_2 a p-plan:Step ;
+    rdfs:label "Step b: Connect the oxygen gas cylinders to the "E" yoke on the O2 side. " ;
+    kh-p:nextStep kh-p-instance:SubStep3_3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3 .
+    
+kh-p-instance:SubStep3_3 a p-plan:Step ;
+    rdfs:label "Step c: It is recommended to use new gasket every time tank is replaced or removed. " ;
+    kh-p:nextStep kh-p-instance:Step4 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3 .
+
+kh-p-instance:Step4 a p-plan:Step ;
+    rdfs:label "(Keep wrench in handy location. It is used to open and close tanks)." ;
+    kh-p:nextStep kh-p-instance:SubStep4_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan4 .
+
+kh-p-instance:SubPlan4 a p-plan:Plan ;
+    rdfs:label "Sub Plan 4" ;
+    kh-p:startsWith kh-p-instance:SubStep4_1 ;
+    kh-p:endsWith kh-p-instance:SubStep4_3 .
+
+kh-p-instance:SubStep4_1 a p-plan:Step ;
+    rdfs:label "Step a: Open both gas cylinders and turn off flowmeter. " ;
+    kh-p:nextStep kh-p-instance:SubStep4_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+
+kh-p-instance:SubStep4_2 a p-plan:Step ;
+    rdfs:label "Step b: Check hose connections for leaks using soap solution. " ;
+    kh-p:nextStep kh-p-instance:SubStep4_3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+    
+kh-p-instance:SubStep4_3 a p-plan:Step ;
+    rdfs:label "Step c: Tighten fittings as needed to stop leaks. " ;
+    kh-p:nextStep kh-p-instance:Step5 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+    
+kh-p-instance:Step5 a p-plan:Step ;
+    rdfs:label "Verify flowmeter operations. " ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+    
+
+
