@@ -1,0 +1,7 @@
+Based on the provided RDF graph for the "2-Cylinder Portable System Assembly" procedure, Step 2 is ex:AttachHoses - "Attaching hoses to the flowmeter".
+
+To identify the next step after ex:AttachHoses, we need to look for the property kh-p:nextStep.
+
+From the graph, the next step after ex:AttachHoses is ex:VerifyFlowmeterOperation - "Verifying flowmeter operations".
+
+Answer: The next step after Step 2 ("Attaching hoses to the flowmeter") in the "2-Cylinder Portable System Assembly" procedure is "Verifying flowmeter operations".
