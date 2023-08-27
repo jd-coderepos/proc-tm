@@ -1,0 +1,11 @@
+Based on the provided RDF graph for the "Installation of FM Type" procedure, Step 3 corresponds to the ex:ArmAssemblyPlan. To identify the substeps of this step, we need to trace the sequence of steps within this subplan.
+
+From the RDF graph:
+
+1. ex:InsertShaftStep: Represents the substep "Insert the shaft of balance arm with pole bushing attached into the pole".
+2. ex:FixPoleBushingStep: Represents the substep "Fix the pole bushing by two mounting screws on the pole".
+
+Answer: The substeps for Step 3 ("Arm Assembly Installation") in the "Installation of FM Type" procedure are:
+
+1. Insert the shaft of balance arm with pole bushing attached into the pole.
+2. Fix the pole bushing by two mounting screws on the pole.

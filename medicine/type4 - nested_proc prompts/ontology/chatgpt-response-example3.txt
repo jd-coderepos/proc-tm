@@ -1,0 +1,12 @@
+Based on the provided RDF graph for the "Installation of FM Type" procedure, Step 1 corresponds to the ex:PoleAssemblyPlan. To identify the substeps of this step, we need to trace the sequence of steps within this subplan.
+
+From the RDF graph:
+
+1. ex:AttachLegBarsStep: Represents the substep "Attach four legs bars to the pole base".
+2. ex:AttachCasterStep: Represents the substep "Attach the caster to each leg end".
+
+Answer: The substeps for Step 1 ("Pole Assembly Installation") in the "Installation of FM Type" procedure are:
+
+1. Attach four legs bars to the pole base.
+2. Attach the caster to each leg end.
+
