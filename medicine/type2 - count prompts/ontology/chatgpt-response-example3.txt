@@ -1,0 +1,12 @@
+Based on the provided RDF graph for the "Installation of FM Type" procedure, the main steps (not including substeps or subtasks) can be identified by looking at the main procedure's decomposition into subplans. Each subplan represents a main step of the procedure.
+
+From the RDF graph:
+
+1. ex:PoleAssemblyPlan: Represents the "Pole Assembly Installation" step.
+2. ex:ControlBoxMountingPlan: Represents the "Control Box Mounting Plate" step.
+3. ex:ArmAssemblyPlan: Represents the "Arm Assembly Installation" step.
+4. ex:HeadInstallationPlan: Represents the "Head Installation" step.
+5. ex:ControlBoxInstallationPlan: Represents the "Control Box Installation" step.
+6. ex:AdjustmentPlan: Represents the "Adjustment" step.
+
+Answer: There are 6 main steps in the "Installation of FM Type" procedure, not including any substeps or subtasks for each main step.
