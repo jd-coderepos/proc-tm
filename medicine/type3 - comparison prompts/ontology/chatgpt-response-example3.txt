@@ -1,0 +1,25 @@
+To answer the question, we need to count the main steps for each procedure without considering the substeps or subtasks.
+
+From Context1 (Changing Gas Cylinders procedure):
+
+1. Open the tank enclosure by sliding the cover to the rear.
+2. Close the valve on the empty tank (clockwise).
+3. Release the Velcro restraint on the empty tank.
+4. Tilt the empty tank out slightly.
+5. Loosen the round handle on the regulator yoke.
+6. Remove the regulator from the empty tank.
+7. Lay the empty cylinder down on the floor.
+8. Pick up the full replacement tank.
+9. Check to assure that the sealing gasket has remained on the regulator’s E yoke.
+10. Reattach the regulator to the new full tank.
+11. Tighten the round handle on the regulator yoke.
+12. Push the tank into an upright position.
+
+Total main steps in Context1: 12
+
+From Context2 (Installation of FM Type procedure):
+The main procedure starts with "Pole Assembly Installation" and ends with "Adjustment". However, each of these are subplans, not individual steps. Therefore, the main procedure "Installation of FM Type" doesn't have individual steps listed directly under it, but rather it is composed of subplans.
+
+Total main steps in Context2: 0
+
+Answer: The "Changing Gas Cylinders" procedure from Context1 has more steps (12 steps) compared to the "Installation of FM Type" procedure from Context2 which does not have individual main steps listed directly under it.
