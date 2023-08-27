@@ -1,0 +1,70 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix ex: <http://example.org/> .
+
+# Define the 'Changing Gas Cylinders' procedure as a Plan
+ex:ChangingGasCylinders a p-plan:Plan ;
+    rdfs:label "Changing Gas Cylinders" .
+
+# Define the steps involved in the procedure
+ex:CylinderStep1 a p-plan:Step ;
+    rdfs:label "Open the tank enclosure by sliding the cover to the rear." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders .
+
+ex:CylinderStep2 a p-plan:Step ;
+    rdfs:label "Close the valve on the empty tank (clockwise)." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep3 .
+
+ex:CylinderStep3 a p-plan:Step ;
+    rdfs:label "Release the Velcro restraint on the empty tank." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep4 .
+
+ex:CylinderStep4 a p-plan:Step ;
+    rdfs:label "Tilt the empty tank out slightly." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep5 .
+
+ex:CylinderStep5 a p-plan:Step ;
+    rdfs:label "Loosen the round handle on the regulator yoke." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep6 .
+
+ex:CylinderStep6 a p-plan:Step ;
+    rdfs:label "Remove the regulator from the empty tank (make certain that the regulator is not dropped or damaged while it is off the tank)." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep7 .
+
+ex:CylinderStep7 a p-plan:Step ;
+    rdfs:label "Lay the empty cylinder down on the floor (cylinders should only stand upright when properly restrained as they can easily fall over)." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep8 .
+
+ex:CylinderStep8 a p-plan:Step ;
+    rdfs:label "Pick up the full replacement tank and place the bottom of the tank onto the floor of the Newport, leaving it slightly tilted outward for easy replacement of the regulator." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep9 .
+
+ex:CylinderStep9 a p-plan:Step ;
+    rdfs:label "Check to assure that the sealing gasket has remained on the regulator’s E yoke." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep10 .
+
+ex:CylinderStep10 a p-plan:Step ;
+    rdfs:label "Reattach the regulator to the new full tank by sliding the yoke (attached to the regulator) over the top of the tank post aligning the index pins with the corresponding holes in the tank post." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep11 .
+
+ex:CylinderStep11 a p-plan:Step ;
+    rdfs:label "Tighten the round handle on the regulator yoke." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders ;
+    kh-p:nextStep ex:CylinderStep12 .
+
+ex:CylinderStep12 a p-plan:Step ;
+    rdfs:label "Push the tank into an upright position. Attach and tighten the Velcro tank restraint." ;
+    p-plan:isStepOfPlan ex:ChangingGasCylinders .
+
+# Define the starting and ending steps for the plan
+ex:ChangingGasCylinders kh-p:startsWith ex:CylinderStep1 ;
+    kh-p:endsWith ex:CylinderStep12 .

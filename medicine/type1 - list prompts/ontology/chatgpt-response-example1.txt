@@ -1,0 +1,44 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix ex: <http://example.org/procedure/> .
+
+# Define the main procedure as a Plan
+ex:TwoCylinderPortableSystemAssembly a p-plan:Plan ;
+    rdfs:label "2-Cylinder Portable System Assembly" ;
+    kh-p:startsWith ex:MountFlowmeter ;
+    kh-p:endsWith ex:VerifyFlowmeterOperation .
+
+# Define the steps of the procedure
+ex:MountFlowmeter a p-plan:Step ;
+    rdfs:label "Mounting the flowmeter to the manifold" ;
+    p-plan:isStepOfPlan ex:TwoCylinderPortableSystemAssembly ;
+    kh-p:nextStep ex:AttachHoses .
+
+ex:AttachHoses a p-plan:Step ;
+    rdfs:label "Attaching hoses to the flowmeter" ;
+    p-plan:isStepOfPlan ex:TwoCylinderPortableSystemAssembly ;
+    kh-p:nextStep ex:ConnectGasCylindersSubPlan .
+
+# Define a subplan for connecting gas cylinders
+ex:ConnectGasCylindersSubPlan a p-plan:Plan ;
+    rdfs:label "Subplan for Connecting gas cylinders" ;
+    kh-p:startsWith ex:PrepareCylinders ;
+    kh-p:endsWith ex:SecureCylinders ;
+    kh-p:isDecomposedAsPlan ex:AttachHoses .
+
+# Define the substeps of the subplan
+ex:PrepareCylinders a p-plan:Step ;
+    rdfs:label "Preparing the gas cylinders" ;
+    p-plan:isStepOfPlan ex:ConnectGasCylindersSubPlan ;
+    kh-p:nextStep ex:SecureCylinders .
+
+ex:SecureCylinders a p-plan:Step ;
+    rdfs:label "Securing the gas cylinders to the manifold" ;
+    p-plan:isStepOfPlan ex:ConnectGasCylindersSubPlan ;
+    kh-p:nextStep ex:VerifyFlowmeterOperation .
+
+ex:VerifyFlowmeterOperation a p-plan:Step ;
+    rdfs:label "Verifying flowmeter operations" ;
+    p-plan:isStepOfPlan ex:TwoCylinderPortableSystemAssembly .
+
+In this instantiation, the step "Connecting gas cylinders to the manifold" has been decomposed into a subplan (ConnectGasCylindersSubPlan) which consists of two substeps: PrepareCylinders and SecureCylinders. The subplan is linked to the main procedure using the kh-p:isDecomposedAsPlan property.
