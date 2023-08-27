@@ -1,0 +1,36 @@
+//upload the "dental-instrument-example1" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "ont - 2shot med" scenario conversation context
+
+This is Task Example1.i of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.i is as follows.
+
+Refer to the RDF graph of Task Example1 as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "2-Cylinder Portable System Assembly" procedure, not including any substeps or subtasks for each main step?
+Answer: 5
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//upload the "dental-instrument-example2" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+This is Task Example2.i of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.i is as follows.
+
+Refer to the RDF graph of Task Example2 as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Changing Gas Cylinders" procedure, not including any substeps or subtasks for each main step?
+Answer: 12
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//upload the "dental-instrument-example3" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+Now it is your turn. 
+
+Refer to your generated RDF graph above as Context and please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Installation of FM Type" procedure, not including any substeps or subtasks for each main step?
+Answer:
