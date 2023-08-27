@@ -1,0 +1,103 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Installation of FM Type" ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step6 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Pole Assembly Installation" ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubPlan1 a p-plan:Plan ;
+    rdfs:label "Pole Assembly SubPlan" ;
+    kh-p:startsWith kh-p-instance:SubStep1_1 ;
+    kh-p:endsWith kh-p-instance:SubStep1_2 .
+
+kh-p-instance:SubStep1_1 a p-plan:Step ;
+    rdfs:label "Attach four legs bars to the pole base and secure them by hex socket head bolts." ;
+    kh-p:nextStep kh-p-instance:SubStep1_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubStep1_2 a p-plan:Step ;
+    rdfs:label "Attach the caster to each leg end." ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Control Box Mounting Plate Installation" ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubPlan2 a p-plan:Plan ;
+    rdfs:label "Control Box Mounting Plate SubPlan" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_2 .
+
+kh-p-instance:SubStep2_1 a p-plan:Step ;
+    rdfs:label "Set the control box mounting plate over the access hole of the pole at the short leg side." ;
+    kh-p:nextStep kh-p-instance:SubStep2_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubStep2_2 a p-plan:Step ;
+    rdfs:label "Slide the supporter of mounting plate down to the opposite side of mounting plate, and secure with two screws." ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Arm Assembly Installation" ;
+    kh-p:nextStep kh-p-instance:Step4 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan3 .
+
+kh-p-instance:SubPlan3 a p-plan:Plan ;
+    rdfs:label "Arm Assembly SubPlan" ;
+    kh-p:startsWith kh-p-instance:SubStep3_1 ;
+    kh-p:endsWith kh-p-instance:SubStep3_3 .
+
+kh-p-instance:SubStep3_1 a p-plan:Step ;
+    rdfs:label "Insert the shaft of balance arm with pole bushing attached into the pole." ;
+    kh-p:nextStep kh-p-instance:SubStep3_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3 .
+
+kh-p-instance:SubStep3_2 a p-plan:Step ;
+    rdfs:label "Keeping the arm at the position (a) of FIGURE 20." ;
+    kh-p:nextStep kh-p-instance:SubStep3_3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3 .
+
+kh-p-instance:SubStep3_3 a p-plan:Step ;
+    rdfs:label "Fix the pole bushing by two mounting screws on the pole." ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan3 .
+
+kh-p-instance:Step4 a p-plan:Step ;
+    rdfs:label "Head Installation" ;
+    kh-p:nextStep kh-p-instance:Step5 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step5 a p-plan:Step ;
+    rdfs:label "Control Box Installation" ;
+    kh-p:nextStep kh-p-instance:Step6 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step6 a p-plan:Step ;
+    rdfs:label "Adjustment" ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan4 .
+
+kh-p-instance:SubPlan4 a p-plan:Plan ;
+    rdfs:label "Adjustment SubPlan" ;
+    kh-p:startsWith kh-p-instance:SubStep6_1 ;
+    kh-p:endsWith kh-p-instance:SubStep6_2 .
+
+kh-p-instance:SubStep6_1 a p-plan:Step ;
+    rdfs:label "Tighten the brake screw if arm drifts." ;
+    kh-p:nextStep kh-p-instance:SubStep6_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+
+kh-p-instance:SubStep6_2 a p-plan:Step ;
+    rdfs:label "Perform the post installation inspection." ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .

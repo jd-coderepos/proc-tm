@@ -66,7 +66,3 @@ kh-p-instance:Step11 a p-plan:Step ;
 kh-p-instance:Step12 a p-plan:Step ;
     rdfs:label "Push the tank into an upright position. Attach and tighten the Velcro tank restraint." ;
     kh-p:isStepOfPlan kh-p-instance:Plan1 .
-
-    
-
-

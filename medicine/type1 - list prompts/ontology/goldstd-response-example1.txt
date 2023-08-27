@@ -121,7 +121,3 @@ kh-p-instance:SubStep4_3 a p-plan:Step ;
 kh-p-instance:Step5 a p-plan:Step ;
     rdfs:label "Verify flowmeter operations. " ;
     kh-p:isStepOfPlan kh-p-instance:Plan1 .
-
-    
-
-
