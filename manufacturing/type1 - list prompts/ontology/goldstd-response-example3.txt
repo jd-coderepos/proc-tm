@@ -1,0 +1,26 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Lubricate the bearings after a shutdown period" ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step3 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Flush out the bearings and bearing frame with a light oil to remove contaminants. During flushing, make sure to rotate the shaft slowly by hand." ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1  .
+
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Flush the bearing housing with the proper lubricating oil to ensure oil quality after cleaning." ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Refer to the Reassembly section for the proper bearing lubrication procedure." ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
+
+

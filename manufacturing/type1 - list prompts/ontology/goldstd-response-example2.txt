@@ -1,0 +1,111 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Support plate installation " ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step2 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Install the support plate with a pit cover;
+    kh-p:nextStep kh-p-instance:SubStep1_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan1 .
+    
+kh-p-instance:SubPlan1 a p-plan:Plan ;
+    rdfs:label "Sub Plan 1" ;
+    kh-p:startsWith kh-p-instance:SubStep1_1 ;
+    kh-p:endsWith kh-p-instance:SubStep1_8 .
+
+kh-p-instance:SubStep1_1 a p-plan:Step ;
+    rdfs:label "Carefully lower the pit cover onto the foundation bolts." ;
+    kh-p:nextStep kh-p-instance:SubStep1_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubStep1_2 a p-plan:Step ;
+    rdfs:label "Use as long a level as possible in order to level the pit cover in all directions with shims or wedges." ;
+    kh-p:nextStep kh-p-instance:Step1_3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubStep1_3 a p-plan:Step ;
+    rdfs:label "Hand tighten the anchor bolts. Check the level and re-shim if necessary. " ;
+    kh-p:nextStep kh-p-instance:Step1_4 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubStep1_4 a p-plan:Step ;
+    rdfs:label "Tighten all anchor bolts in a star pattern in order to avoid distorting the pit cover. " ;
+    kh-p:nextStep kh-p-instance:Step1_5 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+    
+kh-p-instance:SubStep1_5 a p-plan:Step ;
+    rdfs:label "If access to the bottom side is possible, carefully lower the pump and support plate onto the pit cover." ;
+    kh-p:nextStep kh-p-instance:Step1_6 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubStep1_6 a p-plan:Step ;
+    rdfs:label "Install all bolts and hand tighten." ;
+    kh-p:nextStep kh-p-instance:Step1_7 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubStep1_7 a p-plan:Step ;
+    rdfs:label "Check the level on the support plate and re-shim if necessary. " ;
+    kh-p:nextStep kh-p-instance:Step1_8 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:SubStep1_8 a p-plan:Step ;
+    rdfs:label "Tighten all bolts in a star pattern in order to avoid distorting the support plate." ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan1 .
+
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Install the support plate without a pit cover" ;
+    kh-p:nextStep kh-p-instance:SubStep2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2 .
+    
+kh-p-instance:SubPlan2 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_5 .
+
+kh-p-instance:SubStep2_1 a p-plan:Step ;
+    rdfs:label "Carefully lower the pump and support plate onto the foundation bolts. " ;
+    kh-p:nextStep kh-p-instance:SubStep2_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubStep2_2 a p-plan:Step ;
+    rdfs:label "Level the support plate in all directions using shims and wedges.  " ;
+    kh-p:nextStep kh-p-instance:Step2_3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubStep2_3 a p-plan:Step ;
+    rdfs:label "If you use the vapor-proof option, then perform one of these actions in order to make sure that you have an air-tight seal" ;
+    kh-p:nextStep kh-p-instance:Step2_2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2_3 .
+    
+kh-p-instance:SubPlan2_3 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2_3" ;
+    kh-p:startsWith kh-p-instance:SubStep2_3_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_3_2 .
+    
+kh-p-instance:SubStep2_3_1 a p-plan:Step ;
+    rdfs:label "Standard support plate type: Insert the supplied gasket between the two flanges. Bolt the support plate to a metal sole plate that has a machined surface." ;
+    kh-p:nextStep kh-p-instance:Step2_2_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2_3 .
+
+kh-p-instance:SubStep2_3_2 a p-plan:Step ;
+    rdfs:label "Tank flange support plate type: Install the supplied gasket between the two flanges. Make sure that the mating flange on the tank is level. Use gasket material between the flanges in order to make minor adjustments." ;
+    kh-p:nextStep kh-p-instance:Step2_4 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubStep2_4 a p-plan:Step ;
+    rdfs:label "Hand tighten the anchor bolts. Check the level and re-shim if necessary. " ;
+    kh-p:nextStep kh-p-instance:Step2_5 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubStep2_5 a p-plan:Step ;
+    rdfs:label "Tighten all anchor bolts in a star pattern in order to avoid distorting the support plate. " ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .

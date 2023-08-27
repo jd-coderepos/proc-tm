@@ -1,0 +1,31 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Inspect the pump" ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step4 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Remove plastic shipping plugs from vent holes in head column and casing." ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1  .
+
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Remove all the equipment from the shipping containers." ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Completely clean the underside of the support plate and both sides of optional pit cover, if supplied." ;
+    kh-p:nextStep kh-p-instance:Step4 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step4 a p-plan:Step ;
+    rdfs:label "Remove any grease from the machined surfaces." ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
+
+
