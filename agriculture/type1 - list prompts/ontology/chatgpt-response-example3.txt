@@ -1,0 +1,39 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+
+# Define the main procedure
+<https://example.com/procedure/checkingFrontAxleOilLevel> a p-plan:Plan ;
+    rdfs:label "Checking Front Axle Oil Level" .
+
+# Define the steps of the procedure
+<https://example.com/step/parkMachine> a p-plan:Step ;
+    rdfs:label "1. Park machine safely. (See Parking Safely in the SAFETY section.) Allow machine to cool down for at least one hour." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/checkingFrontAxleOilLevel> .
+
+<https://example.com/step/loosenRemoveDipstick> a p-plan:Step ;
+    rdfs:label "2. Loosen and remove dipstick (A) located on right side of front axle." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/checkingFrontAxleOilLevel> ;
+    kh-p:nextStep <https://example.com/step/checkOilLevel> .
+
+<https://example.com/step/checkOilLevel> a p-plan:Step ;
+    rdfs:label "4. Remove dipstick. Oil level should be between high (B) and low (C) levels on dipstick." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/checkingFrontAxleOilLevel> ;
+    kh-p:nextStep <https://example.com/step/addOilIfLow> .
+
+<https://example.com/step/addOilIfLow> a p-plan:Step ;
+    rdfs:label "If oil level is low: a. Add recommended oil through dipstick fill opening until oil level is correct. b. Install and tighten dipstick." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/checkingFrontAxleOilLevel> ;
+    kh-p:nextStep <https://example.com/step/checkOilLevelAgain> .
+
+<https://example.com/step/checkOilLevelAgain> a p-plan:Step ;
+    rdfs:label "5. Check front axle oil level again after the first several hours of operation." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/checkingFrontAxleOilLevel> .
+
+# Substep for checking oil level
+<https://example.com/substep/wipeDipstick> a p-plan:Step ;
+    rdfs:label "3. Wipe dipstick clean with a rag. Install dipstick but do not tighten. Allow dipstick to rest on top of threads." ;
+    p-plan:isStepOfPlan <https://example.com/step/checkOilLevel> .
+
+# Define the start and end steps of the procedure
+<https://example.com/procedure/checkingFrontAxleOilLevel> kh-p:startsWith <https://example.com/step/parkMachine> ;
+    kh-p:endsWith <https://example.com/step/checkOilLevelAgain> .

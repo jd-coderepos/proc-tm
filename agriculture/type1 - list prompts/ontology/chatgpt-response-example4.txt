@@ -1,0 +1,64 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+
+# Define the main procedure
+<https://example.com/procedure/changingFrontAxleOil> a p-plan:Plan ;
+    rdfs:label "Changing Front Axle Oil" .
+
+# Define the steps of the procedure
+<https://example.com/step/operateMachine> a p-plan:Step ;
+    rdfs:label "1. Operate machine to warm front axle oil." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> .
+
+<https://example.com/step/parkMachineSafely> a p-plan:Step ;
+    rdfs:label "2. Park machine safely. (See Parking Safely in the SAFETY section.)" ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> ;
+    kh-p:nextStep <https://example.com/step/positionDrainPan> .
+
+<https://example.com/step/positionDrainPan> a p-plan:Step ;
+    rdfs:label "3. Position drain pan under differential drain plug (A). NOTE: For draining purposes, front axle contains approximately 2.8 L (3.0 qt) of oil." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> ;
+    kh-p:nextStep <https://example.com/step/removeDrainPlug> .
+
+<https://example.com/step/removeDrainPlug> a p-plan:Step ;
+    rdfs:label "4. Remove differential drain plug and allow oil to drain." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> ;
+    kh-p:nextStep <https://example.com/step/positionDrainPanFrontAxle> .
+
+<https://example.com/step/positionDrainPanFrontAxle> a p-plan:Step ;
+    rdfs:label "5. Position drain pan under each front axle drain plug (B)." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> ;
+    kh-p:nextStep <https://example.com/step/removeBothDrainPlugs> .
+
+<https://example.com/step/removeBothDrainPlugs> a p-plan:Step ;
+    rdfs:label "6. Remove both drain plugs and allow oil to drain." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> ;
+    kh-p:nextStep <https://example.com/step/installTightenDrainPlugs> .
+
+<https://example.com/step/installTightenDrainPlugs> a p-plan:Step ;
+    rdfs:label "7. Install and tighten both drain plugs after all oil has drained." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> ;
+    kh-p:nextStep <https://example.com/step/removeDipstickVentPlug> .
+
+<https://example.com/step/removeDipstickVentPlug> a p-plan:Step ;
+    rdfs:label "8. Remove dipstick (C) located on right side of front axle and vent plug (D)." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> ;
+    kh-p:nextStep <https://example.com/step/addRecommendedOil> .
+
+<https://example.com/step/addRecommendedOil> a p-plan:Step ;
+    rdfs:label "9. Add approximately 2.8 L (3.0 qt) of recommended oil through dipstick fill opening until oil level is correct." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> ;
+    kh-p:nextStep <https://example.com/step/installTightenDipstick> .
+
+<https://example.com/step/installTightenDipstick> a p-plan:Step ;
+    rdfs:label "10. Install and tighten dipstick." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> ;
+    kh-p:nextStep <https://example.com/step/checkFrontAxleOilLevel> .
+
+<https://example.com/step/checkFrontAxleOilLevel> a p-plan:Step ;
+    rdfs:label "11. Check front axle oil level." ;
+    p-plan:isStepOfPlan <https://example.com/procedure/changingFrontAxleOil> .
+
+# Define the start and end steps of the procedure
+<https://example.com/procedure/changingFrontAxleOil> kh-p:startsWith <https://example.com/step/operateMachine> ;
+    kh-p:endsWith <https://example.com/step/checkFrontAxleOilLevel> .

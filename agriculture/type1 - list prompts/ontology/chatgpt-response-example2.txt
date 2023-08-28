@@ -1,0 +1,21 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix ex: <http://example.org#> .
+
+# Define the main procedure
+ex:LoweringROPSProcedure a p-plan:Plan ;
+    rdfs:label "Lowering ROPS Crossbar" ;
+    kh-p:startsWith ex:Step1 ;
+    kh-p:endsWith ex:Step3 .
+
+# Define the steps of the procedure
+ex:Step1 a p-plan:Step ;
+    rdfs:label "Remove spring locking pin and drilled pin on each side of the ROPS" ;
+    kh-p:nextStep ex:Step2 .
+
+ex:Step2 a p-plan:Step ;
+    rdfs:label "Carefully lower ROPS crossbar about half way down" ;
+    kh-p:nextStep ex:Step3 .
+
+ex:Step3 a p-plan:Step ;
+    rdfs:label "Install drilled pins and spring locking pins and lower crossbar onto drilled pins" .

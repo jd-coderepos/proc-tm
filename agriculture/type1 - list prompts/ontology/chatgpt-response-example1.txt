@@ -1,0 +1,57 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+
+# Define the main procedure
+<#OperatingHydrostaticTransmission> a p-plan:Plan ;
+    rdfs:label "Operating the Hydrostatic Transmission" ;
+    kh-p:startsWith <#StartMachineEngine> ;
+    kh-p:endsWith <#AdjustingCruiseControlTravelSpeed> .
+
+# Define the steps of the procedure
+<#StartMachineEngine> a p-plan:Step ;
+    rdfs:label "Start machine engine." ;
+    kh-p:nextStep <#ChooseSpeedRange> .
+
+<#ChooseSpeedRange> a p-plan:Step ;
+    rdfs:label "Choose speed range with range shift lever to match work application." ;
+    kh-p:nextStep <#DepressBrakePedal> .
+
+<#DepressBrakePedal> a p-plan:Step ;
+    rdfs:label "Depress brake pedal." ;
+    kh-p:nextStep <#UnlockParkBrake> .
+
+<#UnlockParkBrake> a p-plan:Step ;
+    rdfs:label "Unlock park brake." ;
+    kh-p:nextStep <#ReleaseBrakePedal> .
+
+<#ReleaseBrakePedal> a p-plan:Step ;
+    rdfs:label "Release brake pedal." ;
+    kh-p:nextStep <#MoveThrottleLever> .
+
+<#MoveThrottleLever> a p-plan:Step ;
+    rdfs:label "Move throttle lever forward until engine operates at desired speed." ;
+    kh-p:nextStep <#DepressTravelPedal> .
+
+<#DepressTravelPedal> a p-plan:Step ;
+    rdfs:label "Slowly depress pedal to travel forward or in reverse." ;
+    kh-p:nextStep <#StopMachineToChangeSpeed> .
+
+<#StopMachineToChangeSpeed> a p-plan:Step ;
+    rdfs:label "Stop machine to change speed range." ;
+    kh-p:nextStep <#UsingCruiseControl> .
+
+<#UsingCruiseControl> a p-plan:Plan ;
+    rdfs:label "Using Cruise Control" ;
+    kh-p:startsWith <#EngagingCruiseControl> ;
+    kh-p:endsWith <#AdjustingCruiseControlTravelSpeed> .
+
+<#EngagingCruiseControl> a p-plan:Step ;
+    rdfs:label "Engaging Cruise Control." ;
+    kh-p:nextStep <#DisengagingCruiseControl> .
+
+<#DisengagingCruiseControl> a p-plan:Step ;
+    rdfs:label "Disengaging Cruise Control." ;
+    kh-p:nextStep <#AdjustingCruiseControlTravelSpeed> .
+
+<#AdjustingCruiseControlTravelSpeed> a p-plan:Step ;
+    rdfs:label "Adjusting Cruise Control Travel Speed." .

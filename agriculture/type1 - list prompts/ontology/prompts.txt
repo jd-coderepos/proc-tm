@@ -1,0 +1,73 @@
+-----------------------------------------------------------
+Example 1: Operating the Hydrostatic Transmission procedure
+-----------------------------------------------------------
+
+//upload the "tractors-operating-example1" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/agriculture/manual-chunks/tractors-operating-example1.pdf in the chat
+
+EXAMPLE 1 PROMPT
+
+Here is the complete definition of the procedural RDF Ontology in TTL format which defines a Procedure as composed of a Plan and a Plan composed of Steps.
+
+#insert ontology here 
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Operating the Hydrostatic Transmission' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+note: if ChatGPT generates only a graph of steps, it should be prodded further before arrving at the final answer "Why haven't you used the substep and subplan implicit classes. Try again."
+
+
+-------------------------------------------
+Example 2: Lowering ROPS Crossbar procedure
+-------------------------------------------
+
+//upload the "tractors-operating-example2" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/agriculture/manual-chunks/tractors-operating-example2.pdf in the chat
+
+EXAMPLE 2 PROMPT
+
+Here is the complete definition of the procedural RDF Ontology in TTL format which defines a Procedure as composed of a Plan and a Plan composed of Steps.
+
+#insert ontology here 
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Lowering ROPS Crossbar' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+
+--------------------------------------------------
+Example 3: Checking Front Axle Oil Level procedure
+--------------------------------------------------
+
+//upload the "tractors-operating-example3" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+// copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/agriculture/manual-chunks/tractors-operating-example3.pdf in the chat
+
+
+EXAMPLE 3 PROMPT
+
+Here is the complete definition of the procedural RDF Ontology in TTL format which defines a Procedure as composed of a Plan and a Plan composed of Steps.
+
+#insert ontology here 
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Checking Front Axle Oil Level' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+
+--------------------------------------------
+Example 4: Changing Front Axle Oil procedure
+--------------------------------------------
+
+//continue in the conversation thread above
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Changing Front Axle Oil' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
