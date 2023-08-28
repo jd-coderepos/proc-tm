@@ -1,0 +1,13 @@
+Based on the provided RDF graph (Context), the "Removal and installation of Mechanical seal" sub-procedure under the "Shaft-seal maintenance" procedure consists of the following steps:
+
+1. Lock out the driver power and remove the coupling guard.
+2. Drain oil from Bearing Frame (228).
+3. Remove the Coupling spacer and pump half hub (233) and key.
+4. Remove Socket head screws (268), Lockwasher (437B) and EZ adjust shaft nut (283A) from shaft.
+5. Loosen and remove the End cover Hex Cap screws (370W) and Bearing frame End cover (109) with Laby seal (332A).
+6. Pull out the Bearing carrier assembly (741) and remove bearing carrier key (178S) from shaft.
+7. Remove the Bearing frame (228) and mounting hardware (352D) from motor support.
+8. Remove and service Mechanical seal.
+9. After Service reassemble in reverse order.
+
+Answer: There are 9 main steps in the "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure, not including any substeps or subtasks for each main step.

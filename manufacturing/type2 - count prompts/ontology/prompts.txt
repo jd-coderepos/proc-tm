@@ -1,0 +1,42 @@
+-------------------------------------
+Example 1: Inspect the pump procedure
+-------------------------------------
+
+//copy-paste the "manufacturing-example1" RDF graph generated previously in template 1 or the gold-standard graph
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 1 PROMPT
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Inspect the pump" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+
+-----------------------------------------------
+Example 2: Support plate installation procedure
+-----------------------------------------------
+
+//copy-paste the "manufacturing-example2" RDF graph generated previously in template 1 or the gold-standard graph
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 2 PROMPT
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Support plate installation" procedure, not including any substeps or subtasks for each main step?
+Answer:
+
+-----------------------------------------------------------------------------------------------------------------
+Example 3: "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure
+-----------------------------------------------------------------------------------------------------------------
+
+//copy-paste the "manufacturing-example3" RDF graph generated previously in template 1 or the gold-standard graph
+//or continue the conversation in the same chat context as scenario 1
+
+EXAMPLE 3 PROMPT
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: How many steps are in the given Context which refers to "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure, not including any substeps or subtasks for each main step?
+Answer:
