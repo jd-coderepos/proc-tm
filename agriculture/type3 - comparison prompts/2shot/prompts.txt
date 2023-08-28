@@ -1,0 +1,98 @@
+--------------------------------------------------------------------------------------
+Example 1: Operating the Hydrostatic Transmission vs. Lowering ROPS Crossbar procedure
+--------------------------------------------------------------------------------------
+
+This is a subtask of both Task Example1 and Task Example2. You are not required to perform the Task. You are only required to understand the Task. The subtask is as follows.
+
+Refer to the detailed list of steps of Task Example1 as Context1 and the detailed list of steps of Task Example2 as Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 refers to "Operating the Hydrostatic Transmission" procedure and the Context2 refers to the "Lowering ROPS Crossbar" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer: 
+
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Operating the Hydrostatic Transmission):
+
+1. Start machine engine.
+2. Choose speed range with range shift lever (A) to match work application.
+3. Depress brake pedal.
+4. Unlock park brake.
+5. Release brake pedal.
+6. Move throttle lever (B) forward until the engine operates at the desired speed.
+7. Slowly depress pedal (C) downward to travel forward. Slowly depress pedal (D) downward to travel in reverse.
+8. Stop machine to change speed range.
+
+Total main steps in Context1: 8
+
+From Context2 (Lowering ROPS Crossbar):
+
+1. Remove the spring locking pin (A) and drilled pin (B) on each side of the ROPS.
+2. Carefully lower the ROPS crossbar (C) about half way down.
+3. Install drilled pins (B) and spring locking pins (A) and lower crossbar (C) onto the drilled pins (B).
+
+Total main steps in Context2: 3
+
+Answer: The "Operating the Hydrostatic Transmission" procedure from Context1 has more main steps than the "Lowering ROPS Crossbar" procedure from Context2.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+
+
+
+---------------------------------------------------------------------------------------
+Example 2: Operating the Hydrostatic Transmission vs. Changing Front Axle Oil procedure
+---------------------------------------------------------------------------------------
+
+This is a subtask of both of Task Example1 and your performed Task to generate a detailed list of steps above. You are not required to perform the Task. You are only required to understand the Task. The subtask is as follows.
+
+Refer to the detailed list of steps of Task Example1 as Context1 and your generated detailed list of steps as Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 refers to "Operating the Hydrostatic Transmission" procedure and the Context2 refers to the "Changing Front Axle Oil" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer: 
+
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Operating the Hydrostatic Transmission):
+
+1. Start machine engine.
+2. Choose speed range with range shift lever (A) to match work application.
+3. Depress brake pedal.
+4. Unlock park brake.
+5. Release brake pedal.
+6. Move throttle lever (B) forward until the engine operates at the desired speed.
+7. Slowly depress pedal (C) downward to travel forward. Slowly depress pedal (D) downward to travel in reverse.
+8. Stop machine to change speed range.
+
+Total main steps in Context1: 8
+
+From Context2 (Changing Front Axle Oil):
+
+1. Operate the machine to warm the front axle oil.
+2. Park the machine safely. (Refer to the "Parking Safely" section in the SAFETY instructions.)
+3. Position a drain pan under the differential drain plug (A).
+Note: For draining purposes, the front axle contains approximately 2.8 L (3.0 qt) of oil.
+4. Remove the differential drain plug and allow the oil to drain.
+5. Position a drain pan under each front axle drain plug (B).
+6. Remove both drain plugs and allow the oil to drain.
+7. Install and tighten both drain plugs after all the oil has drained.
+8. Remove the dipstick (C) located on the right side of the front axle and the vent plug (D).
+9. Add approximately 2.8 L (3.0 qt) of the recommended oil through the dipstick fill opening until the oil level is correct.
+10. Install and tighten the dipstick.
+11. Check the front axle oil level.
+
+Total main steps in Context2: 11
+
+Answer: The "Changing Front Axle Oil" procedure from Context2 has more main steps than the "Operating the Hydrostatic Transmission" procedure from Context1.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+
+
+-----------------------------------------------------------------------
+Example 3: Lowering ROPS Crossbar vs. Changing Front Axle Oil procedure
+-----------------------------------------------------------------------
+
+Now it is your turn. 
+
+Refer to the detailed list of steps of Task Example2 as Context1 and your generated detailed list of steps as Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 refers to "Lowering ROPS Crossbar" procedure and the Context2 refers to the "Changing Front Axle Oil" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
