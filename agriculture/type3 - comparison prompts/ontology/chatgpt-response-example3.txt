@@ -1,0 +1,27 @@
+To determine which procedure has more steps, we need to count the main steps in each procedure:
+
+Context1 (Lowering ROPS Crossbar procedure):
+
+1. Remove spring locking pin and drilled pin on each side of the ROPS.
+2. Carefully lower ROPS crossbar about half way down.
+3. Install drilled pins and spring locking pins and lower crossbar onto drilled pins.
+
+Total steps in Context1: 3
+
+Context2 (Changing Front Axle Oil procedure):
+
+1. Operate machine to warm front axle oil.
+2. Park machine safely.
+3. Position drain pan under differential drain plug (A).
+4. Remove differential drain plug and allow oil to drain.
+5. Position drain pan under each front axle drain plug (B).
+6. Remove both drain plugs and allow oil to drain.
+7. Install and tighten both drain plugs after all oil has drained.
+8. Remove dipstick (C) located on right side of front axle and vent plug (D).
+9. Add approximately 2.8 L (3.0 qt) of recommended oil through dipstick fill opening until oil level is correct.
+10. Install and tighten dipstick.
+11. Check front axle oil level.
+
+Total steps in Context2: 11
+
+Answer: The "Changing Front Axle Oil" procedure (from Context2) has more steps than the "Lowering ROPS Crossbar" procedure (from Context1).

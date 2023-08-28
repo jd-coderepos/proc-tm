@@ -1,0 +1,15 @@
+Based on the provided RDF graph (Context) for the "Changing Front Axle Oil" procedure, there are 11 main steps. These steps are:
+
+1. Operate machine to warm front axle oil.
+2. Park machine safely. (See Parking Safely in the SAFETY section.)
+3. Position drain pan under differential drain plug (A). NOTE: For draining purposes, front axle contains approximately 2.8 L (3.0 qt) of oil.
+4. Remove differential drain plug and allow oil to drain.
+5. Position drain pan under each front axle drain plug (B).
+6. Remove both drain plugs and allow oil to drain.
+7. Install and tighten both drain plugs after all oil has drained.
+8. Remove dipstick (C) located on right side of front axle and vent plug (D).
+9. Add approximately 2.8 L (3.0 qt) of recommended oil through dipstick fill opening until oil level is correct.
+10. Install and tighten dipstick.
+11. Check front axle oil level.
+
+These steps are the main tasks in the "Changing Front Axle Oil" procedure, and substeps or subtasks are not included in this count.

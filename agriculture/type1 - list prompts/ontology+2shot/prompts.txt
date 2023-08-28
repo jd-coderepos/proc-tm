@@ -144,7 +144,7 @@ Do you comprehend the Task? Particularly note the use of numbered Plans, SubPlan
 
 
 
-//upload the "registering the picture style" pdf through uploader in chatgpt
+//3rd example
 //otherwise upload the document to chatPDF
 // copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/agriculture/manual-chunks/tractors-operating-example3.pdf in the chat
 
