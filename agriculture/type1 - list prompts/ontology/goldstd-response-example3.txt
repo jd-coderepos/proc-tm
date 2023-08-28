@@ -1,0 +1,52 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Checking Front Axle Oil Level" ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step8 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Park the machine safely. (See Parking Safely section in the SAFETY section.) Allow machine to cool down for at least one hour. ";
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Loosen and remove the dipstick (A) located on the right side of the front axle." ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Wipe the dipstick clean with a rag. Install dipstick but do not tighten. Allow dipstick to rest on top of threads." ;
+    kh-p:nextStep kh-p-instance:Step4 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step4 a p-plan:Step ;
+    rdfs:label "Remove dipstick. Oil level should be between high (B) and low (C) levels on dipstick. If the oil level is low" ;
+    kh-p:nextStep kh-p-instance:SubStep4_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan4 .
+
+kh-p-instance:SubPlan4 a p-plan:Plan ;
+    rdfs:label "Sub Plan 4" ;
+    kh-p:startsWith kh-p-instance:SubStep4_1 ;
+    kh-p:endsWith kh-p-instance:SubStep4_2 .
+
+kh-p-instance:SubStep4_1 a p-plan:Step ;
+    rdfs:label "Add recommended oil through dipstick fill opening until oil level is correct. " ;
+    kh-p:nextStep kh-p-instance:SubStep4_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+
+kh-p-instance:SubStep4_2 a p-plan:Step ;
+    rdfs:label "Install and tighten dipstick" ;
+    kh-p:nextStep kh-p-instance:Step5 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan4 .
+
+
+kh-p-instance:Step5 a p-plan:Step ;
+    rdfs:label "Check front axle oil level again after the first several hours of operation." ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+
