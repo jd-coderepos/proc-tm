@@ -1,0 +1,9 @@
+Based on the provided RDF graph (Context) for the "Changing Front Axle Oil" procedure, after Step 3, which is:
+
+    Position drain pan under differential drain plug (A). NOTE: For draining purposes, front axle contains approximately 2.8 L (3.0 qt) of oil.
+
+The next step, as defined in the RDF graph using the kh-p:nextStep property, is:
+
+    Remove differential drain plug and allow oil to drain.
+
+Answer: The next step after Step 3 is "Remove differential drain plug and allow oil to drain."

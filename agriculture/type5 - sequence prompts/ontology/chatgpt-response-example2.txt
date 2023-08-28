@@ -1,0 +1,8 @@
+Based on the provided RDF graph (Context) for the "Lowering ROPS Crossbar" procedure, Step 3 is defined as:
+
+ex:Step3 a p-plan:Step ;
+    rdfs:label "Install drilled pins and spring locking pins and lower crossbar onto drilled pins" .
+
+There is no kh-p:nextStep property associated with ex:Step3, which would indicate a subsequent step after Step 3.
+
+Answer: Step 3 has no next step.
