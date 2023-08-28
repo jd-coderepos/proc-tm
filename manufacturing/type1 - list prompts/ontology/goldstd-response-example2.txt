@@ -6,7 +6,7 @@
 kh-p-instance:Plan1 a p-plan:Plan ;
     rdfs:label "Support plate installation " ;
     kh-p:startsWith kh-p-instance:Step1 ;
-    kh-p:endsWith kh-p-instance:Step2 .
+    kh-p:endsWith kh-p-instance:SubStep2_5 .
 
 kh-p-instance:Step1 a p-plan:Step ;
     rdfs:label "Install the support plate with a pit cover;
