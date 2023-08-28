@@ -1,0 +1,24 @@
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Lowering ROPS Crossbar" ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step3 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Remove the spring locking pin (A) and drilled pin (B) on each side of the ROPS." ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1  .
+
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Carefully lower the ROPS crossbar (C) about half way down." ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Install drilled pins (B) and spring locking pins (A) and lower crossbar (C) onto the drilled pins (B)." ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
