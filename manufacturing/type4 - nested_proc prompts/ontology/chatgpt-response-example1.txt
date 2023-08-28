@@ -1,0 +1,8 @@
+Based on the provided RDF graph (Context) for the "Inspect the pump" procedure:
+
+Step 1 is defined as:
+ex:Step1 a p-plan:Step ; rdfs:label "Remove the plastic shipping plugs" ; p-plan:isStepOfPlan ex:InspectThePump ; kh-p:nextStep ex:Step2 .
+
+There is no mention or indication of any substeps associated with ex:Step1 in the provided RDF graph.
+
+Answer: Step 1 has no substeps.

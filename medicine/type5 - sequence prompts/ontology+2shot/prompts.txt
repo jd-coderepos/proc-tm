@@ -1,0 +1,33 @@
+//otherwise upload the document to chatPDF
+//go to the ont - 2shot + med scenario conversation context
+
+This is Task Example1.iii of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.iii is as follows.
+
+Refer to the RDF graph of Task Example1 as Context and please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 2 in the given Context which refers to "2-Cylinder Portable System Assembly" procedure? If there is no next step, please reply “no next step.”
+Answer: In the "2-Cylinder Portable System Assembly" procedure based on the provided RDF graph of Task Example1 (Context), the next step after Step 2 "Attach the hoses to the flowmeter" is Step 3 "Connect the gas cylinders to the manifold's "E" yokes:"
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//go to the ont - 2shot + med scenario conversation context
+
+This is Task Example2.iii of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.iii is as follows.
+
+Refer to the RDF graph of Task Example2 as Context and please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 12 in the given Context which refers to "Changing Gas Cylinders" procedure? If there is no next step, please reply “no next step.”
+Answer: In the "Changing Gas Cylinders" procedure based on the provided RDF graph of Task Example2 (Context), there is no next step after Step 12 "Push the tank into an upright position. Attach and tighten the Velcro tank restraint."
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+  
+
+//go to the ont - 2shot + med scenario conversation context
+
+Now it is your turn. 
+
+Refer to your generated RDF graph above as Context and please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 3 in the given Context which refers to "Installation of FM Type" procedure? If there is no next step, please reply “no next step.”
+Answer:

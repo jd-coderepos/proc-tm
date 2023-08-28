@@ -1,0 +1,74 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix ex: <http://example.org/procedure/> .
+
+# Define the main procedure
+ex:FMTypeInstallationProcedure a p-plan:Plan ;
+    rdfs:label "Installation of FM Type" ;
+    kh-p:startsWith ex:PoleAssemblyPlan ;
+    kh-p:endsWith ex:AdjustmentPlan .
+
+# Define the Pole Assembly subplan and its substeps
+ex:PoleAssemblyPlan a p-plan:Plan ;
+    rdfs:label "Pole Assembly Installation" ;
+    kh-p:startsWith ex:AttachLegBarsStep ;
+    kh-p:endsWith ex:AttachCasterStep .
+
+ex:AttachLegBarsStep a p-plan:Step ;
+    rdfs:label "Attach four legs bars to the pole base" ;
+    kh-p:nextStep ex:AttachCasterStep .
+
+ex:AttachCasterStep a p-plan:Step ;
+    rdfs:label "Attach the caster to each leg end" ;
+    kh-p:isDecomposedAsPlan ex:ControlBoxMountingPlan .
+
+# Define the Control Box Mounting subplan and its substeps
+ex:ControlBoxMountingPlan a p-plan:Plan ;
+    rdfs:label "Control Box Mounting Plate" ;
+    kh-p:startsWith ex:SetControlBoxStep ;
+    kh-p:endsWith ex:SlideSupporterStep .
+
+ex:SetControlBoxStep a p-plan:Step ;
+    rdfs:label "Set the control box mounting plate over the access hole" ;
+    kh-p:nextStep ex:SlideSupporterStep .
+
+ex:SlideSupporterStep a p-plan:Step ;
+    rdfs:label "Slide the supporter of mounting plate down to the opposite side" ;
+    kh-p:isDecomposedAsPlan ex:ArmAssemblyPlan .
+
+# Define the Arm Assembly subplan and its substeps
+ex:ArmAssemblyPlan a p-plan:Plan ;
+    rdfs:label "Arm Assembly Installation" ;
+    kh-p:startsWith ex:InsertShaftStep ;
+    kh-p:endsWith ex:FixPoleBushingStep .
+
+ex:InsertShaftStep a p-plan:Step ;
+    rdfs:label "Insert the shaft of balance arm with pole bushing attached into the pole" ;
+    kh-p:nextStep ex:FixPoleBushingStep .
+
+ex:FixPoleBushingStep a p-plan:Step ;
+    rdfs:label "Fix the pole bushing by two mounting screws on the pole" ;
+    kh-p:isDecomposedAsPlan ex:HeadInstallationPlan .
+
+# Define the Head Installation subplan (details are on another page, so we'll keep it general)
+ex:HeadInstallationPlan a p-plan:Plan ;
+    rdfs:label "Head Installation" ;
+    kh-p:isDecomposedAsPlan ex:ControlBoxInstallationPlan .
+
+# Define the Control Box Installation subplan (details are on another page, so we'll keep it general)
+ex:ControlBoxInstallationPlan a p-plan:Plan ;
+    rdfs:label "Control Box Installation" ;
+    kh-p:isDecomposedAsPlan ex:AdjustmentPlan .
+
+# Define the Adjustment subplan and its substeps
+ex:AdjustmentPlan a p-plan:Plan ;
+    rdfs:label "Adjustment" ;
+    kh-p:startsWith ex:TightenBrakeScrewStep ;
+    kh-p:endsWith ex:PostInstallationInspectionStep .
+
+ex:TightenBrakeScrewStep a p-plan:Step ;
+    rdfs:label "Tighten the brake screw if arm drifts" ;
+    kh-p:nextStep ex:PostInstallationInspectionStep .
+
+ex:PostInstallationInspectionStep a p-plan:Step ;
+    rdfs:label "Perform the post installation inspection" .

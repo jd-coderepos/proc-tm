@@ -26,6 +26,3 @@ kh-p-instance:Step3 a p-plan:Step ;
 kh-p-instance:Step4 a p-plan:Step ;
     rdfs:label "Remove any grease from the machined surfaces." ;
     kh-p:isStepOfPlan kh-p-instance:Plan1 .
-    
-
-

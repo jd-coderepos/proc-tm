@@ -1,0 +1,5 @@
+Based on the generated RDF graph for the "Installation of FM Type" procedure:
+
+In the "Installation of FM Type" procedure, the next step after Step 3 "Arm Assembly Installation" is Step 4 "Head Installation".
+
+Answer: The next step after Step 3 is "Head Installation".

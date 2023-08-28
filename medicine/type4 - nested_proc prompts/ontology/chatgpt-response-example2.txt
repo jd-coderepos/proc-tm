@@ -1,0 +1,3 @@
+Based on the provided RDF graph for the "Changing Gas Cylinders" procedure, Step 12 (ex:CylinderStep12) is described as "Push the tank into an upright position. Attach and tighten the Velcro tank restraint." There is no mention of any substeps or subtasks associated with this step in the context.
+
+Therefore, the answer is: no substeps.

@@ -14,7 +14,7 @@ kh-p-instance:Step1 a p-plan:Step ;
     kh-p:isStepOfPlan kh-p-instance:Plan1  .
 
 kh-p-instance:Step2 a p-plan:Step ;
-    rdfs:label "Lock out the driver power and remove the coupling guard." ;
+    rdfs:label "Drain oil from Bearing Frame (228)." ;
     kh-p:nextStep kh-p-instance:Step3 ;
     kh-p:isStepOfPlan kh-p-instance:Plan1 .
 

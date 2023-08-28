@@ -1,0 +1,8 @@
+Based on the provided RDF graph for the "Installation of FM Type" procedure, Step 1 corresponds to the ex:PoleAssemblyPlan. To identify the next step after this, we need to look for the subplan that is decomposed as a plan after the ex:PoleAssemblyPlan.
+
+From the RDF graph:
+ex:PoleAssemblyPlan has the property kh-p:isDecomposedAsPlan ex:ControlBoxMountingPlan, which means that after the "Pole Assembly Installation" step, the next step is represented by the ex:ControlBoxMountingPlan.
+
+ex:ControlBoxMountingPlan corresponds to the "Control Box Mounting Plate" step.
+
+Answer: The next step after Step 1 ("Pole Assembly Installation") in the "Installation of FM Type" procedure is "Control Box Mounting Plate".

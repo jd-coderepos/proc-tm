@@ -1,0 +1,29 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix ex: <http://example.com#> .
+
+# Define the main Plan for 'Inspect the pump'
+ex:InspectThePump a p-plan:Plan ;
+    rdfs:label "Inspect the Pump Procedure" ;
+    kh-p:startsWith ex:Step1 ;
+    kh-p:endsWith ex:Step4 .
+
+# Define the Steps
+ex:Step1 a p-plan:Step ;
+    rdfs:label "Remove the plastic shipping plugs" ;
+    p-plan:isStepOfPlan ex:InspectThePump ;
+    kh-p:nextStep ex:Step2 .
+
+ex:Step2 a p-plan:Step ;
+    rdfs:label "Remove all the equipment from the shipping containers" ;
+    p-plan:isStepOfPlan ex:InspectThePump ;
+    kh-p:nextStep ex:Step3 .
+
+ex:Step3 a p-plan:Step ;
+    rdfs:label "Clean the underside of the support plate and both sides of the optional pit cover" ;
+    p-plan:isStepOfPlan ex:InspectThePump ;
+    kh-p:nextStep ex:Step4 .
+
+ex:Step4 a p-plan:Step ;
+    rdfs:label "Remove any grease from the machined surfaces" ;
+    p-plan:isStepOfPlan ex:InspectThePump .

@@ -1,0 +1,50 @@
+-----------------------------------------------------------------
+Example 1: 2-CYLINDER PORTABLE SYSTEM ASSEMBLY procedure - step 2
+-----------------------------------------------------------------
+
+//copy-paste the "[name]" RDF graph generated previously in template 1
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 2 in the given Context which refers to "2-Cylinder Portable System Assembly" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+
+
+-------------------------------------------
+Example 2: Changing Gas Cylinders - step 12
+-------------------------------------------
+
+//copy-paste the "[name]" RDF graph generated previously in template 1:
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 12 in the given Context which refers to "Changing Gas Cylinders" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+
+
+-----------------------------------------------------
+Example 3: INSTALLATION OF FM TYPE procedure - step 1
+-----------------------------------------------------
+
+//copy-paste the "[name]" RDF graph generated previously in template 1:
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 1 in the given Context which refers to "Installation of FM Type" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+
+
+-----------------------------------------------------
+Example 4: INSTALLATION OF FM TYPE procedure - step 3
+-----------------------------------------------------
+//copy-paste the "[name]" RDF graph generated previously in template 1:
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 3 in the given Context which refers to "Installation of FM Type" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+

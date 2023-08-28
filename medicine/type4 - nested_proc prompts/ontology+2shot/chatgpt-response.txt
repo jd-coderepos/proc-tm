@@ -1,0 +1,11 @@
+Based on the generated RDF graph for the "Installation of FM Type" procedure:
+
+For Step 3, "Arm Assembly Installation", in the "Installation of FM Type" procedure based on the provided RDF graph (Context), the detailed list of substeps is:
+
+Step a: Attach the arm to the pole using the provided screws.
+Step b: Ensure the arm is securely fastened to avoid any movement during operation.
+Step c: Adjust the arm to the desired height and angle for optimal performance.
+
+These substeps provide a detailed breakdown of the process of installing the arm assembly.
+
+Answer: The substeps for "Arm Assembly Installation" are as listed above.

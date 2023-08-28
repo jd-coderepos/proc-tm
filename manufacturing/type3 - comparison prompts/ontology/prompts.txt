@@ -1,0 +1,58 @@
+--------------------------------------------------------------------
+Example 1: Inspect the pump vs. Support plate installation procedure
+--------------------------------------------------------------------
+//the tests can be performed with generated graphs as well as with gold-standard graph
+
+EXAMPLE 1 PROMPT
+
+Refer to the following RDF graph as Context1.
+
+#copy-paste the "Inspect the pump" RDF graph generated previously in template 1 of example1
+
+Now refer to the following RDF graph as Context2.
+
+#copy-paste the "Support plate installation" RDF graph generated previously in template 1 of example2
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 RDF graph refers to "Inspect the pump" procedure and the Context2 RDF graph refers to the "Support plate installation" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
+
+-------------------------------------------------------------------------------------
+Example 2: Inspect the pump vs. Removal and installation of Mechanical seal procedure
+-------------------------------------------------------------------------------------
+
+EXAMPLE 2 PROMPT
+
+Refer to the following RDF graph as Context1.
+
+#copy-paste the "Inspect the pump" RDF graph generated previously in template 1 of example1
+
+Now refer to the following RDF graph as Context2.
+
+#copy-paste the "Removal and installation of Mechanical seal" RDF graph generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 RDF graph refers to "Inspect the pump" procedure and the Context2 RDF graph refers to the "Removal and installation of Mechanical seal" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
+
+
+-----------------------------------------------------------------------------------------------
+Example 3: Support plate installation vs. Removal and installation of Mechanical seal procedure
+-----------------------------------------------------------------------------------------------
+
+EXAMPLE 3 PROMPT
+
+Refer to the following RDF graph as Context1.
+
+#copy-paste the "Support plate installation" RDF graph generated previously in template 1 of example2
+
+Now refer to the following RDF graph as Context2.
+
+#copy-paste the "Removal and installation of Mechanical seal" RDF graph generated previously in template 1 of example3
+
+Given Context1 and Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 RDF graph refers to "Support plate installation" procedure and the Context2 RDF graph refers to the "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:

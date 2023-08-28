@@ -1,0 +1,62 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+
+# Main Procedure
+:SupportPlateInstallation a p-plan:Plan ;
+    kh-p:startsWith :WithPitCover ;
+    kh-p:endsWith :WithoutPitCover .
+
+# Sub-Procedure 1: With Pit Cover
+:WithPitCover a p-plan:Plan ;
+    kh-p:startsWith :LowerPitCover ;
+    kh-p:endsWith :TightenBoltsStarPattern1 .
+
+# Steps for Sub-Procedure 1
+:LowerPitCover a p-plan:Step ;
+    kh-p:nextStep :LevelPitCover .
+
+:LevelPitCover a p-plan:Step ;
+    kh-p:nextStep :HandTightenAnchorBolts1 .
+
+:HandTightenAnchorBolts1 a p-plan:Step ;
+    kh-p:nextStep :CheckLevelReShim1 .
+
+:CheckLevelReShim1 a p-plan:Step ;
+    kh-p:nextStep :TightenBoltsStarPattern1 .
+
+:TightenBoltsStarPattern1 a p-plan:Step ;
+    kh-p:nextStep :LowerPumpSupportPlate .
+
+:LowerPumpSupportPlate a p-plan:Step ;
+    kh-p:nextStep :InstallAllBolts .
+
+:InstallAllBolts a p-plan:Step ;
+    kh-p:nextStep :CheckLevelSupportPlate .
+
+:CheckLevelSupportPlate a p-plan:Step ;
+    kh-p:nextStep :TightenAllBoltsStarPattern .
+
+:TightenAllBoltsStarPattern a p-plan:Step .
+
+# Sub-Procedure 2: Without Pit Cover
+:WithoutPitCover a p-plan:Plan ;
+    kh-p:startsWith :LowerPumpSupportPlate2 ;
+    kh-p:endsWith :TightenBoltsStarPattern2 .
+
+# Steps for Sub-Procedure 2
+:LowerPumpSupportPlate2 a p-plan:Step ;
+    kh-p:nextStep :LevelSupportPlate2 .
+
+:LevelSupportPlate2 a p-plan:Step ;
+    kh-p:nextStep :EnsureAirTightSeal .
+
+:EnsureAirTightSeal a p-plan:Step ;
+    kh-p:nextStep :HandTightenAnchorBolts2 .
+
+:HandTightenAnchorBolts2 a p-plan:Step ;
+    kh-p:nextStep :CheckLevelReShim2 .
+
+:CheckLevelReShim2 a p-plan:Step ;
+    kh-p:nextStep :TightenBoltsStarPattern2 .
+
+:TightenBoltsStarPattern2 a p-plan:Step .

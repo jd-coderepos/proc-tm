@@ -1,0 +1,8 @@
+Based on the provided RDF graph for the "Installation of FM Type" procedure, Step 3 corresponds to the ex:ArmAssemblyPlan. To identify the next step after this, we need to look for the subplan that is decomposed as a plan after the ex:ArmAssemblyPlan.
+
+From the RDF graph:
+ex:ArmAssemblyPlan has the property kh-p:isDecomposedAsPlan ex:HeadInstallationPlan, which means that after the "Arm Assembly Installation" step, the next step is represented by the ex:HeadInstallationPlan.
+
+ex:HeadInstallationPlan corresponds to the "Head Installation" step.
+
+Answer: The next step after Step 3 ("Arm Assembly Installation") in the "Installation of FM Type" procedure is "Head Installation".

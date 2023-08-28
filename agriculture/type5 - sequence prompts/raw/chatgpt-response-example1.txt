@@ -1,0 +1,6 @@
+Based on the provided Context for "Operating the Hydrostatic Transmission" procedure, the step after Step 6 is:
+
+1. Travel Direction:
+	- To travel forward: Slowly depress pedal (C) downward.
+	- To travel in reverse: Slowly depress pedal (D) downward.
+		> The farther either travel pedal is depressed, the faster the machine will travel.

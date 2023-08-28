@@ -1,0 +1,49 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+
+# Define the main procedure
+<https://knowledge.c-innovationhub.com/procedure/shaftSealMaintenance> a p-plan:Plan ;
+    rdfs:label "Shaft-seal maintenance" ;
+    kh-p:isDecomposedAsPlan <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal> .
+
+# Define the sub-procedure
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal> a p-plan:Plan ;
+    rdfs:label "Removal and installation of Mechanical seal" ;
+    kh-p:startsWith <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step1> ;
+    kh-p:endsWith <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step9> .
+
+# Define the steps of the sub-procedure
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step1> a p-plan:Step ;
+    rdfs:label "Lock out the driver power and remove the coupling guard." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step2> .
+
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step2> a p-plan:Step ;
+    rdfs:label "Drain oil from Bearing Frame (228)." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step3> .
+
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step3> a p-plan:Step ;
+    rdfs:label "Remove the Coupling spacer and pump half hub (233) and key." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step4> .
+
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step4> a p-plan:Step ;
+    rdfs:label "Remove Socket head screws (268), Lockwasher (437B) and EZ adjust shaft nut (283A) from shaft." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step5> .
+
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step5> a p-plan:Step ;
+    rdfs:label "Loosen and remove the End cover Hex Cap screws (370W) and Bearing frame End cover (109) with Laby seal (332A)." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step6> .
+
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step6> a p-plan:Step ;
+    rdfs:label "Pull out the Bearing carrier assembly (741) and remove bearing carrier key (178S) from shaft." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step7> .
+
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step7> a p-plan:Step ;
+    rdfs:label "Remove the Bearing frame (228) and mounting hardware (352D) from motor support." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step8> .
+
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step8> a p-plan:Step ;
+    rdfs:label "Remove and service Mechanical seal." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step9> .
+
+<https://knowledge.c-innovationhub.com/procedure/removalInstallationMechanicalSeal/step9> a p-plan:Step ;
+    rdfs:label "After Service reassemble in reverse order." .

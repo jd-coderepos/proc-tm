@@ -1,0 +1,5 @@
+Based on the generated RDF graph for the "Removal and installation of Mechanical seal" procedure:
+
+For Step 7, "Reconnect the driver power", in the "Removal and installation of Mechanical seal" procedure based on the provided RDF graph (Context), there are no substeps.
+
+Answer: no substeps.

@@ -1,0 +1,22 @@
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (2-Cylinder Portable System Assembly):
+
+1. Mounting the flowmeter to the manifold (ex:MountFlowmeter)
+2. Attaching hoses to the flowmeter (ex:AttachHoses)
+3. Verifying flowmeter operations (ex:VerifyFlowmeterOperation)
+
+Total main steps in Context1: 3
+
+From Context2 (Installation of FM Type):
+
+1. Pole Assembly Installation (ex:PoleAssemblyPlan)
+2. Control Box Mounting Plate (ex:ControlBoxMountingPlan)
+3. Arm Assembly Installation (ex:ArmAssemblyPlan)
+4. Head Installation (ex:HeadInstallationPlan)
+5. Control Box Installation (ex:ControlBoxInstallationPlan)
+6. Adjustment (ex:AdjustmentPlan)
+
+Total main steps in Context2: 6
+
+Answer: The "Installation of FM Type" procedure (from Context2) has more steps than the "2-Cylinder Portable System Assembly" procedure (from Context1).

@@ -1,0 +1,6 @@
+To answer your question, let's count the number of main steps in each procedure based on the provided RDF graphs:
+
+- In Context1, the "Inspect the Pump" procedure has 4 main steps: Step1, Step2, Step3, and Step4.
+- In Context2, the "Support Plate Installation" procedure itself doesn't have main steps listed. Instead, it has two sub-procedures: "With Pit Cover" and "Without Pit Cover," each with its own steps. Since the question specifies not to include substeps or subtasks, we can say that the "Support Plate Installation" procedure has 0 main steps.
+
+Answer: The "Inspect the Pump" procedure from Context1 has more main steps than the "Support Plate Installation" procedure from Context2.

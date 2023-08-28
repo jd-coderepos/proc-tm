@@ -1,0 +1,12 @@
+Based on the provided RDF graph (Context) for the "Inspect the pump" procedure:
+
+There are 4 main steps in the "Inspect the pump" procedure. These steps are:
+
+1. Remove the plastic shipping plugs.
+2. Remove all the equipment from the shipping containers.
+3. Clean the underside of the support plate and both sides of the optional pit cover.
+4. Remove any grease from the machined surfaces.
+
+The graph does not include any substeps or subtasks for each main step.
+
+Answer: There are 4 main steps in the "Inspect the pump" procedure.

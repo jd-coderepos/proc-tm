@@ -1,0 +1,38 @@
+----------------------------------------------
+Example 1: Inspect the pump procedure - step 1
+----------------------------------------------
+
+//copy-paste the "[name]" RDF graph generated previously in template 1
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 1 in the given Context which refers to "Inspect the pump" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+
+
+--------------------------------------------------------
+Example 2: Support plate installation procedure - step 3
+--------------------------------------------------------
+
+//copy-paste the "[name]" RDF graph generated previously in template 1:
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 3 in the given Context which refers to "Support plate installation without a pit cover" procedure under the theme of the "Support plate installation" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+
+
+-------------------------------------------------------------------------
+Example 3: Removal and installation of Mechanical seal procedure - step 7
+-------------------------------------------------------------------------
+
+//copy-paste the "[name]" RDF graph generated previously in template 1:
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 7 in the given Context which refers to "Removal and installation of Mechanical seal" procedure? If there are no substeps, please reply with "no substeps".
+Answer:
+

@@ -1,0 +1,24 @@
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Support plate installation Procedure):
+
+1. Install the support plate with a pit cover.
+2. Install the support plate without a pit cover.
+
+Total main steps in Context1: 2
+
+From Context2 (Removal and installation of Mechanical seal):
+
+1. Disconnect and lock out the driver power.
+2. Carefully remove the mechanical seal from the shaft.
+3. Inspect the mechanical seal for any signs of wear or damage.
+4. Clean the shaft area where the mechanical seal will be installed.
+5. Apply a thin layer of lubricant to the shaft.
+6. Install the new mechanical seal onto the shaft ensuring proper alignment.
+7. Reconnect the driver power.
+8. Test the pump to ensure the mechanical seal is functioning properly.
+9. Complete the maintenance log with details of the mechanical seal replacement.
+
+Total main steps in Context2: 9
+
+Answer: The "Removal and installation of Mechanical seal" procedure from Context2 has more main steps than the "Support plate installation" procedure from Context1.

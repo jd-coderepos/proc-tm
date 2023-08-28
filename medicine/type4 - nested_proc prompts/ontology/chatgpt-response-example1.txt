@@ -1,0 +1,13 @@
+Based on the provided RDF graph for the "2-Cylinder Portable System Assembly" procedure, Step 2 is ex:AttachHoses - "Attaching hoses to the flowmeter".
+
+To identify the substeps of ex:AttachHoses, we need to look for a subplan that is decomposed from this step using the kh-p:isDecomposedAsPlan property.
+
+From the graph, ex:AttachHoses is decomposed into the subplan ex:ConnectGasCylindersSubPlan. The steps of this subplan are:
+
+1. ex:PrepareCylinders - Preparing the gas cylinders
+2. ex:SecureCylinders - Securing the gas cylinders to the manifold
+
+Answer: The substeps of Step 2 ("Attaching hoses to the flowmeter") in the "2-Cylinder Portable System Assembly" procedure are:
+
+1. Preparing the gas cylinders
+2. Securing the gas cylinders to the manifold.

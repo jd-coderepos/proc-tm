@@ -1,0 +1,13 @@
+Based on the provided RDF graphs:
+
+    In Context1, the "Inspect the Pump" procedure has 4 steps:
+    1. Remove the plastic shipping plugs
+    2. Remove all the equipment from the shipping containers
+    3. Clean the underside of the support plate and both sides of the optional pit cover
+    4. Remove any grease from the machined surfaces
+
+    In Context2, the "Removal and installation of Mechanical seal" procedure has 9 steps.
+
+Given this information:
+
+Answer: The "Removal and installation of Mechanical seal" procedure (from Context2) has more steps than the "Inspect the pump" procedure (from Context1).

@@ -1,0 +1,43 @@
+//upload the "2-CYLINDER PORTABLE SYSTEM ASSEMBLY" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "ont - 2-shot med" list steps scenario conversation context
+
+This is Task Example1.ii of Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1.ii is as follows.
+
+Refer to the RDF graph of Task Example1 as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 2 in the given Context which refers to "2-Cylinder Portable System Assembly" procedure? If there are no substeps, please reply with "no substeps".
+Answer: For Step 2, "Attach the hoses to the flowmeter", in the "2-Cylinder Portable System Assembly" procedure based on the provided RDF graph of Task Example1 (Context), the detailed list of substeps is:
+
+Step a: Run the nitrous oxide hose under the manifold and attach it to the nitrous oxide DISS fitting located on the back of the flowmeter.
+Step b: Run the oxygen hose under the manifold and attach it to the oxygen DISS fitting located on the back of the flowmeter.
+
+These substeps provide a detailed breakdown of the process of focusing the subject.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//upload the "Changing Gas Cylinders" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "ont - 2-shot med" list steps scenario conversation context
+
+This is Task Example2.ii of Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2.ii is as follows.
+
+Refer to the RDF graph of Task Example2 as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 12 in the given Context which refers to "Changing Gas Cylinders" procedure? If there are no substeps, please reply with "no substeps".
+Answer: For Step 12, "Push the tank into an upright position. Attach and tighten the Velcro tank restraint.", in the "Changing Gas Cylinders" procedure based on the provided RDF graph of Task Example2 (Context), there are "no substeps."
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+  
+
+//upload the "Installation of FM Type" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//go to the "ont - 2-shot med" list steps scenario conversation context
+
+Now it is your turn. 
+
+Refer to your generated RDF graph above as Context and please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the substeps of Step 3 in the given Context which refers to "Installation of FM Type" procedure? If there are no substeps, please reply with "no substeps".
+Answer:

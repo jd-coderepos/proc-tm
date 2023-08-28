@@ -1,0 +1,20 @@
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+
+# Define the main procedure
+<https://knowledge.c-innovationhub.com/procedure/lubricateBearingsAfterShutdown> a p-plan:Plan ;
+    rdfs:label "Lubricate the bearings after a shutdown period" ;
+    kh-p:startsWith <https://knowledge.c-innovationhub.com/procedure/lubricateBearingsAfterShutdown/step1> ;
+    kh-p:endsWith <https://knowledge.c-innovationhub.com/procedure/lubricateBearingsAfterShutdown/step3> .
+
+# Define the steps of the main procedure
+<https://knowledge.c-innovationhub.com/procedure/lubricateBearingsAfterShutdown/step1> a p-plan:Step ;
+    rdfs:label "Flush out the bearings and bearing frame with a light oil to remove contaminants. During flushing, make sure to rotate the shaft slowly by hand." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/lubricateBearingsAfterShutdown/step2> .
+
+<https://knowledge.c-innovationhub.com/procedure/lubricateBearingsAfterShutdown/step2> a p-plan:Step ;
+    rdfs:label "Flush the bearing housing with the proper lubricating oil to ensure oil quality after cleaning." ;
+    kh-p:nextStep <https://knowledge.c-innovationhub.com/procedure/lubricateBearingsAfterShutdown/step3> .
+
+<https://knowledge.c-innovationhub.com/procedure/lubricateBearingsAfterShutdown/step3> a p-plan:Step ;
+    rdfs:label "Refer to Reassembly section for proper bearing lubrication procedure." .

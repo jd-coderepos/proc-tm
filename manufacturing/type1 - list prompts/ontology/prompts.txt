@@ -1,0 +1,98 @@
+GENERIC PROMPT
+
+//upload the "[name]" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+
+
+Here is the complete definition of the procedural RDF ontology in TTL format which defines Procedures and Steps and relationships between each other: 
+
+Using the provided ontology, please create specific instances and data about individuals representing the steps and substeps for the [-] procedure. Include relationships such as 'isDecomposedAsPlan' and 'isStepOfPlan' to model the hierarchy of main steps and their substeps. Additionally, create the RDF graph that represents the defined individuals and their relationships.
+
+Refer to the RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you provide a detailed list of the steps in the given Context which refers to "[procedure-name]" procedure, including any substeps or subtasks for each main step?
+
+Answer:
+
+
+
+-------------------------------------
+Example 1: Inspect the pump procedure
+-------------------------------------
+
+//upload the "manufacturing-example1" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/manufacturing/manual-chunks/manufacturing-example1.pdf in the chat
+
+EXAMPLE 1 PROMPT
+
+Here is the complete definition of the procedural RDF Ontology in TTL format which defines a Procedure as composed of a Plan and a Plan composed of Steps.
+
+#insert ontology here 
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to 'Inspect the pump' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+note: if ChatGPT generates only a graph of steps, it should be prodded further before arrving at the final answer "Why haven't you used the substep and subplan implicit classes. Try again."
+
+
+-----------------------------------------------
+Example 2: Support plate installation procedure
+-----------------------------------------------
+
+//upload the "manufacturing-example2" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/manufacturing/manual-chunks/manufacturing-example2.pdf in the chat
+
+EXAMPLE 2 PROMPT
+
+Here is the complete definition of the procedural RDF Ontology in TTL format which defines a Procedure as composed of a Plan and a Plan composed of Steps.
+
+#insert ontology here 
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Support plate installation' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+
+-------------------------------------------------------------------
+Example 3: Lubricate the bearings after a shutdown period procedure
+-------------------------------------------------------------------
+
+//upload the "manufacturing-example3" pdf through uploader in chatgpt
+//otherwise upload the document to chatPDF
+// copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/manufacturing/manual-chunks/manufacturing-example3.pdf in the chat
+
+
+EXAMPLE 3 PROMPT
+
+Here is the complete definition of the procedural RDF Ontology in TTL format which defines a Procedure as composed of a Plan and a Plan composed of Steps.
+
+#insert ontology here 
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to 'Lubricate the bearings after a shutdown period' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+Example 4: "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure
+-----------------------------------------------------------------------------------------------------------------
+
+//use the same context as example3
+
+
+EXAMPLE 4 PROMPT
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure, with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+
+

@@ -1,0 +1,1 @@
+Based on the provided RDF graph for the "Changing Gas Cylinders" procedure, there are 12 main steps. These steps are directly associated with the p-plan:isStepOfPlan property to the ex:ChangingGasCylinders plan. No substeps or subtasks for each main step are mentioned in the provided context.

@@ -1,0 +1,11 @@
+Based on the provided RDF graph for the "2-Cylinder Portable System Assembly" procedure, we can identify the main steps by looking for instances of the p-plan:Step class that are directly associated with the main procedure using the p-plan:isStepOfPlan property.
+
+From the graph, the main steps of the "2-Cylinder Portable System Assembly" procedure are:
+
+1. ex:MountFlowmeter - Mounting the flowmeter to the manifold
+2. ex:AttachHoses - Attaching hoses to the flowmeter
+3. ex:VerifyFlowmeterOperation - Verifying flowmeter operations
+
+(Note: The step ex:ConnectGasCylindersSubPlan is a subplan and not a direct step of the main procedure, so it's not counted.)
+
+Answer: There are 3 main steps in the "2-Cylinder Portable System Assembly" procedure, not including any substeps or subtasks for each main step.

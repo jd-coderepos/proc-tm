@@ -1,0 +1,7 @@
+Based on the provided RDF graph (Context) for the "Removal and installation of Mechanical seal" procedure, Step 7 is defined as:
+
+1. Remove the Bearing frame (228) and mounting hardware (352D) from motor support.
+
+There are no further details or substeps provided for this step in the RDF graph.
+
+Answer: No substeps.

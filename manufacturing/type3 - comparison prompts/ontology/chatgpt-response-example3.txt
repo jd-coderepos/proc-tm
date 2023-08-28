@@ -1,0 +1,45 @@
+To determine which procedure has more steps, we need to count the main steps for each procedure without considering substeps or subtasks.
+
+From Context1 (Support plate installation procedure):
+
+    Main Procedure: :SupportPlateInstallation
+
+        Sub-Procedure 1: :WithPitCover has the following steps:
+            :LowerPitCover
+            :LevelPitCover
+            :HandTightenAnchorBolts1
+            :CheckLevelReShim1
+            :TightenBoltsStarPattern1
+            :LowerPumpSupportPlate
+            :InstallAllBolts
+            :CheckLevelSupportPlate
+            :TightenAllBoltsStarPattern
+
+        Sub-Procedure 2: :WithoutPitCover has the following steps:
+            :LowerPumpSupportPlate2
+            :LevelSupportPlate2
+            :EnsureAirTightSeal
+            :HandTightenAnchorBolts2
+            :CheckLevelReShim2
+            :TightenBoltsStarPattern2
+
+From Context2 (Shaft-seal maintenance procedure):
+
+    Main Procedure: "Shaft-seal maintenance"
+        Sub-Procedure: "Removal and installation of Mechanical seal" has the following steps:
+            Lock out the driver power and remove the coupling guard.
+            Drain oil from Bearing Frame (228).
+            Remove the Coupling spacer and pump half hub (233) and key.
+            Remove Socket head screws (268), Lockwasher (437B) and EZ adjust shaft nut (283A) from shaft.
+            Loosen and remove the End cover Hex Cap screws (370W) and Bearing frame End cover (109) with Laby seal (332A).
+            Pull out the Bearing carrier assembly (741) and remove bearing carrier key (178S) from shaft.
+            Remove the Bearing frame (228) and mounting hardware (352D) from motor support.
+            Remove and service Mechanical seal.
+            After Service reassemble in reverse order.
+
+Count:
+
+    Support plate installation procedure (from Context1) has a total of 15 steps (9 from Sub-Procedure 1 and 6 from Sub-Procedure 2).
+    Shaft-seal maintenance procedure (from Context2) has a total of 9 steps.
+
+Answer: The "Support plate installation" procedure from Context1 has more steps than the "Removal and installation of Mechanical seal" sub-procedure from Context2.

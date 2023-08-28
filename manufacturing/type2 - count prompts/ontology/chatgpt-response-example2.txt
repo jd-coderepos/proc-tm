@@ -1,0 +1,10 @@
+Based on the provided RDF graph (Context) for the "Support plate installation" procedure, we can determine the number of main steps by identifying the steps directly associated with the main procedure, without considering the substeps or subtasks.
+
+In the RDF graph, the main procedure is represented by :SupportPlateInstallation. The steps directly associated with this procedure are the sub-procedures :WithPitCover and :WithoutPitCover.
+
+Thus, the "Support plate installation" procedure consists of 2 main steps (or sub-procedures):
+
+1. Install the support plate with a pit cover (:WithPitCover).
+2. Install the support plate without a pit cover (:WithoutPitCover).
+
+Answer: The "Support plate installation" procedure in the given Context consists of 2 main steps.
