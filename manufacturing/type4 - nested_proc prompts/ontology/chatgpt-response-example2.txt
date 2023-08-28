@@ -1,0 +1,11 @@
+Based on the provided RDF graph (Context) for the "Support plate installation" procedure, let's identify the substeps for Step 3 of the "Support plate installation without a pit cover" procedure.
+
+The "Support plate installation without a pit cover" procedure is represented by :WithoutPitCover in the RDF graph.
+
+Step 3 of this procedure is represented by :EnsureAirTightSeal.
+
+To determine the substeps of :EnsureAirTightSeal, we need to check if it is further decomposed into other steps using the kh-p:isDecomposedAsPlan property.
+
+Upon examining the RDF graph, there is no indication that :EnsureAirTightSeal is decomposed into further steps.
+
+Answer: The Step 3 "Ensure an air-tight seal" of the "Support plate installation without a pit cover" procedure has no substeps.
