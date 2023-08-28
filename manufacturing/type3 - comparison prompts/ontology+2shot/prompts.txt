@@ -1,0 +1,96 @@
+//go to the "ont - 2-shot joint setting" list steps scenario conversation context
+
+This is a subtask of both Task Example1 and Task Example2. You are not required to perform the Task. You are only required to understand the Task. The subtask is as follows.
+
+Refer to the RDF graph of Task Example1 as Context1 and the RDF graph of Task Example2 as Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 RDF graph refers to "Inspect the pump" procedure and the Context2 RDF graph refers to the "Support plate installation" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer: 
+
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Formatting the Card Procedure):
+
+1. Remove plastic shipping plugs from vent holes in head column and casing.
+2. Remove all the equipment from the shipping containers.
+3. Completely clean the underside of the support plate and both sides of optional pit cover, if supplied.
+4. Remove any grease from the machined surfaces.
+
+Total main steps in Context1: 4
+
+From Context2 (Support plate installation with and without a pit cover procedure):
+
+Install the support plate with a pit cover
+1. Carefully lower the pit cover onto the foundation bolts. 
+2. Use as long a level as possible in order to level the pit cover in all directions with shims or wedges. 
+3. Hand tighten the anchor bolts. Check the level and re-shim if necessary. 
+4. Tighten all anchor bolts in a star pattern in order to avoid distorting the pit cover. 
+5. If access to the bottom side is possible, carefully lower the pump and support plate onto the pit cover. 
+6. Install all bolts and hand tighten. 
+7. Check the level on the support plate and re-shim if necessary. 
+8. Tighten all bolts in a star pattern in order to avoid distorting the support plate.
+
+Install the support plate without a pit cover  
+1. Carefully lower the pump and support plate onto the foundation bolts. 
+2. Level the support plate in all directions using shims and wedges. 
+3. If you use the vapor-proof option, then perform one of these actions in order to make sure that you have an air-tight seal:
+	- Standard support plate type: Insert the supplied gasket between the two flanges. Bolt the support plate to a metal sole plate that has a machined surface.
+	- Tank flange support plate type: Install the supplied gasket between the two flanges. Make sure that the mating flange on the tank is level. Use gasket material between the flanges in order to make minor adjustments.
+4.   Hand tighten the anchor bolts. Check the level and re-shim if necessary. 
+5.   Tighten all anchor bolts in a star pattern in order to avoid distorting the support plate. 
+
+Context2 about Support plate installation has two different procedures: 8 for Support plate installation with a pit cover and 5 for Support plate installation without a pit cover.
+
+Answer: When comparing Context1 and Context2, both the procedures from Context2, i.e. "Support plate installation with a pit cover" with 8 main steps and "Support plate installation without a pit cover" with 5 main steps, have more main steps than the "Inspect the pump" procedure from Context1 which has 4 main steps.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+   
+
+//go to the "ont - 2-shot joint setting" list steps scenario conversation context
+
+This is a subtask of both of Task Example1 and your performed Task to generate an RDF graph above. You are not required to perform the Task. You are only required to understand the Task. The subtask is as follows.
+
+Refer to the RDF graph of Task Example1 as Context1 and your generated RDF graph as Context2, respectively, and please provide an Answer to the Question below. 
+
+Question: Given that the Context1 RDF graph refers to "Inspect the pump" procedure and the Context2 RDF graph refers to the "Removal and installation of Mechanical seal" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer: 
+
+To answer the question, we need to count the number of main steps in each procedure without considering the substeps or subtasks.
+
+From Context1 (Inspect the pump Procedure):
+
+1. Remove plastic shipping plugs from vent holes in head column and casing.
+2. Remove all the equipment from the shipping containers.
+3. Completely clean the underside of the support plate and both sides of optional pit cover, if supplied.
+4. Remove any grease from the machined surfaces.
+
+Total main steps in Context1: 4
+
+From Context2 (Removal and installation of Mechanical seal):
+
+1. Disconnect and lock out the driver power.
+2. Carefully remove the mechanical seal from the shaft.
+3. Inspect the mechanical seal for any signs of wear or damage.
+4. Clean the shaft area where the mechanical seal will be installed.
+5. Apply a thin layer of lubricant to the shaft.
+6. Install the new mechanical seal onto the shaft ensuring proper alignment.
+7. Reconnect the driver power.
+8. Test the pump to ensure the mechanical seal is functioning properly.
+9. Complete the maintenance log with details of the mechanical seal replacement.
+
+Total main steps in Context2: 9
+
+Answer: The "Removal and installation of Mechanical seal" procedure from Context2 has more main steps than the "Inspect the pump" procedure from Context1.
+
+Do you comprehend the Task? Please only answer “yes” if you do and “no” if you don’t.
+  
+
+
+//go to the "ont - 2-shot joint setting" list steps scenario conversation context
+
+Now it is your turn. 
+
+Refer to the RDF graph of Task Example2 as Context1 and your generated RDF graph as Context2, respectively, and please provide an Answer to the Question below.
+
+Question: Given that the Context1 RDF graph refers to "Support plate installation" procedure and the Context2 RDF graph refers to the "Removal and installation of Mechanical seal" procedure, which procedure has more steps, not including any substeps or subtasks for each main step?
+Answer:
