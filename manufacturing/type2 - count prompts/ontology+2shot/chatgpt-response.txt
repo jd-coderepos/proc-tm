@@ -1,0 +1,3 @@
+The "Removal and installation of Mechanical seal" sub-procedure for the "Shaft-seal maintenance" procedure in the provided RDF graph has 9 main steps, not including any substeps or subtasks for each main step.
+
+Answer: 9.
