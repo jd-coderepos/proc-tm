@@ -1,0 +1,7 @@
+Based on the provided RDF graph (Context) for the "Changing Front Axle Oil" procedure, Step 3 is defined as:
+
+    Position drain pan under differential drain plug (A). NOTE: For draining purposes, front axle contains approximately 2.8 L (3.0 qt) of oil.
+
+Upon reviewing the RDF graph, there are no explicit substeps defined for Step 3.
+
+Answer: no substeps.
