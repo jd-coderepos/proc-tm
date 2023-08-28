@@ -1,0 +1,11 @@
+Based on the provided RDF graph (Context) for the "Support plate installation" procedure, let's identify the next step after Step 3 of the "Support plate installation without a pit cover" procedure.
+
+The "Support plate installation without a pit cover" procedure is represented by :WithoutPitCover in the RDF graph.
+
+Step 3 of this procedure is represented by :EnsureAirTightSeal.
+
+To determine the next step after :EnsureAirTightSeal, we need to check its kh-p:nextStep property.
+
+In the RDF graph, :EnsureAirTightSeal has a kh-p:nextStep property pointing to :HandTightenAnchorBolts2.
+
+Answer: The next step after Step 3 "Ensure an air-tight seal" of the "Support plate installation without a pit cover" procedure is "Hand tighten the anchor bolts."

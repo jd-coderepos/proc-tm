@@ -1,0 +1,8 @@
+Based on the provided RDF graph (Context) for the "Inspect the pump" procedure:
+
+For Step 1, the RDF graph specifies:
+ex:Step1 ... ; kh-p:nextStep ex:Step2 .
+
+This indicates that the next step after ex:Step1 is ex:Step2.
+
+Answer: The next step after Step 1 is "Remove all the equipment from the shipping containers."
