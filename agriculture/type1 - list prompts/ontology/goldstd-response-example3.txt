@@ -6,7 +6,7 @@
 kh-p-instance:Plan1 a p-plan:Plan ;
     rdfs:label "Checking Front Axle Oil Level" ;
     kh-p:startsWith kh-p-instance:Step1 ;
-    kh-p:endsWith kh-p-instance:Step8 .
+    kh-p:endsWith kh-p-instance:Step5 .
 
 kh-p-instance:Step1 a p-plan:Step ;
     rdfs:label "Park the machine safely. (See Parking Safely section in the SAFETY section.) Allow machine to cool down for at least one hour. ";
