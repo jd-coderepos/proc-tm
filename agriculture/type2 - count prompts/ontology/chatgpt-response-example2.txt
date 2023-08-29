@@ -1,0 +1,7 @@
+Based on the provided RDF graph (Context) for the "Lowering ROPS Crossbar" procedure, there are three main steps:
+
+1. Remove spring locking pin and drilled pin on each side of the ROPS.
+2. Carefully lower ROPS crossbar about half way down.
+3. Install drilled pins and spring locking pins and lower crossbar onto drilled pins.
+
+Answer: There are 3 main steps in the "Lowering ROPS Crossbar" procedure as per the given Context.

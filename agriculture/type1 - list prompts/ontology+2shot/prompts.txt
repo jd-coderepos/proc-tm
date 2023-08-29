@@ -1,0 +1,160 @@
+-------
+Example
+-------
+
+
+Here is the complete definition of the procedural RDF Ontology in TTL format which defines a Procedure as composed of a Plan and a Plan composed of Steps. This Ontology will be referred to throughout this chat.
+
+#insert ontology here
+
+//1st example
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/agriculture/manual-chunks/tractors-operating-example1.pdf in the chat
+
+
+This is Task Example1. You are not required to perform the Task. You are only required to understand the Task. The Task Example1 is as follows.
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Operating the Hydrostatic Transmission' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Operating the Hydrostatic Transmission " ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step8 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Start machine engine.;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Choose speed range with range shift lever (A) to match work application." ;
+    kh-p:nextStep kh-p-instance:SubStep2_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 ;
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubPlan2 a p-plan:Plan ;
+    rdfs:label "Sub Plan 2" ;
+    kh-p:startsWith kh-p-instance:SubStep2_1 ;
+    kh-p:endsWith kh-p-instance:SubStep2_3 .
+
+kh-p-instance:SubStep2_1 a p-plan:Step ;
+    rdfs:label "L – Low speed operations such as tilling hard soil, mowing long grass, or heavy hauling. Machine speed is decreased, but machine power is increased. " ;
+    kh-p:nextStep kh-p-instance:SubStep2_2 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubStep2_2 a p-plan:Step ;
+    rdfs:label "N – Neutral position. Lever must be in the N (neutral) position when starting the engine. " ;
+    kh-p:nextStep kh-p-instance:Step2_3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+kh-p-instance:SubStep2_3 a p-plan:Step ;
+    rdfs:label "H – High speed operations such as light tilling and hauling, mowing short grass and transport. In this mode, machine speed is increased, but machine power is decreased" ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan2 .
+
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Depress brake pedal." ;
+    kh-p:nextStep kh-p-instance:Step4 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step4 a p-plan:Step ;
+    rdfs:label "Unlock park brake." ;
+    kh-p:nextStep kh-p-instance:Step5 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step5 a p-plan:Step ;
+    rdfs:label "Release brake pedal." ;
+    kh-p:nextStep kh-p-instance:Step6 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step6 a p-plan:Step ;
+    rdfs:label "Move throttle lever (B) forward until the engine operates at the desired speed.
+Note: When the travel pedal is released, the transmission will automatically return to neutral." ;
+    kh-p:nextStep kh-p-instance:Step7 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step7 a p-plan:Step ;
+    rdfs:label "Slowly depress pedal (C) downward to travel forward. Slowly depress pedal (D) downward to travel in reverse. " ;
+    kh-p:nextStep kh-p-instance:SubStep7_1 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 
+    kh-p:isDecomposedAsPlan kh-p-instance:SubPlan7 .
+
+kh-p-instance:SubPlan7 a p-plan:Plan ;
+    rdfs:label "Sub Plan 7" ;
+    kh-p:startsWith kh-p-instance:SubStep7_1 .
+
+kh-p-instance:SubStep7_1 a p-plan:Step ;
+    rdfs:label "The farther either travel pedal is depressed, the faster the machine will travel." ;
+    kh-p:nextStep kh-p-instance:Step8 ;
+    kh-p:isStepOfPlan kh-p-instance:SubPlan7 .
+
+kh-p-instance:Step8 a p-plan:Step ;
+    rdfs:label "Stop machine to change speed range." ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+
+Do you comprehend the Task? Particularly note the use of numbered Plans, SubPlans, Steps, and SubSteps. Please only answer “yes” if you do and “no” if you don’t.
+
+
+//2nd example
+//copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/agriculture/manual-chunks/tractors-operating-example2.pdf in the chat
+
+This is Task Example2. You are not required to perform the Task. You are only required to understand the Task. The Task Example2 is as follows.
+
+Refer to the uploaded document content as Context and please provide an Answer to the Question below. 
+
+Question: Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Lowering ROPS Crossbar' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+@prefix kh-p-instance: <https://knowledge.c-innovationhub.com/k-hub/instance#> .
+@prefix kh-p: <https://knowledge.c-innovationhub.com/k-hub/procedure#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kh-p-instance:Plan1 a p-plan:Plan ;
+    rdfs:label "Lowering ROPS Crossbar" ;
+    kh-p:startsWith kh-p-instance:Step1 ;
+    kh-p:endsWith kh-p-instance:Step3 .
+
+kh-p-instance:Step1 a p-plan:Step ;
+    rdfs:label "Remove the spring locking pin (A) and drilled pin (B) on each side of the ROPS." ;
+    kh-p:nextStep kh-p-instance:Step2 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1  .
+
+kh-p-instance:Step2 a p-plan:Step ;
+    rdfs:label "Carefully lower the ROPS crossbar (C) about half way down." ;
+    kh-p:nextStep kh-p-instance:Step3 ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+
+kh-p-instance:Step3 a p-plan:Step ;
+    rdfs:label "Install drilled pins (B) and spring locking pins (A) and lower crossbar (C) onto the drilled pins (B)." ;
+    kh-p:isStepOfPlan kh-p-instance:Plan1 .
+    
+
+
+Do you comprehend the Task? Particularly note the use of numbered Plans, SubPlans, Steps, and SubSteps. Please only answer “yes” if you do and “no” if you don’t.
+
+
+
+//3rd example
+//otherwise upload the document to chatPDF
+// copy-paste the following url https://raw.githubusercontent.com/jd-coderepos/proc-tm/main/agriculture/manual-chunks/tractors-operating-example3.pdf in the chat
+
+Now it is your turn. 
+
+Refer to the uploaded document content as Context and based on the Answers from Task Example1 and Task Example2, please provide an Answer to the Question below. You must use SubPlans and SubSteps as needed.
+
+Can you generate an instantiated RDF graph to the provided Ontology using data in the Context which refers to the 'Changing Front Axle Oil' procedure with the help of implicit classes subplans and substeps of the Ontology?
+Answer:
+
+
+//prodded again as follows
+Why haven't you used more substep and subplan implicit classes. Try again.

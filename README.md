@@ -53,4 +53,5 @@ from domain-specific product manuals as non-machine-actionable PDFs written in n
 	├── agriculture                              <- data domain 2
 	├── medicine                                 <- data domain 3
 	├── manufacturing                            <- data domain 4
+	├── ontology-procedure.ttl                   <- the procedural ontology structure	
     └── README.md                       <- README file for documenting the dataset

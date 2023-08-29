@@ -1,0 +1,33 @@
+To determine which procedure has more steps, we need to count the main steps for each procedure without considering any substeps or subtasks.
+
+From Context1 (Operating the Hydrostatic Transmission procedure):
+
+1. Start machine engine.
+2. Choose speed range with range shift lever to match work application.
+3. Depress brake pedal.
+4. Unlock park brake.
+5. Release brake pedal.
+6. Move throttle lever forward until engine operates at desired speed.
+7. Slowly depress pedal to travel forward or in reverse.
+8. Stop machine to change speed range.
+9. Using Cruise Control (This is a sub-procedure, so we won't count its steps).
+
+Total main steps in Context1: 8
+
+From Context2 (Changing Front Axle Oil procedure):
+
+1. Operate machine to warm front axle oil.
+2. Park machine safely.
+3. Position drain pan under differential drain plug (A).
+4. Remove differential drain plug and allow oil to drain.
+5. Position drain pan under each front axle drain plug (B).
+6. Remove both drain plugs and allow oil to drain.
+7. Install and tighten both drain plugs after all oil has drained.
+8. Remove dipstick (C) located on right side of front axle and vent plug (D).
+9. Add approximately 2.8 L (3.0 qt) of recommended oil through dipstick fill opening until oil level is correct.
+10. Install and tighten dipstick.
+11. Check front axle oil level.
+
+Total main steps in Context2: 11
+
+Answer: The "Changing Front Axle Oil" procedure from Context2 has more steps than the "Operating the Hydrostatic Transmission" procedure from Context1.

@@ -1,0 +1,5 @@
+Based on the generated detailed list of steps for the "Removal and installation of Mechanical seal" procedure:
+
+In the "Removal and installation of Mechanical seal" procedure based on the provided list of steps (Context), the next step after Step 7 "Reconnect the driver power" is Step 8 "Test the pump to ensure the mechanical seal is functioning properly."
+
+Answer: Step 8 "Test the pump to ensure the mechanical seal is functioning properly."

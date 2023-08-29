@@ -1,0 +1,9 @@
+Based on the provided RDF graph (Context) for the "Removal and installation of Mechanical seal" procedure, after Step 7, which is:
+
+    Remove the Bearing frame (228) and mounting hardware (352D) from motor support.
+
+The next step, as defined by the kh-p:nextStep property, is:
+
+    Remove and service Mechanical seal.
+
+Answer: The next step after Step 7 is "Remove and service Mechanical seal.".

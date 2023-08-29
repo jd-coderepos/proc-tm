@@ -1,0 +1,38 @@
+--------------------------------------------------------------------
+Example 1: Operating the Hydrostatic Transmission procedure - step 6
+--------------------------------------------------------------------
+
+//copy-paste the "[name]" RDF graph generated previously in template 1
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 6 in the given Context which refers to "Operating the Hydrostatic Transmission" procedure? If there is no next step, please reply “no next step.”
+Answer:
+
+
+------------------------------------------
+Example 2: Lowering ROPS Crossbar - step 3
+------------------------------------------
+
+//copy-paste the "[name]" RDF graph generated previously in template 1:
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 3 in the given Context which refers to "Lowering ROPS Crossbar" procedure? If there is no next step, please reply “no next step.”
+Answer:
+
+
+-----------------------------------------------------
+Example 3: Changing Front Axle Oil procedure - step 3
+-----------------------------------------------------
+
+//copy-paste the "[name]" RDF graph generated previously in template 1:
+//or continue the conversation in the same chat context as scenario 1
+
+Refer to the generated RDF graph as Context, please provide an Answer to the Question below. 
+
+Question: Can you list the next step after Step 3 in the given Context which refers to "Changing Front Axle Oil" procedure? If there is no next step, please reply “no next step.”
+Answer:
+

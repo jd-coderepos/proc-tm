@@ -1,0 +1,25 @@
+To answer the question, we need to count the number of main steps in each procedure from both contexts.
+
+From Context1 (Operating the Hydrostatic Transmission procedure):
+
+1. Start machine engine.
+2. Choose speed range with range shift lever to match work application.
+3. Depress brake pedal.
+4. Unlock park brake.
+5. Release brake pedal.
+6. Move throttle lever forward until engine operates at desired speed.
+7. Slowly depress pedal to travel forward or in reverse.
+8. Stop machine to change speed range.
+9. Using Cruise Control (This is a sub-procedure, so we won't count its steps).
+
+Total main steps in Context1: 8
+
+From Context2 (Lowering ROPS Crossbar procedure):
+
+1. Remove spring locking pin and drilled pin on each side of the ROPS.
+2. Carefully lower ROPS crossbar about half way down.
+3. Install drilled pins and spring locking pins and lower crossbar onto drilled pins.
+
+Total main steps in Context2: 3
+
+Answer: The "Operating the Hydrostatic Transmission" procedure (from Context1) has more steps than the "Lowering ROPS Crossbar" procedure (from Context2).

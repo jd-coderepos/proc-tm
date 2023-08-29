@@ -1,0 +1,16 @@
+Based on the provided RDF graph (Context) for the "Operating the Hydrostatic Transmission" procedure, we can determine the number of main steps by counting the individual steps that are directly associated with this procedure, excluding any substeps or subtasks.
+
+From the Context:
+
+    <#StartMachineEngine>
+    <#ChooseSpeedRange>
+    <#DepressBrakePedal>
+    <#UnlockParkBrake>
+    <#ReleaseBrakePedal>
+    <#MoveThrottleLever>
+    <#DepressTravelPedal>
+    <#StopMachineToChangeSpeed>
+
+The subplan <#UsingCruiseControl> is not counted as a single step because it represents a collection of steps (or substeps).
+
+Answer: There are 8 main steps in the "Operating the Hydrostatic Transmission" procedure, not including any substeps or subtasks for each main step.

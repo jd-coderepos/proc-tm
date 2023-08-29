@@ -1,0 +1,11 @@
+Based on the provided RDF graph (Context) for the "Operating the Hydrostatic Transmission" procedure, Step 6 is represented by the identifier <#MoveThrottleLever>.
+
+From the Context, the step <#MoveThrottleLever> is described as:
+
+<#MoveThrottleLever> a p-plan:Step ;
+    rdfs:label "Move throttle lever forward until engine operates at desired speed." ;
+    kh-p:nextStep <#DepressTravelPedal> .
+
+There is no indication in the RDF graph that <#MoveThrottleLever> has any substeps associated with it.
+
+Answer: The step "Move throttle lever forward until engine operates at desired speed." has no substeps.

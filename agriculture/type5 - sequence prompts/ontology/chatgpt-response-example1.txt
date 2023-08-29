@@ -1,0 +1,11 @@
+Based on the provided RDF graph (Context) for the "Operating the Hydrostatic Transmission" procedure, Step 6 is represented by the identifier <#MoveThrottleLever>.
+
+From the Context, the step <#MoveThrottleLever> has the following relationship:
+
+<#MoveThrottleLever> a p-plan:Step ;
+    rdfs:label "Move throttle lever forward until engine operates at desired speed." ;
+    kh-p:nextStep <#DepressTravelPedal> .
+
+The kh-p:nextStep property indicates that the next step after <#MoveThrottleLever> is <#DepressTravelPedal>.
+
+Answer: The next step after "Move throttle lever forward until engine operates at desired speed." is "Slowly depress pedal to travel forward or in reverse."
