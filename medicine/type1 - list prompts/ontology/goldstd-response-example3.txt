@@ -6,7 +6,7 @@
 kh-p-instance:Plan1 a p-plan:Plan ;
     rdfs:label "INSTALLATION OF FM TYPE " ;
     kh-p:startsWith kh-p-instance:Step1 ;
-    kh-p:endsWith kh-p-instance:Step6 .
+    kh-p:endsWith kh-p-instance:SubStep6_2 .
 
 kh-p-instance:Step1 a p-plan:Step ;
     rdfs:label "POLE ASSEMBLY INSTALLATION (FIGURE 17)  ;
