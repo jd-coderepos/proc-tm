@@ -1,5 +1,3 @@
-Based on the provided Context, the steps for "Operating the Hydrostatic Transmission" procedure are as follows:
-
 1. Start machine engine.
 2. Choose speed range with range shift lever (A) to match work application.
 	- L – Low speed operations such as tilling hard soil, mowing long grass, or heavy hauling. In this mode, machine speed is decreased, but machine power is increased.

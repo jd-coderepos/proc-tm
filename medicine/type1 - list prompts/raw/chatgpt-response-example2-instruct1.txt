@@ -1,7 +1,3 @@
-Certainly! Here are the detailed steps for "Managing Gas Supply" as mentioned in the provided context:
-
-Managing Gas Supply:
-
 1. Identify the two in-use tanks (N2O and O2) by attaching “in-use” identification tags to them.
 2. When one of the in-use tanks is empty, close the tank by turning the valve clockwise. Leave the empty tank in place.
 3. Move the “in-use” tag to the appropriate reserve tank, which now becomes the in-use tank. Replace the empty tank with a new tank, which then becomes the reserve tank.

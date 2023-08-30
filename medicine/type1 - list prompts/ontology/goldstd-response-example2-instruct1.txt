@@ -32,7 +32,3 @@ kh-p-instance:Step4 a p-plan:Step ;
 kh-p-instance:Step5 a p-plan:Step ;
     rdfs:label "Contact gas supplier to request new gas cylinders as needed. " ;
     kh-p:isStepOfPlan kh-p-instance:Plan1 .
-
-    
-
-

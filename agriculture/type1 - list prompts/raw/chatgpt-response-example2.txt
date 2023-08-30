@@ -1,5 +1,3 @@
-Based on the provided Context, the procedure for "Lowering ROPS Crossbar" includes the following steps:
-
 1. Remove Pins:
 	- Remove the spring locking pin (A) and drilled pin (B) on each side of the ROPS.
 2. Lower the Crossbar:

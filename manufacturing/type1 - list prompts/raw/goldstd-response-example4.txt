@@ -1,5 +1,3 @@
-Removal and installation of Mechanical seal
-
 1. Lock out the driver power and remove the coupling guard.
 2. Drain oil from Bearing Frame (228).
 3. Remove the Coupling spacer and pump half hub (233) and key.

@@ -1,5 +1,3 @@
-The procedure for "Formatting the Card" as described in the provided Context is as follows:
-
 1. Select [Format]:
 	- Under the [5] tab, select [Format], then press <0>.
 

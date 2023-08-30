@@ -40,5 +40,3 @@ ex:SecureCylinders a p-plan:Step ;
 ex:VerifyFlowmeterOperation a p-plan:Step ;
     rdfs:label "Verifying flowmeter operations" ;
     p-plan:isStepOfPlan ex:TwoCylinderPortableSystemAssembly .
-
-In this instantiation, the step "Connecting gas cylinders to the manifold" has been decomposed into a subplan (ConnectGasCylindersSubPlan) which consists of two substeps: PrepareCylinders and SecureCylinders. The subplan is linked to the main procedure using the kh-p:isDecomposedAsPlan property.

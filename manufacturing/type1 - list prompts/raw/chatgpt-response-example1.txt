@@ -1,5 +1,3 @@
-The "Inspect the pump" procedure from the provided Context includes the following steps:
-
 1. Remove the plastic shipping plugs from the vent holes in the head column and the casing. (Note: "A" represents the location of the plugs as shown in Figure 6: Pump plug locations.)
 2. Remove all the equipment from the shipping containers.
 3. Completely clean the underside of the support plate and both sides of the optional pit cover, if supplied.

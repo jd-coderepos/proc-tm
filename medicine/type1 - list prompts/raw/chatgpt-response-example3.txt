@@ -1,5 +1,3 @@
-Based on the provided context from the document, the detailed steps for the "Installation of FM Type" procedure are as follows:
-
 1. POLE ASSEMBLY INSTALLATION (Referenced in FIGURE 17)
 	1-1. Attach four legs bars to the pole base and secure them using hex socket head bolts. Ensure that the hole on the bottom of the base aligns with the threaded hole on the leg bar.
 		- CAUTION: The two longer leg bars must be attached to the wider ends of the base.

@@ -1,5 +1,3 @@
-The "2-Cylinder Portable System Assembly" procedure involves the following steps:
-
 1. Mount the flowmeter to the portable manifold:
 	a. Remove hole cap from the upper hole using a sharp edge knife or screwdriver at the rear of the manifold and release the set screw (using a 5/32" Allen Wrench) enough to remove the flowmeter mount.
     b. Remove the protective cap from the threads of the mount and remove it from the manifold. Thread the flowmeter mount into the hole on the bottom of the flowmeter by hand and tighten firmly using a 5/32" Allen Wrench placed in the hole on the side of the flowmeter mount.
@@ -20,11 +18,3 @@ The "2-Cylinder Portable System Assembly" procedure involves the following steps
     c. Tighten fittings as needed to stop leaks.
 5. Verify flowmeter operations.
     Note: Refer to page 23 for attaching rubber goods, including the scavenging circuit.
-
-The document also identifies the following components in the 2-cylinder portable system package:
-
-. Flowmeter
-. Portable Manifold (with DISS Hoses and mobile stand attached)
-. E Cylinder Wrench (with chain attached)
-
-This detailed list provides a comprehensive overview of the assembly procedure for the 2-Cylinder Portable System.

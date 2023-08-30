@@ -1,5 +1,3 @@
-Based on the provided Context, the steps for the "Fully Automatic Shooting" procedure are as follows:
-
 1. Set the Mode Dial to <1>.
 
 2. Aim any AF point over the subject.

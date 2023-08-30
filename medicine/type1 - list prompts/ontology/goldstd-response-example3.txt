@@ -112,8 +112,3 @@ kh-p-instance:SubStep6_1 a p-plan:Step ;
 kh-p-instance:SubStep6_2 a p-plan:Step ;
     rdfs:label "Step 6-2: Perform the post installation inspection.(page 19~20)  " ;
     kh-p:isStepOfPlan kh-p-instance:SubPlan6 .
- 
-
-    
-
-
