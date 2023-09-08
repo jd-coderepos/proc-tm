@@ -12,15 +12,15 @@ def read_files_into_list(filenames):
     """
     contents = []
     for filename in filenames:
-        with open("./photography/type1 - list prompts/ontology/"+filename, 'r', encoding="utf8") as file:
+        with open(filename, 'r', encoding="utf8") as file:
             contents.append(file.read())
     return contents
 
 # Example usage:
-filenames = ["goldstd-response-example1.txt", "goldstd-response-example2.txt", "goldstd-response-example3.txt"]
+filenames = ["./agriculture/type1 - list prompts/ontology/"+"goldstd-response-example4.txt"]
 references = read_files_into_list(filenames)
 
-filenames = ["chatgpt-response-example1.txt", "chatgpt-response-example2.txt", "chatgpt-response-example3.txt"]
+filenames = ["./agriculture/type1 - list prompts/ontology+2shot/"+"chatgpt-response.txt"]
 predictions = read_files_into_list(filenames)
 
 scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL', 'rougeLsum'])
