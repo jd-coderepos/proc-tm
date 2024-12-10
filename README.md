@@ -55,13 +55,13 @@ from domain-specific product manuals as non-machine-actionable PDFs written in n
 	├── manufacturing                            <- data domain 4
 	├── ontology-procedure.ttl                   <- the procedural ontology structure	
     └── README.md                       <- README file for documenting the dataset
-
+```
 
 #### Citation
 
 This work is published in the following research paper. If you find this resource useful, please consider citing our work.
 
-```
+```commandline
 @inproceedings{10.1145/3587259.3627572,
 author = {Rula, Anisa and D'Souza, Jennifer},
 title = {Procedural Text Mining with Large Language Models},
