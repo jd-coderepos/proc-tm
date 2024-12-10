@@ -59,7 +59,7 @@ from domain-specific product manuals as non-machine-actionable PDFs written in n
 
 #### Citation
 
-Our work is published as a research paper in the [12th Knowledge Capture Conference (K-CAP 2023)](https://www.k-cap.org/2023/) proceedings. If you find this resource helpful, we’d be grateful if you could cite our work!
+Our work is published as a research paper in the [12th Knowledge Capture Conference (K-CAP 2023)](https://www.k-cap.org/2023/) proceedings. If you find this resource helpful, we kindly ask that you cite our work!
 
 ```commandline
 @inproceedings{10.1145/3587259.3627572,
